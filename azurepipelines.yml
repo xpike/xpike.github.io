@@ -28,7 +28,7 @@ jobs:
           SourceFolder: $(Agent.TempDirectory)/microsoft-extensions/docs/api
           Contents: |
             **
-          TargetFolder: $(Agent.TempDirectory)/docfx_project/api/extensions/api
+          TargetFolder: $(Agent.TempDirectory)/documentation/docfx_project/api/extensions/api
           OverWrite: true
 
       - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
@@ -42,7 +42,7 @@ jobs:
           SourceFolder: $(Agent.TempDirectory)/ioc/docs/api
           Contents: |
             **
-          TargetFolder: $(Agent.TempDirectory)/docfx_project/api/ioc/api
+          TargetFolder: $(Agent.TempDirectory)/documentation/docfx_project/api/ioc/api
           OverWrite: true
 
       - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
