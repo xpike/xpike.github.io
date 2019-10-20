@@ -1,6 +1,7 @@
 name: $(Date:yyyy.MM.dd).$(Rev:r)
 jobs:
   - job:
+    displayName: Generate and Publish Docs
     pool:
       vmImage: vs2017-win2016
     steps:
