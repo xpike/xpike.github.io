@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MicrosoftDependencyResolver
+    <title>Interface IDependencyProvider
    | xPike </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MicrosoftDependencyResolver
+    <meta name="title" content="Interface IDependencyProvider
    | xPike ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../../">
     <meta property="docfx:newtab" content="true">
@@ -78,65 +78,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver">
+            <article class="content wrap" id="_content" data-uid="XPike.IoC.IDependencyProvider">
   
   
-  <h1 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver" class="text-break">Class MicrosoftDependencyResolver
+  <h1 id="XPike_IoC_IDependencyProvider" data-uid="XPike.IoC.IDependencyProvider" class="text-break">Interface IDependencyProvider
   </h1>
-  <div class="markdown level0 summary"><p>Class MicrosoftDependencyResolver. This class cannot be inherited.
-Implements the <see cref="!:System.Web.Http.Dependencies.IDependencyResolver"></see></p>
+  <div class="markdown level0 summary"><p>Interface implememented by all dependency injection providers for resolving services and their dependencies.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MicrosoftDependencyResolver</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.Extensions.DependencyInjection.WebApi.html">XPike.Extensions.DependencyInjection.WebApi</a></h6>
-  <h6><strong>Assembly</strong>: XPike.Extensions.DependencyInjection.WebApi.dll</h6>
-  <h5 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.IoC.html">XPike.IoC</a></h6>
+  <h6><strong>Assembly</strong>: XPike.IoC.dll</h6>
+  <h5 id="XPike_IoC_IDependencyProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class MicrosoftDependencyResolver : IDependencyResolver</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDependencyProvider</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <a id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver__ctor_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.#ctor*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver__ctor_System_IServiceProvider_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.#ctor(System.IServiceProvider)">MicrosoftDependencyResolver(IServiceProvider)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.html">MicrosoftDependencyResolver</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MicrosoftDependencyResolver(IServiceProvider serviceProvider)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IServiceProvider</span></td>
-        <td><span class="parametername">serviceProvider</span></td>
-        <td><p>The service provider.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_BeginScope_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.BeginScope*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_BeginScope" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.BeginScope">BeginScope()</h4>
-  <div class="markdown level1 summary"><p>Starts a resolution scope.</p>
+  <a id="XPike_IoC_IDependencyProvider_BeginScope_" data-uid="XPike.IoC.IDependencyProvider.BeginScope*"></a>
+  <h4 id="XPike_IoC_IDependencyProvider_BeginScope" data-uid="XPike.IoC.IDependencyProvider.BeginScope">BeginScope()</h4>
+  <div class="markdown level1 summary"><p>Creates a new scope for managing the lifetime of scoped instance registrations.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDependencyScope BeginScope()</code></pre>
+    <pre><code class="lang-csharp hljs">IDisposable BeginScope()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,29 +113,68 @@ Implements the <see cref="!:System.Web.Http.Dependencies.IDependencyResolver"></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDependencyScope</span></td>
-        <td><p>The dependency scope.</p>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_Dispose_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.Dispose*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_Dispose" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+  <h5 id="XPike_IoC_IDependencyProvider_BeginScope_examples">Examples</h5>
+  <pre><code>using(var scope = dependencyProvider.BeginScope())
+{
+    var foo = dependencyProvider.ResolveDependecy(typeof(IFoo));
+}</code></pre>
+
+  <a id="XPike_IoC_IDependencyProvider_ResolveDependencies_" data-uid="XPike.IoC.IDependencyProvider.ResolveDependencies*"></a>
+  <h4 id="XPike_IoC_IDependencyProvider_ResolveDependencies__1" data-uid="XPike.IoC.IDependencyProvider.ResolveDependencies``1">ResolveDependencies&lt;TService&gt;()</h4>
+  <div class="markdown level1 summary"><p>Resolves an enumerable of implementations for <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TService&gt; ResolveDependencies&lt;TService&gt;()
+    where TService : class</code></pre>
   </div>
-  <a id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_GetService_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.GetService*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_GetService_System_Type_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.GetService(System.Type)">GetService(Type)</h4>
-  <div class="markdown level1 summary"><p>Retrieves a service from the scope.</p>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TService&gt;</td>
+        <td><p>An enumerable of instances of <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td><p>The service type to resolve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="XPike_IoC_IDependencyProvider_ResolveDependency_" data-uid="XPike.IoC.IDependencyProvider.ResolveDependency*"></a>
+  <h4 id="XPike_IoC_IDependencyProvider_ResolveDependency_System_Type_" data-uid="XPike.IoC.IDependencyProvider.ResolveDependency(System.Type)">ResolveDependency(Type)</h4>
+  <div class="markdown level1 summary"><p>Resolves a dependency for the provided type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object GetService(Type serviceType)</code></pre>
+    <pre><code class="lang-csharp hljs">object ResolveDependency(Type serviceType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,7 +189,7 @@ Implements the <see cref="!:System.Web.Http.Dependencies.IDependencyResolver"></
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">serviceType</span></td>
-        <td><p>The service to be retrieved.</p>
+        <td><p>The service type to resolve.</p>
 </td>
       </tr>
     </tbody>
@@ -201,38 +205,21 @@ Implements the <see cref="!:System.Web.Http.Dependencies.IDependencyResolver"></
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>The retrieved service.</p>
+        <td><p>An instance of <code data-dev-comment-type="paramref" class="paramref">serviceType</code>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_GetServices_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.GetServices*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_WebApi_MicrosoftDependencyResolver_GetServices_System_Type_" data-uid="XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.GetServices(System.Type)">GetServices(Type)</h4>
-  <div class="markdown level1 summary"><p>Retrieves a collection of services from the scope.</p>
+  <a id="XPike_IoC_IDependencyProvider_ResolveDependency_" data-uid="XPike.IoC.IDependencyProvider.ResolveDependency*"></a>
+  <h4 id="XPike_IoC_IDependencyProvider_ResolveDependency__1" data-uid="XPike.IoC.IDependencyProvider.ResolveDependency``1">ResolveDependency&lt;TService&gt;()</h4>
+  <div class="markdown level1 summary"><p>Resolves a dependency for the provided type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;object&gt; GetServices(Type serviceType)</code></pre>
+    <pre><code class="lang-csharp hljs">TService ResolveDependency&lt;TService&gt;()
+    where TService : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><span class="parametername">serviceType</span></td>
-        <td><p>The collection of services to be retrieved.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -243,12 +230,57 @@ Implements the <see cref="!:System.Web.Http.Dependencies.IDependencyResolver"></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><p>The retrieved collection of services.</p>
+        <td><span class="xref">TService</span></td>
+        <td><p>An instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code>.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td><p>The service type to resolve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="XPike_IoC_IDependencyProvider_Verify_" data-uid="XPike.IoC.IDependencyProvider.Verify*"></a>
+  <h4 id="XPike_IoC_IDependencyProvider_Verify" data-uid="XPike.IoC.IDependencyProvider.Verify">Verify()</h4>
+  <div class="markdown level1 summary"><p>Verifies the dependency graph for completeness.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="XPike.IoC.DependencyVerificationException.html">DependencyVerificationException</a></td>
+        <td><p>When verification fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions_GetContainer_XPike_IoC_IDependencyProvider_">IDependencyProviderExtensions.GetContainer(IDependencyProvider)</a>
+  </div>
 </article>
           </div>
           

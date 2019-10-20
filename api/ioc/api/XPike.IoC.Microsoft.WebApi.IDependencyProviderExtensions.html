@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class VerificationResult
+    <title>Class IDependencyProviderExtensions
    | xPike </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class VerificationResult
+    <meta name="title" content="Class IDependencyProviderExtensions
    | xPike ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../../">
     <meta property="docfx:newtab" content="true">
@@ -78,18 +78,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="XPike.Extensions.DependencyInjection.VerificationResult">
+            <article class="content wrap" id="_content" data-uid="XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions">
   
   
-  <h1 id="XPike_Extensions_DependencyInjection_VerificationResult" data-uid="XPike.Extensions.DependencyInjection.VerificationResult" class="text-break">Class VerificationResult
+  <h1 id="XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions" data-uid="XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions" class="text-break">Class IDependencyProviderExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Encapsulates the result of a failed attempt to verify a registered type in the container.</p>
+  <div class="markdown level0 summary"><p>Extension methods for HttpConfiguration to support configuring SimpleInjector
+with xPike in ASP.Net WebAPI.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">VerificationResult</span></div>
+    <div class="level1"><span class="xref">IDependencyProviderExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,22 +116,22 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.Extensions.DependencyInjection.html">XPike.Extensions.DependencyInjection</a></h6>
-  <h6><strong>Assembly</strong>: XPike.Extensions.DependencyInjection.dll</h6>
-  <h5 id="XPike_Extensions_DependencyInjection_VerificationResult_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.IoC.Microsoft.WebApi.html">XPike.IoC.Microsoft.WebApi</a></h6>
+  <h6><strong>Assembly</strong>: XPike.IoC.Microsoft.WebApi.dll</h6>
+  <h5 id="XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class VerificationResult</code></pre>
+    <pre><code class="lang-csharp hljs">public static class IDependencyProviderExtensions</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult__ctor_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.#ctor*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult__ctor_ServiceDescriptor_System_Exception_System_String_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)">VerificationResult(ServiceDescriptor, Exception, String)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="XPike.Extensions.DependencyInjection.VerificationResult.html">VerificationResult</a> class.</p>
+  <a id="XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions_GetContainer_" data-uid="XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer*"></a>
+  <h4 id="XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions_GetContainer_XPike_IoC_IDependencyProvider_" data-uid="XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer(XPike.IoC.IDependencyProvider)">GetContainer(IDependencyProvider)</h4>
+  <div class="markdown level1 summary"><p>Gets the underlying SimpleInjector container.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VerificationResult(ServiceDescriptor descriptor, Exception exception = null, string message = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IServiceProvider GetContainer(this IDependencyProvider dependencyProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,53 +144,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ServiceDescriptor</span></td>
-        <td><span class="parametername">descriptor</span></td>
-        <td><p>The ServiceDescriptor being verified.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">exception</span></td>
-        <td><p>The exception thrown, if any.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The verification message.</p>
+        <td><a class="xref" href="XPike.IoC.IDependencyProvider.html">IDependencyProvider</a></td>
+        <td><span class="parametername">dependencyProvider</span></td>
+        <td><p>The dependency provider.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>descriptor</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult_Exception_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Exception*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult_Exception" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Exception">Exception</h4>
-  <div class="markdown level1 summary"><p>Gets the exception that caused the verification to fail.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Exception Exception { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -199,33 +161,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><p>The exception.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult_Message_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Message*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult_Message" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Message">Message</h4>
-  <div class="markdown level1 summary"><p>Gets the verification message.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The message.</p>
+        <td><span class="xref">System.IServiceProvider</span></td>
+        <td><p>Container.</p>
 </td>
       </tr>
     </tbody>

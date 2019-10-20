@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class VerificationResult
+    <title>Class DependencyVerificationException
    | xPike </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class VerificationResult
+    <meta name="title" content="Class DependencyVerificationException
    | xPike ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../../">
     <meta property="docfx:newtab" content="true">
@@ -78,23 +78,65 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="XPike.Extensions.DependencyInjection.VerificationResult">
+            <article class="content wrap" id="_content" data-uid="XPike.IoC.DependencyVerificationException">
   
   
-  <h1 id="XPike_Extensions_DependencyInjection_VerificationResult" data-uid="XPike.Extensions.DependencyInjection.VerificationResult" class="text-break">Class VerificationResult
+  <h1 id="XPike_IoC_DependencyVerificationException" data-uid="XPike.IoC.DependencyVerificationException" class="text-break">Class DependencyVerificationException
   </h1>
-  <div class="markdown level0 summary"><p>Encapsulates the result of a failed attempt to verify a registered type in the container.</p>
+  <div class="markdown level0 summary"><p>A DependencyVerificationException is thrown when the container fails to verify.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">VerificationResult</span></div>
+    <div class="level1"><span class="xref">System.Exception</span></div>
+    <div class="level2"><span class="xref">DependencyVerificationException</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
+    <div><span class="xref">System.Runtime.InteropServices._Exception</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <span class="xref">System.Exception.GetBaseException()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Message</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Data</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.InnerException</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.TargetSite</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.StackTrace</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HelpLink</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Source</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HResult</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.SerializeObjectState</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -109,28 +151,26 @@
       <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.Extensions.DependencyInjection.html">XPike.Extensions.DependencyInjection</a></h6>
-  <h6><strong>Assembly</strong>: XPike.Extensions.DependencyInjection.dll</h6>
-  <h5 id="XPike_Extensions_DependencyInjection_VerificationResult_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.IoC.html">XPike.IoC</a></h6>
+  <h6><strong>Assembly</strong>: XPike.IoC.dll</h6>
+  <h5 id="XPike_IoC_DependencyVerificationException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class VerificationResult</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class DependencyVerificationException : Exception, ISerializable, _Exception</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult__ctor_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.#ctor*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult__ctor_ServiceDescriptor_System_Exception_System_String_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)">VerificationResult(ServiceDescriptor, Exception, String)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="XPike.Extensions.DependencyInjection.VerificationResult.html">VerificationResult</a> class.</p>
+  <a id="XPike_IoC_DependencyVerificationException__ctor_" data-uid="XPike.IoC.DependencyVerificationException.#ctor*"></a>
+  <h4 id="XPike_IoC_DependencyVerificationException__ctor_System_Exception___" data-uid="XPike.IoC.DependencyVerificationException.#ctor(System.Exception[])">DependencyVerificationException(Exception[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="XPike.IoC.DependencyVerificationException.html">DependencyVerificationException</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VerificationResult(ServiceDescriptor descriptor, Exception exception = null, string message = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public DependencyVerificationException(Exception[] exceptions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,51 +183,56 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ServiceDescriptor</span></td>
-        <td><span class="parametername">descriptor</span></td>
-        <td><p>The ServiceDescriptor being verified.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">exception</span></td>
-        <td><p>The exception thrown, if any.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The verification message.</p>
+        <td><span class="xref">System.Exception</span>[]</td>
+        <td><span class="parametername">exceptions</span></td>
+        <td><p>The exceptions.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
+  <a id="XPike_IoC_DependencyVerificationException__ctor_" data-uid="XPike.IoC.DependencyVerificationException.#ctor*"></a>
+  <h4 id="XPike_IoC_DependencyVerificationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="XPike.IoC.DependencyVerificationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">DependencyVerificationException(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="XPike.IoC.DependencyVerificationException.html">DependencyVerificationException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DependencyVerificationException(SerializationInfo serializationInfo, StreamingContext streamingContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Condition</th>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>descriptor</p>
+        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="parametername">serializationInfo</span></td>
+        <td><p>The serialization information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="parametername">streamingContext</span></td>
+        <td><p>The streaming context.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult_Exception_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Exception*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult_Exception" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Exception">Exception</h4>
-  <div class="markdown level1 summary"><p>Gets the exception that caused the verification to fail.</p>
+  <a id="XPike_IoC_DependencyVerificationException_Exceptions_" data-uid="XPike.IoC.DependencyVerificationException.Exceptions*"></a>
+  <h4 id="XPike_IoC_DependencyVerificationException_Exceptions" data-uid="XPike.IoC.DependencyVerificationException.Exceptions">Exceptions</h4>
+  <div class="markdown level1 summary"><p>Gets a list of exceptions that occurred during verification.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Exception Exception { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Exception&gt; Exceptions { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -199,37 +244,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><p>The exception.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
+        <td><p>An array of exceptions.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult_Message_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Message*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult_Message" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Message">Message</h4>
-  <div class="markdown level1 summary"><p>Gets the verification message.</p>
+  <h5 id="XPike_IoC_DependencyVerificationException_Exceptions_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Different containers will throw different exceptions.
+Don't assume these exceptions will be the same across DI implementations.
+DependencyVerificationException is the abstraction.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable</span>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The message.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <div>
+      <span class="xref">System.Runtime.InteropServices._Exception</span>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><span class="xref">System.Exception</span></div>
+  </div>
 </article>
           </div>
           

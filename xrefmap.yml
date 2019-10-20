@@ -13,11 +13,11 @@ references:
   commentId: T:XPike.Extensions.DependencyInjection.IServiceCollectionExtensions
   fullName: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions
   nameWithType: IServiceCollectionExtensions
-- uid: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+- uid: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
   name: AddServiceProviderVerification(IServiceCollection)
-  href: api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_IServiceCollectionExtensions_AddServiceProviderVerification_Microsoft_Extensions_DependencyInjection_IServiceCollection_
-  commentId: M:XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  fullName: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  href: api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_IServiceCollectionExtensions_AddServiceProviderVerification_IServiceCollection_
+  commentId: M:XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
+  fullName: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
   nameWithType: IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
 - uid: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification*
   name: AddServiceProviderVerification
@@ -92,11 +92,11 @@ references:
   commentId: T:XPike.Extensions.DependencyInjection.VerificationResult
   fullName: XPike.Extensions.DependencyInjection.VerificationResult
   nameWithType: VerificationResult
-- uid: XPike.Extensions.DependencyInjection.VerificationResult.#ctor(Microsoft.Extensions.DependencyInjection.ServiceDescriptor,System.Exception,System.String)
+- uid: XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)
   name: VerificationResult(ServiceDescriptor, Exception, String)
-  href: api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html#XPike_Extensions_DependencyInjection_VerificationResult__ctor_Microsoft_Extensions_DependencyInjection_ServiceDescriptor_System_Exception_System_String_
-  commentId: M:XPike.Extensions.DependencyInjection.VerificationResult.#ctor(Microsoft.Extensions.DependencyInjection.ServiceDescriptor,System.Exception,System.String)
-  fullName: XPike.Extensions.DependencyInjection.VerificationResult.VerificationResult(Microsoft.Extensions.DependencyInjection.ServiceDescriptor, System.Exception, System.String)
+  href: api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html#XPike_Extensions_DependencyInjection_VerificationResult__ctor_ServiceDescriptor_System_Exception_System_String_
+  commentId: M:XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)
+  fullName: XPike.Extensions.DependencyInjection.VerificationResult.VerificationResult(ServiceDescriptor, System.Exception, System.String)
   nameWithType: VerificationResult.VerificationResult(ServiceDescriptor, Exception, String)
 - uid: XPike.Extensions.DependencyInjection.VerificationResult.#ctor*
   name: VerificationResult
@@ -143,11 +143,11 @@ references:
   commentId: T:XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions
   fullName: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions
   nameWithType: IServiceCollectionExtensions
-- uid: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+- uid: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
   name: AddApiControllers(IServiceCollection)
-  href: api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_WebApi_IServiceCollectionExtensions_AddApiControllers_Microsoft_Extensions_DependencyInjection_IServiceCollection_
-  commentId: M:XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  fullName: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  href: api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_WebApi_IServiceCollectionExtensions_AddApiControllers_IServiceCollection_
+  commentId: M:XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
+  fullName: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
   nameWithType: IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
 - uid: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers*
   name: AddApiControllers
@@ -227,3 +227,1299 @@ references:
   isSpec: "True"
   fullName: XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.GetServices
   nameWithType: MicrosoftDependencyResolver.GetServices
+- uid: XPike.IoC
+  name: XPike.IoC
+  href: api/ioc/api/XPike.IoC.html
+  commentId: N:XPike.IoC
+  fullName: XPike.IoC
+  nameWithType: XPike.IoC
+- uid: XPike.IoC.DependencyVerificationException
+  name: DependencyVerificationException
+  href: api/ioc/api/XPike.IoC.DependencyVerificationException.html
+  commentId: T:XPike.IoC.DependencyVerificationException
+  fullName: XPike.IoC.DependencyVerificationException
+  nameWithType: DependencyVerificationException
+- uid: XPike.IoC.DependencyVerificationException.#ctor(System.Exception[])
+  name: DependencyVerificationException(Exception[])
+  href: api/ioc/api/XPike.IoC.DependencyVerificationException.html#XPike_IoC_DependencyVerificationException__ctor_System_Exception___
+  commentId: M:XPike.IoC.DependencyVerificationException.#ctor(System.Exception[])
+  name.vb: DependencyVerificationException(Exception())
+  fullName: XPike.IoC.DependencyVerificationException.DependencyVerificationException(System.Exception[])
+  fullName.vb: XPike.IoC.DependencyVerificationException.DependencyVerificationException(System.Exception())
+  nameWithType: DependencyVerificationException.DependencyVerificationException(Exception[])
+  nameWithType.vb: DependencyVerificationException.DependencyVerificationException(Exception())
+- uid: XPike.IoC.DependencyVerificationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: DependencyVerificationException(SerializationInfo, StreamingContext)
+  href: api/ioc/api/XPike.IoC.DependencyVerificationException.html#XPike_IoC_DependencyVerificationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:XPike.IoC.DependencyVerificationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: XPike.IoC.DependencyVerificationException.DependencyVerificationException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DependencyVerificationException.DependencyVerificationException(SerializationInfo, StreamingContext)
+- uid: XPike.IoC.DependencyVerificationException.#ctor*
+  name: DependencyVerificationException
+  href: api/ioc/api/XPike.IoC.DependencyVerificationException.html#XPike_IoC_DependencyVerificationException__ctor_
+  commentId: Overload:XPike.IoC.DependencyVerificationException.#ctor
+  isSpec: "True"
+  fullName: XPike.IoC.DependencyVerificationException.DependencyVerificationException
+  nameWithType: DependencyVerificationException.DependencyVerificationException
+- uid: XPike.IoC.DependencyVerificationException.Exceptions
+  name: Exceptions
+  href: api/ioc/api/XPike.IoC.DependencyVerificationException.html#XPike_IoC_DependencyVerificationException_Exceptions
+  commentId: P:XPike.IoC.DependencyVerificationException.Exceptions
+  fullName: XPike.IoC.DependencyVerificationException.Exceptions
+  nameWithType: DependencyVerificationException.Exceptions
+- uid: XPike.IoC.DependencyVerificationException.Exceptions*
+  name: Exceptions
+  href: api/ioc/api/XPike.IoC.DependencyVerificationException.html#XPike_IoC_DependencyVerificationException_Exceptions_
+  commentId: Overload:XPike.IoC.DependencyVerificationException.Exceptions
+  isSpec: "True"
+  fullName: XPike.IoC.DependencyVerificationException.Exceptions
+  nameWithType: DependencyVerificationException.Exceptions
+- uid: XPike.IoC.IDependencyCollection
+  name: IDependencyCollection
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html
+  commentId: T:XPike.IoC.IDependencyCollection
+  fullName: XPike.IoC.IDependencyCollection
+  nameWithType: IDependencyCollection
+- uid: XPike.IoC.IDependencyCollection.AddSingletonToCollection(System.Type,System.Type)
+  name: AddSingletonToCollection(Type, Type)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_AddSingletonToCollection_System_Type_System_Type_
+  commentId: M:XPike.IoC.IDependencyCollection.AddSingletonToCollection(System.Type,System.Type)
+  fullName: XPike.IoC.IDependencyCollection.AddSingletonToCollection(System.Type, System.Type)
+  nameWithType: IDependencyCollection.AddSingletonToCollection(Type, Type)
+- uid: XPike.IoC.IDependencyCollection.AddSingletonToCollection*
+  name: AddSingletonToCollection
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_AddSingletonToCollection_
+  commentId: Overload:XPike.IoC.IDependencyCollection.AddSingletonToCollection
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.AddSingletonToCollection
+  nameWithType: IDependencyCollection.AddSingletonToCollection
+- uid: XPike.IoC.IDependencyCollection.AddSingletonToCollection``1(``0)
+  name: AddSingletonToCollection<TService>(TService)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_AddSingletonToCollection__1___0_
+  commentId: M:XPike.IoC.IDependencyCollection.AddSingletonToCollection``1(``0)
+  name.vb: AddSingletonToCollection(Of TService)(TService)
+  fullName: XPike.IoC.IDependencyCollection.AddSingletonToCollection<TService>(TService)
+  fullName.vb: XPike.IoC.IDependencyCollection.AddSingletonToCollection(Of TService)(TService)
+  nameWithType: IDependencyCollection.AddSingletonToCollection<TService>(TService)
+  nameWithType.vb: IDependencyCollection.AddSingletonToCollection(Of TService)(TService)
+- uid: XPike.IoC.IDependencyCollection.AddSingletonToCollection``2
+  name: AddSingletonToCollection<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_AddSingletonToCollection__2
+  commentId: M:XPike.IoC.IDependencyCollection.AddSingletonToCollection``2
+  name.vb: AddSingletonToCollection(Of TService, TImplementation)()
+  fullName: XPike.IoC.IDependencyCollection.AddSingletonToCollection<TService, TImplementation>()
+  fullName.vb: XPike.IoC.IDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)()
+  nameWithType: IDependencyCollection.AddSingletonToCollection<TService, TImplementation>()
+  nameWithType.vb: IDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)()
+- uid: XPike.IoC.IDependencyCollection.AddSingletonToCollection``2(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: AddSingletonToCollection<TService, TImplementation>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_AddSingletonToCollection__2_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.IDependencyCollection.AddSingletonToCollection``2(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: AddSingletonToCollection(Of TService, TImplementation)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.IDependencyCollection.AddSingletonToCollection<TService, TImplementation>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.IDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: IDependencyCollection.AddSingletonToCollection<TService, TImplementation>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: IDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.IDependencyCollection.BuildDependencyProvider(System.Boolean)
+  name: BuildDependencyProvider(Boolean)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_BuildDependencyProvider_System_Boolean_
+  commentId: M:XPike.IoC.IDependencyCollection.BuildDependencyProvider(System.Boolean)
+  fullName: XPike.IoC.IDependencyCollection.BuildDependencyProvider(System.Boolean)
+  nameWithType: IDependencyCollection.BuildDependencyProvider(Boolean)
+- uid: XPike.IoC.IDependencyCollection.BuildDependencyProvider*
+  name: BuildDependencyProvider
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_BuildDependencyProvider_
+  commentId: Overload:XPike.IoC.IDependencyCollection.BuildDependencyProvider
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.BuildDependencyProvider
+  nameWithType: IDependencyCollection.BuildDependencyProvider
+- uid: XPike.IoC.IDependencyCollection.RegisterScoped(System.Type,System.Type)
+  name: RegisterScoped(Type, Type)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterScoped_System_Type_System_Type_
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterScoped(System.Type,System.Type)
+  fullName: XPike.IoC.IDependencyCollection.RegisterScoped(System.Type, System.Type)
+  nameWithType: IDependencyCollection.RegisterScoped(Type, Type)
+- uid: XPike.IoC.IDependencyCollection.RegisterScoped*
+  name: RegisterScoped
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterScoped_
+  commentId: Overload:XPike.IoC.IDependencyCollection.RegisterScoped
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.RegisterScoped
+  nameWithType: IDependencyCollection.RegisterScoped
+- uid: XPike.IoC.IDependencyCollection.RegisterScoped``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterScoped<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterScoped__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterScoped``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterScoped(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.IDependencyCollection.RegisterScoped<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterScoped(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: IDependencyCollection.RegisterScoped<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: IDependencyCollection.RegisterScoped(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.IDependencyCollection.RegisterScoped``2
+  name: RegisterScoped<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterScoped__2
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterScoped``2
+  name.vb: RegisterScoped(Of TService, TImplementation)()
+  fullName: XPike.IoC.IDependencyCollection.RegisterScoped<TService, TImplementation>()
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterScoped(Of TService, TImplementation)()
+  nameWithType: IDependencyCollection.RegisterScoped<TService, TImplementation>()
+  nameWithType.vb: IDependencyCollection.RegisterScoped(Of TService, TImplementation)()
+- uid: XPike.IoC.IDependencyCollection.RegisterSingleton(System.Type,System.Type)
+  name: RegisterSingleton(Type, Type)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingleton_System_Type_System_Type_
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterSingleton(System.Type,System.Type)
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingleton(System.Type, System.Type)
+  nameWithType: IDependencyCollection.RegisterSingleton(Type, Type)
+- uid: XPike.IoC.IDependencyCollection.RegisterSingleton*
+  name: RegisterSingleton
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingleton_
+  commentId: Overload:XPike.IoC.IDependencyCollection.RegisterSingleton
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingleton
+  nameWithType: IDependencyCollection.RegisterSingleton
+- uid: XPike.IoC.IDependencyCollection.RegisterSingleton``1(``0)
+  name: RegisterSingleton<TService>(TService)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingleton__1___0_
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterSingleton``1(``0)
+  name.vb: RegisterSingleton(Of TService)(TService)
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingleton<TService>(TService)
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterSingleton(Of TService)(TService)
+  nameWithType: IDependencyCollection.RegisterSingleton<TService>(TService)
+  nameWithType.vb: IDependencyCollection.RegisterSingleton(Of TService)(TService)
+- uid: XPike.IoC.IDependencyCollection.RegisterSingleton``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterSingleton<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingleton__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterSingleton``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterSingleton(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingleton<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterSingleton(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: IDependencyCollection.RegisterSingleton<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: IDependencyCollection.RegisterSingleton(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.IDependencyCollection.RegisterSingleton``2
+  name: RegisterSingleton<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingleton__2
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterSingleton``2
+  name.vb: RegisterSingleton(Of TService, TImplementation)()
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingleton<TService, TImplementation>()
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterSingleton(Of TService, TImplementation)()
+  nameWithType: IDependencyCollection.RegisterSingleton<TService, TImplementation>()
+  nameWithType.vb: IDependencyCollection.RegisterSingleton(Of TService, TImplementation)()
+- uid: XPike.IoC.IDependencyCollection.RegisterSingletonFallback(System.Type,System.Type)
+  name: RegisterSingletonFallback(Type, Type)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingletonFallback_System_Type_System_Type_
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterSingletonFallback(System.Type,System.Type)
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingletonFallback(System.Type, System.Type)
+  nameWithType: IDependencyCollection.RegisterSingletonFallback(Type, Type)
+- uid: XPike.IoC.IDependencyCollection.RegisterSingletonFallback*
+  name: RegisterSingletonFallback
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterSingletonFallback_
+  commentId: Overload:XPike.IoC.IDependencyCollection.RegisterSingletonFallback
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.RegisterSingletonFallback
+  nameWithType: IDependencyCollection.RegisterSingletonFallback
+- uid: XPike.IoC.IDependencyCollection.RegisterTransient(System.Type,System.Type)
+  name: RegisterTransient(Type, Type)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterTransient_System_Type_System_Type_
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterTransient(System.Type,System.Type)
+  fullName: XPike.IoC.IDependencyCollection.RegisterTransient(System.Type, System.Type)
+  nameWithType: IDependencyCollection.RegisterTransient(Type, Type)
+- uid: XPike.IoC.IDependencyCollection.RegisterTransient*
+  name: RegisterTransient
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterTransient_
+  commentId: Overload:XPike.IoC.IDependencyCollection.RegisterTransient
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.RegisterTransient
+  nameWithType: IDependencyCollection.RegisterTransient
+- uid: XPike.IoC.IDependencyCollection.RegisterTransient``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterTransient<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterTransient__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterTransient``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterTransient(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.IDependencyCollection.RegisterTransient<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterTransient(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: IDependencyCollection.RegisterTransient<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: IDependencyCollection.RegisterTransient(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.IDependencyCollection.RegisterTransient``2
+  name: RegisterTransient<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_RegisterTransient__2
+  commentId: M:XPike.IoC.IDependencyCollection.RegisterTransient``2
+  name.vb: RegisterTransient(Of TService, TImplementation)()
+  fullName: XPike.IoC.IDependencyCollection.RegisterTransient<TService, TImplementation>()
+  fullName.vb: XPike.IoC.IDependencyCollection.RegisterTransient(Of TService, TImplementation)()
+  nameWithType: IDependencyCollection.RegisterTransient<TService, TImplementation>()
+  nameWithType.vb: IDependencyCollection.RegisterTransient(Of TService, TImplementation)()
+- uid: XPike.IoC.IDependencyCollection.ResetCollection*
+  name: ResetCollection
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_ResetCollection_
+  commentId: Overload:XPike.IoC.IDependencyCollection.ResetCollection
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollection.ResetCollection
+  nameWithType: IDependencyCollection.ResetCollection
+- uid: XPike.IoC.IDependencyCollection.ResetCollection``1
+  name: ResetCollection<TService>()
+  href: api/ioc/api/XPike.IoC.IDependencyCollection.html#XPike_IoC_IDependencyCollection_ResetCollection__1
+  commentId: M:XPike.IoC.IDependencyCollection.ResetCollection``1
+  name.vb: ResetCollection(Of TService)()
+  fullName: XPike.IoC.IDependencyCollection.ResetCollection<TService>()
+  fullName.vb: XPike.IoC.IDependencyCollection.ResetCollection(Of TService)()
+  nameWithType: IDependencyCollection.ResetCollection<TService>()
+  nameWithType.vb: IDependencyCollection.ResetCollection(Of TService)()
+- uid: XPike.IoC.IDependencyCollectionExtensions
+  name: IDependencyCollectionExtensions
+  href: api/ioc/api/XPike.IoC.IDependencyCollectionExtensions.html
+  commentId: T:XPike.IoC.IDependencyCollectionExtensions
+  fullName: XPike.IoC.IDependencyCollectionExtensions
+  nameWithType: IDependencyCollectionExtensions
+- uid: XPike.IoC.IDependencyCollectionExtensions.LoadPackage(XPike.IoC.IDependencyCollection,XPike.IoC.IDependencyPackage)
+  name: LoadPackage(IDependencyCollection, IDependencyPackage)
+  href: api/ioc/api/XPike.IoC.IDependencyCollectionExtensions.html#XPike_IoC_IDependencyCollectionExtensions_LoadPackage_XPike_IoC_IDependencyCollection_XPike_IoC_IDependencyPackage_
+  commentId: M:XPike.IoC.IDependencyCollectionExtensions.LoadPackage(XPike.IoC.IDependencyCollection,XPike.IoC.IDependencyPackage)
+  fullName: XPike.IoC.IDependencyCollectionExtensions.LoadPackage(XPike.IoC.IDependencyCollection, XPike.IoC.IDependencyPackage)
+  nameWithType: IDependencyCollectionExtensions.LoadPackage(IDependencyCollection, IDependencyPackage)
+- uid: XPike.IoC.IDependencyCollectionExtensions.LoadPackage*
+  name: LoadPackage
+  href: api/ioc/api/XPike.IoC.IDependencyCollectionExtensions.html#XPike_IoC_IDependencyCollectionExtensions_LoadPackage_
+  commentId: Overload:XPike.IoC.IDependencyCollectionExtensions.LoadPackage
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyCollectionExtensions.LoadPackage
+  nameWithType: IDependencyCollectionExtensions.LoadPackage
+- uid: XPike.IoC.IDependencyPackage
+  name: IDependencyPackage
+  href: api/ioc/api/XPike.IoC.IDependencyPackage.html
+  commentId: T:XPike.IoC.IDependencyPackage
+  fullName: XPike.IoC.IDependencyPackage
+  nameWithType: IDependencyPackage
+- uid: XPike.IoC.IDependencyPackage.RegisterPackage(XPike.IoC.IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/ioc/api/XPike.IoC.IDependencyPackage.html#XPike_IoC_IDependencyPackage_RegisterPackage_XPike_IoC_IDependencyCollection_
+  commentId: M:XPike.IoC.IDependencyPackage.RegisterPackage(XPike.IoC.IDependencyCollection)
+  fullName: XPike.IoC.IDependencyPackage.RegisterPackage(XPike.IoC.IDependencyCollection)
+  nameWithType: IDependencyPackage.RegisterPackage(IDependencyCollection)
+- uid: XPike.IoC.IDependencyPackage.RegisterPackage*
+  name: RegisterPackage
+  href: api/ioc/api/XPike.IoC.IDependencyPackage.html#XPike_IoC_IDependencyPackage_RegisterPackage_
+  commentId: Overload:XPike.IoC.IDependencyPackage.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyPackage.RegisterPackage
+  nameWithType: IDependencyPackage.RegisterPackage
+- uid: XPike.IoC.IDependencyProvider
+  name: IDependencyProvider
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html
+  commentId: T:XPike.IoC.IDependencyProvider
+  fullName: XPike.IoC.IDependencyProvider
+  nameWithType: IDependencyProvider
+- uid: XPike.IoC.IDependencyProvider.BeginScope
+  name: BeginScope()
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_BeginScope
+  commentId: M:XPike.IoC.IDependencyProvider.BeginScope
+  fullName: XPike.IoC.IDependencyProvider.BeginScope()
+  nameWithType: IDependencyProvider.BeginScope()
+- uid: XPike.IoC.IDependencyProvider.BeginScope*
+  name: BeginScope
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_BeginScope_
+  commentId: Overload:XPike.IoC.IDependencyProvider.BeginScope
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyProvider.BeginScope
+  nameWithType: IDependencyProvider.BeginScope
+- uid: XPike.IoC.IDependencyProvider.ResolveDependencies*
+  name: ResolveDependencies
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_ResolveDependencies_
+  commentId: Overload:XPike.IoC.IDependencyProvider.ResolveDependencies
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyProvider.ResolveDependencies
+  nameWithType: IDependencyProvider.ResolveDependencies
+- uid: XPike.IoC.IDependencyProvider.ResolveDependencies``1
+  name: ResolveDependencies<TService>()
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_ResolveDependencies__1
+  commentId: M:XPike.IoC.IDependencyProvider.ResolveDependencies``1
+  name.vb: ResolveDependencies(Of TService)()
+  fullName: XPike.IoC.IDependencyProvider.ResolveDependencies<TService>()
+  fullName.vb: XPike.IoC.IDependencyProvider.ResolveDependencies(Of TService)()
+  nameWithType: IDependencyProvider.ResolveDependencies<TService>()
+  nameWithType.vb: IDependencyProvider.ResolveDependencies(Of TService)()
+- uid: XPike.IoC.IDependencyProvider.ResolveDependency(System.Type)
+  name: ResolveDependency(Type)
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_ResolveDependency_System_Type_
+  commentId: M:XPike.IoC.IDependencyProvider.ResolveDependency(System.Type)
+  fullName: XPike.IoC.IDependencyProvider.ResolveDependency(System.Type)
+  nameWithType: IDependencyProvider.ResolveDependency(Type)
+- uid: XPike.IoC.IDependencyProvider.ResolveDependency*
+  name: ResolveDependency
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_ResolveDependency_
+  commentId: Overload:XPike.IoC.IDependencyProvider.ResolveDependency
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyProvider.ResolveDependency
+  nameWithType: IDependencyProvider.ResolveDependency
+- uid: XPike.IoC.IDependencyProvider.ResolveDependency``1
+  name: ResolveDependency<TService>()
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_ResolveDependency__1
+  commentId: M:XPike.IoC.IDependencyProvider.ResolveDependency``1
+  name.vb: ResolveDependency(Of TService)()
+  fullName: XPike.IoC.IDependencyProvider.ResolveDependency<TService>()
+  fullName.vb: XPike.IoC.IDependencyProvider.ResolveDependency(Of TService)()
+  nameWithType: IDependencyProvider.ResolveDependency<TService>()
+  nameWithType.vb: IDependencyProvider.ResolveDependency(Of TService)()
+- uid: XPike.IoC.IDependencyProvider.Verify
+  name: Verify()
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_Verify
+  commentId: M:XPike.IoC.IDependencyProvider.Verify
+  fullName: XPike.IoC.IDependencyProvider.Verify()
+  nameWithType: IDependencyProvider.Verify()
+- uid: XPike.IoC.IDependencyProvider.Verify*
+  name: Verify
+  href: api/ioc/api/XPike.IoC.IDependencyProvider.html#XPike_IoC_IDependencyProvider_Verify_
+  commentId: Overload:XPike.IoC.IDependencyProvider.Verify
+  isSpec: "True"
+  fullName: XPike.IoC.IDependencyProvider.Verify
+  nameWithType: IDependencyProvider.Verify
+- uid: XPike.IoC.Microsoft
+  name: XPike.IoC.Microsoft
+  href: api/ioc/api/XPike.IoC.Microsoft.html
+  commentId: N:XPike.IoC.Microsoft
+  fullName: XPike.IoC.Microsoft
+  nameWithType: XPike.IoC.Microsoft
+- uid: XPike.IoC.Microsoft.AspNetCore
+  name: XPike.IoC.Microsoft.AspNetCore
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.html
+  commentId: N:XPike.IoC.Microsoft.AspNetCore
+  fullName: XPike.IoC.Microsoft.AspNetCore
+  nameWithType: XPike.IoC.Microsoft.AspNetCore
+- uid: XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions
+  name: IApplicationBuilderExtensions
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.html
+  commentId: T:XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions
+  fullName: XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions
+  nameWithType: IApplicationBuilderExtensions
+- uid: XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder)
+  name: UseXPikeDependencyInjection(IApplicationBuilder)
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.html#XPike_IoC_Microsoft_AspNetCore_IApplicationBuilderExtensions_UseXPikeDependencyInjection_IApplicationBuilder_
+  commentId: M:XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder)
+  fullName: XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder)
+  nameWithType: IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder)
+- uid: XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection*
+  name: UseXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.html#XPike_IoC_Microsoft_AspNetCore_IApplicationBuilderExtensions_UseXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection
+  nameWithType: IApplicationBuilderExtensions.UseXPikeDependencyInjection
+- uid: XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.html
+  commentId: T:XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions
+  fullName: XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+- uid: XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection)
+  name: AddXPikeDependencyInjection(IServiceCollection)
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.html#XPike_IoC_Microsoft_AspNetCore_IServiceCollectionExtensions_AddXPikeDependencyInjection_IServiceCollection_
+  commentId: M:XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection)
+  fullName: XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection)
+- uid: XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection*
+  name: AddXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.html#XPike_IoC_Microsoft_AspNetCore_IServiceCollectionExtensions_AddXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection
+  nameWithType: IServiceCollectionExtensions.AddXPikeDependencyInjection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection
+  name: MicrosoftDependencyCollection
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html
+  commentId: T:XPike.IoC.Microsoft.MicrosoftDependencyCollection
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection
+  nameWithType: MicrosoftDependencyCollection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.#ctor(IServiceCollection)
+  name: MicrosoftDependencyCollection(IServiceCollection)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection__ctor_IServiceCollection_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.#ctor(IServiceCollection)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.MicrosoftDependencyCollection(IServiceCollection)
+  nameWithType: MicrosoftDependencyCollection.MicrosoftDependencyCollection(IServiceCollection)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.#ctor*
+  name: MicrosoftDependencyCollection
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection__ctor_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.#ctor
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.MicrosoftDependencyCollection
+  nameWithType: MicrosoftDependencyCollection.MicrosoftDependencyCollection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection(System.Type,System.Type)
+  name: AddSingletonToCollection(Type, Type)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_AddSingletonToCollection_System_Type_System_Type_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection(System.Type,System.Type)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection(System.Type, System.Type)
+  nameWithType: MicrosoftDependencyCollection.AddSingletonToCollection(Type, Type)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection*
+  name: AddSingletonToCollection
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_AddSingletonToCollection_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection
+  nameWithType: MicrosoftDependencyCollection.AddSingletonToCollection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection``1(``0)
+  name: AddSingletonToCollection<TService>(TService)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_AddSingletonToCollection__1___0_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection``1(``0)
+  name.vb: AddSingletonToCollection(Of TService)(TService)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection<TService>(TService)
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection(Of TService)(TService)
+  nameWithType: MicrosoftDependencyCollection.AddSingletonToCollection<TService>(TService)
+  nameWithType.vb: MicrosoftDependencyCollection.AddSingletonToCollection(Of TService)(TService)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection``2
+  name: AddSingletonToCollection<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_AddSingletonToCollection__2
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection``2
+  name.vb: AddSingletonToCollection(Of TService, TImplementation)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection<TService, TImplementation>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)()
+  nameWithType: MicrosoftDependencyCollection.AddSingletonToCollection<TService, TImplementation>()
+  nameWithType.vb: MicrosoftDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection``2(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: AddSingletonToCollection<TService, TImplementation>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_AddSingletonToCollection__2_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection``2(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: AddSingletonToCollection(Of TService, TImplementation)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection<TService, TImplementation>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: MicrosoftDependencyCollection.AddSingletonToCollection<TService, TImplementation>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: MicrosoftDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.BuildDependencyProvider(System.Boolean)
+  name: BuildDependencyProvider(Boolean)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_BuildDependencyProvider_System_Boolean_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.BuildDependencyProvider(System.Boolean)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.BuildDependencyProvider(System.Boolean)
+  nameWithType: MicrosoftDependencyCollection.BuildDependencyProvider(Boolean)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.BuildDependencyProvider*
+  name: BuildDependencyProvider
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_BuildDependencyProvider_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.BuildDependencyProvider
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.BuildDependencyProvider
+  nameWithType: MicrosoftDependencyCollection.BuildDependencyProvider
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped(System.Type,System.Type)
+  name: RegisterScoped(Type, Type)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterScoped_System_Type_System_Type_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped(System.Type,System.Type)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped(System.Type, System.Type)
+  nameWithType: MicrosoftDependencyCollection.RegisterScoped(Type, Type)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped*
+  name: RegisterScoped
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterScoped_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped
+  nameWithType: MicrosoftDependencyCollection.RegisterScoped
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterScoped<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterScoped__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterScoped(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: MicrosoftDependencyCollection.RegisterScoped<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterScoped(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped``2
+  name: RegisterScoped<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterScoped__2
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped``2
+  name.vb: RegisterScoped(Of TService, TImplementation)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped<TService, TImplementation>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterScoped(Of TService, TImplementation)()
+  nameWithType: MicrosoftDependencyCollection.RegisterScoped<TService, TImplementation>()
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterScoped(Of TService, TImplementation)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton(System.Type,System.Type)
+  name: RegisterSingleton(Type, Type)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingleton_System_Type_System_Type_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton(System.Type,System.Type)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton(System.Type, System.Type)
+  nameWithType: MicrosoftDependencyCollection.RegisterSingleton(Type, Type)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton*
+  name: RegisterSingleton
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingleton_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton
+  nameWithType: MicrosoftDependencyCollection.RegisterSingleton
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton``1(``0)
+  name: RegisterSingleton<TService>(TService)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingleton__1___0_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton``1(``0)
+  name.vb: RegisterSingleton(Of TService)(TService)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton<TService>(TService)
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton(Of TService)(TService)
+  nameWithType: MicrosoftDependencyCollection.RegisterSingleton<TService>(TService)
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterSingleton(Of TService)(TService)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterSingleton<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingleton__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterSingleton(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: MicrosoftDependencyCollection.RegisterSingleton<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterSingleton(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton``2
+  name: RegisterSingleton<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingleton__2
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton``2
+  name.vb: RegisterSingleton(Of TService, TImplementation)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton<TService, TImplementation>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingleton(Of TService, TImplementation)()
+  nameWithType: MicrosoftDependencyCollection.RegisterSingleton<TService, TImplementation>()
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterSingleton(Of TService, TImplementation)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingletonFallback(System.Type,System.Type)
+  name: RegisterSingletonFallback(Type, Type)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingletonFallback_System_Type_System_Type_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingletonFallback(System.Type,System.Type)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingletonFallback(System.Type, System.Type)
+  nameWithType: MicrosoftDependencyCollection.RegisterSingletonFallback(Type, Type)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingletonFallback*
+  name: RegisterSingletonFallback
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterSingletonFallback_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingletonFallback
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterSingletonFallback
+  nameWithType: MicrosoftDependencyCollection.RegisterSingletonFallback
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient(System.Type,System.Type)
+  name: RegisterTransient(Type, Type)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterTransient_System_Type_System_Type_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient(System.Type,System.Type)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient(System.Type, System.Type)
+  nameWithType: MicrosoftDependencyCollection.RegisterTransient(Type, Type)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient*
+  name: RegisterTransient
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterTransient_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient
+  nameWithType: MicrosoftDependencyCollection.RegisterTransient
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterTransient<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterTransient__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterTransient(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: MicrosoftDependencyCollection.RegisterTransient<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterTransient(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient``2
+  name: RegisterTransient<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RegisterTransient__2
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient``2
+  name.vb: RegisterTransient(Of TService, TImplementation)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient<TService, TImplementation>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RegisterTransient(Of TService, TImplementation)()
+  nameWithType: MicrosoftDependencyCollection.RegisterTransient<TService, TImplementation>()
+  nameWithType.vb: MicrosoftDependencyCollection.RegisterTransient(Of TService, TImplementation)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton*
+  name: RemoveSingleton
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RemoveSingleton_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton
+  nameWithType: MicrosoftDependencyCollection.RemoveSingleton
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton``2
+  name: RemoveSingleton<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_RemoveSingleton__2
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton``2
+  name.vb: RemoveSingleton(Of TService, TImplementation)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton<TService, TImplementation>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.RemoveSingleton(Of TService, TImplementation)()
+  nameWithType: MicrosoftDependencyCollection.RemoveSingleton<TService, TImplementation>()
+  nameWithType.vb: MicrosoftDependencyCollection.RemoveSingleton(Of TService, TImplementation)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection*
+  name: ResetCollection
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_ResetCollection_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection
+  nameWithType: MicrosoftDependencyCollection.ResetCollection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection``1
+  name: ResetCollection<TService>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_ResetCollection__1
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection``1
+  name.vb: ResetCollection(Of TService)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection<TService>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ResetCollection(Of TService)()
+  nameWithType: MicrosoftDependencyCollection.ResetCollection<TService>()
+  nameWithType.vb: MicrosoftDependencyCollection.ResetCollection(Of TService)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ServiceCollection
+  name: ServiceCollection
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_ServiceCollection
+  commentId: P:XPike.IoC.Microsoft.MicrosoftDependencyCollection.ServiceCollection
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ServiceCollection
+  nameWithType: MicrosoftDependencyCollection.ServiceCollection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ServiceCollection*
+  name: ServiceCollection
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html#XPike_IoC_Microsoft_MicrosoftDependencyCollection_ServiceCollection_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyCollection.ServiceCollection
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyCollection.ServiceCollection
+  nameWithType: MicrosoftDependencyCollection.ServiceCollection
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider
+  name: MicrosoftDependencyProvider
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html
+  commentId: T:XPike.IoC.Microsoft.MicrosoftDependencyProvider
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider
+  nameWithType: MicrosoftDependencyProvider
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.#ctor(System.IServiceProvider)
+  name: MicrosoftDependencyProvider(IServiceProvider)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider__ctor_System_IServiceProvider_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyProvider.#ctor(System.IServiceProvider)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.MicrosoftDependencyProvider(System.IServiceProvider)
+  nameWithType: MicrosoftDependencyProvider.MicrosoftDependencyProvider(IServiceProvider)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.#ctor*
+  name: MicrosoftDependencyProvider
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider__ctor_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyProvider.#ctor
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.MicrosoftDependencyProvider
+  nameWithType: MicrosoftDependencyProvider.MicrosoftDependencyProvider
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.BeginScope
+  name: BeginScope()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_BeginScope
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyProvider.BeginScope
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.BeginScope()
+  nameWithType: MicrosoftDependencyProvider.BeginScope()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.BeginScope*
+  name: BeginScope
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_BeginScope_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyProvider.BeginScope
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.BeginScope
+  nameWithType: MicrosoftDependencyProvider.BeginScope
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies*
+  name: ResolveDependencies
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ResolveDependencies_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies
+  nameWithType: MicrosoftDependencyProvider.ResolveDependencies
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies``1
+  name: ResolveDependencies<TService>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ResolveDependencies__1
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies``1
+  name.vb: ResolveDependencies(Of TService)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies<TService>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependencies(Of TService)()
+  nameWithType: MicrosoftDependencyProvider.ResolveDependencies<TService>()
+  nameWithType.vb: MicrosoftDependencyProvider.ResolveDependencies(Of TService)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency(System.Type)
+  name: ResolveDependency(Type)
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ResolveDependency_System_Type_
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency(System.Type)
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency(System.Type)
+  nameWithType: MicrosoftDependencyProvider.ResolveDependency(Type)
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency*
+  name: ResolveDependency
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ResolveDependency_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency
+  nameWithType: MicrosoftDependencyProvider.ResolveDependency
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency``1
+  name: ResolveDependency<TService>()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ResolveDependency__1
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency``1
+  name.vb: ResolveDependency(Of TService)()
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency<TService>()
+  fullName.vb: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ResolveDependency(Of TService)()
+  nameWithType: MicrosoftDependencyProvider.ResolveDependency<TService>()
+  nameWithType.vb: MicrosoftDependencyProvider.ResolveDependency(Of TService)()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ServiceProvider
+  name: ServiceProvider
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ServiceProvider
+  commentId: P:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ServiceProvider
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ServiceProvider
+  nameWithType: MicrosoftDependencyProvider.ServiceProvider
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ServiceProvider*
+  name: ServiceProvider
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_ServiceProvider_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyProvider.ServiceProvider
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.ServiceProvider
+  nameWithType: MicrosoftDependencyProvider.ServiceProvider
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.Verify
+  name: Verify()
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_Verify
+  commentId: M:XPike.IoC.Microsoft.MicrosoftDependencyProvider.Verify
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.Verify()
+  nameWithType: MicrosoftDependencyProvider.Verify()
+- uid: XPike.IoC.Microsoft.MicrosoftDependencyProvider.Verify*
+  name: Verify
+  href: api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html#XPike_IoC_Microsoft_MicrosoftDependencyProvider_Verify_
+  commentId: Overload:XPike.IoC.Microsoft.MicrosoftDependencyProvider.Verify
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.MicrosoftDependencyProvider.Verify
+  nameWithType: MicrosoftDependencyProvider.Verify
+- uid: XPike.IoC.Microsoft.WebApi
+  name: XPike.IoC.Microsoft.WebApi
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.html
+  commentId: N:XPike.IoC.Microsoft.WebApi
+  fullName: XPike.IoC.Microsoft.WebApi
+  nameWithType: XPike.IoC.Microsoft.WebApi
+- uid: XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions
+  name: HttpConfigurationExtensions
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.html
+  commentId: T:XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions
+  fullName: XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions
+  nameWithType: HttpConfigurationExtensions
+- uid: XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration,XPike.IoC.IDependencyProvider)
+  name: UseXPikeDependencyInjection(HttpConfiguration, IDependencyProvider)
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.html#XPike_IoC_Microsoft_WebApi_HttpConfigurationExtensions_UseXPikeDependencyInjection_HttpConfiguration_XPike_IoC_IDependencyProvider_
+  commentId: M:XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration,XPike.IoC.IDependencyProvider)
+  fullName: XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration, XPike.IoC.IDependencyProvider)
+  nameWithType: HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration, IDependencyProvider)
+- uid: XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.UseXPikeDependencyInjection*
+  name: UseXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.html#XPike_IoC_Microsoft_WebApi_HttpConfigurationExtensions_UseXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.UseXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.UseXPikeDependencyInjection
+  nameWithType: HttpConfigurationExtensions.UseXPikeDependencyInjection
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions
+  name: IDependencyCollectionExtensions
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html
+  commentId: T:XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions
+  nameWithType: IDependencyCollectionExtensions
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.Configure(XPike.IoC.IDependencyCollection,HttpConfiguration)
+  name: Configure(IDependencyCollection, HttpConfiguration)
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyCollectionExtensions_Configure_XPike_IoC_IDependencyCollection_HttpConfiguration_
+  commentId: M:XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.Configure(XPike.IoC.IDependencyCollection,HttpConfiguration)
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.Configure(XPike.IoC.IDependencyCollection, HttpConfiguration)
+  nameWithType: IDependencyCollectionExtensions.Configure(IDependencyCollection, HttpConfiguration)
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.Configure*
+  name: Configure
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyCollectionExtensions_Configure_
+  commentId: Overload:XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.Configure
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.Configure
+  nameWithType: IDependencyCollectionExtensions.Configure
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.GetContainer(XPike.IoC.IDependencyCollection)
+  name: GetContainer(IDependencyCollection)
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyCollectionExtensions_GetContainer_XPike_IoC_IDependencyCollection_
+  commentId: M:XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.GetContainer(XPike.IoC.IDependencyCollection)
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.GetContainer(XPike.IoC.IDependencyCollection)
+  nameWithType: IDependencyCollectionExtensions.GetContainer(IDependencyCollection)
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.GetContainer*
+  name: GetContainer
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyCollectionExtensions_GetContainer_
+  commentId: Overload:XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.GetContainer
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.GetContainer
+  nameWithType: IDependencyCollectionExtensions.GetContainer
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions
+  name: IDependencyProviderExtensions
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.html
+  commentId: T:XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions
+  nameWithType: IDependencyProviderExtensions
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer(XPike.IoC.IDependencyProvider)
+  name: GetContainer(IDependencyProvider)
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions_GetContainer_XPike_IoC_IDependencyProvider_
+  commentId: M:XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer(XPike.IoC.IDependencyProvider)
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer(XPike.IoC.IDependencyProvider)
+  nameWithType: IDependencyProviderExtensions.GetContainer(IDependencyProvider)
+- uid: XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer*
+  name: GetContainer
+  href: api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.html#XPike_IoC_Microsoft_WebApi_IDependencyProviderExtensions_GetContainer_
+  commentId: Overload:XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer
+  isSpec: "True"
+  fullName: XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.GetContainer
+  nameWithType: IDependencyProviderExtensions.GetContainer
+- uid: XPike.IoC.Owin
+  name: XPike.IoC.Owin
+  href: api/ioc/api/XPike.IoC.Owin.html
+  commentId: N:XPike.IoC.Owin
+  fullName: XPike.IoC.Owin
+  nameWithType: XPike.IoC.Owin
+- uid: XPike.IoC.Owin.IAppBuilderExtensions
+  name: IAppBuilderExtensions
+  href: api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html
+  commentId: T:XPike.IoC.Owin.IAppBuilderExtensions
+  fullName: XPike.IoC.Owin.IAppBuilderExtensions
+  nameWithType: IAppBuilderExtensions
+- uid: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder,System.Func{XPike.IoC.IDependencyProvider})
+  name: UseXPikeDependencyInjection(IAppBuilder, Func<IDependencyProvider>)
+  href: api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html#XPike_IoC_Owin_IAppBuilderExtensions_UseXPikeDependencyInjection_IAppBuilder_System_Func_XPike_IoC_IDependencyProvider__
+  commentId: M:XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder,System.Func{XPike.IoC.IDependencyProvider})
+  name.vb: UseXPikeDependencyInjection(IAppBuilder, Func(Of IDependencyProvider))
+  fullName: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, System.Func<XPike.IoC.IDependencyProvider>)
+  fullName.vb: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, System.Func(Of XPike.IoC.IDependencyProvider))
+  nameWithType: IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, Func<IDependencyProvider>)
+  nameWithType.vb: IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, Func(Of IDependencyProvider))
+- uid: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder,XPike.IoC.IDependencyProvider)
+  name: UseXPikeDependencyInjection(IAppBuilder, IDependencyProvider)
+  href: api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html#XPike_IoC_Owin_IAppBuilderExtensions_UseXPikeDependencyInjection_IAppBuilder_XPike_IoC_IDependencyProvider_
+  commentId: M:XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder,XPike.IoC.IDependencyProvider)
+  fullName: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, XPike.IoC.IDependencyProvider)
+  nameWithType: IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, IDependencyProvider)
+- uid: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder,XPike.IoC.IDependencyProvider,XPike.IoC.IDependencyPackage)
+  name: UseXPikeDependencyInjection(IAppBuilder, IDependencyProvider, IDependencyPackage)
+  href: api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html#XPike_IoC_Owin_IAppBuilderExtensions_UseXPikeDependencyInjection_IAppBuilder_XPike_IoC_IDependencyProvider_XPike_IoC_IDependencyPackage_
+  commentId: M:XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder,XPike.IoC.IDependencyProvider,XPike.IoC.IDependencyPackage)
+  fullName: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, XPike.IoC.IDependencyProvider, XPike.IoC.IDependencyPackage)
+  nameWithType: IAppBuilderExtensions.UseXPikeDependencyInjection(IAppBuilder, IDependencyProvider, IDependencyPackage)
+- uid: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection*
+  name: UseXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html#XPike_IoC_Owin_IAppBuilderExtensions_UseXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.Owin.IAppBuilderExtensions.UseXPikeDependencyInjection
+  nameWithType: IAppBuilderExtensions.UseXPikeDependencyInjection
+- uid: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware
+  name: XPikeDependencyInjectionMiddleware
+  href: api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html
+  commentId: T:XPike.IoC.Owin.XPikeDependencyInjectionMiddleware
+  fullName: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware
+  nameWithType: XPikeDependencyInjectionMiddleware
+- uid: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.#ctor(OwinMiddleware,XPike.IoC.IDependencyProvider)
+  name: XPikeDependencyInjectionMiddleware(OwinMiddleware, IDependencyProvider)
+  href: api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html#XPike_IoC_Owin_XPikeDependencyInjectionMiddleware__ctor_OwinMiddleware_XPike_IoC_IDependencyProvider_
+  commentId: M:XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.#ctor(OwinMiddleware,XPike.IoC.IDependencyProvider)
+  fullName: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.XPikeDependencyInjectionMiddleware(OwinMiddleware, XPike.IoC.IDependencyProvider)
+  nameWithType: XPikeDependencyInjectionMiddleware.XPikeDependencyInjectionMiddleware(OwinMiddleware, IDependencyProvider)
+- uid: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.#ctor*
+  name: XPikeDependencyInjectionMiddleware
+  href: api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html#XPike_IoC_Owin_XPikeDependencyInjectionMiddleware__ctor_
+  commentId: Overload:XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.#ctor
+  isSpec: "True"
+  fullName: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.XPikeDependencyInjectionMiddleware
+  nameWithType: XPikeDependencyInjectionMiddleware.XPikeDependencyInjectionMiddleware
+- uid: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.Invoke(IOwinContext)
+  name: Invoke(IOwinContext)
+  href: api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html#XPike_IoC_Owin_XPikeDependencyInjectionMiddleware_Invoke_IOwinContext_
+  commentId: M:XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.Invoke(IOwinContext)
+  fullName: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.Invoke(IOwinContext)
+  nameWithType: XPikeDependencyInjectionMiddleware.Invoke(IOwinContext)
+- uid: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.Invoke*
+  name: Invoke
+  href: api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html#XPike_IoC_Owin_XPikeDependencyInjectionMiddleware_Invoke_
+  commentId: Overload:XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.Invoke
+  isSpec: "True"
+  fullName: XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.Invoke
+  nameWithType: XPikeDependencyInjectionMiddleware.Invoke
+- uid: XPike.IoC.SimpleInjector
+  name: XPike.IoC.SimpleInjector
+  href: api/ioc/api/XPike.IoC.SimpleInjector.html
+  commentId: N:XPike.IoC.SimpleInjector
+  fullName: XPike.IoC.SimpleInjector
+  nameWithType: XPike.IoC.SimpleInjector
+- uid: XPike.IoC.SimpleInjector.AspNetCore
+  name: XPike.IoC.SimpleInjector.AspNetCore
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.html
+  commentId: N:XPike.IoC.SimpleInjector.AspNetCore
+  fullName: XPike.IoC.SimpleInjector.AspNetCore
+  nameWithType: XPike.IoC.SimpleInjector.AspNetCore
+- uid: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions
+  name: IApplicationBuilderExtensions
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.html
+  commentId: T:XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions
+  fullName: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions
+  nameWithType: IApplicationBuilderExtensions
+- uid: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder,System.Action{SimpleInjectorUseOptions})
+  name: UseXPikeDependencyInjection(IApplicationBuilder, Action<SimpleInjectorUseOptions>)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.html#XPike_IoC_SimpleInjector_AspNetCore_IApplicationBuilderExtensions_UseXPikeDependencyInjection_IApplicationBuilder_System_Action_SimpleInjectorUseOptions__
+  commentId: M:XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder,System.Action{SimpleInjectorUseOptions})
+  name.vb: UseXPikeDependencyInjection(IApplicationBuilder, Action(Of SimpleInjectorUseOptions))
+  fullName: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder, System.Action<SimpleInjectorUseOptions>)
+  fullName.vb: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder, System.Action(Of SimpleInjectorUseOptions))
+  nameWithType: IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder, Action<SimpleInjectorUseOptions>)
+  nameWithType.vb: IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder, Action(Of SimpleInjectorUseOptions))
+- uid: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection*
+  name: UseXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.html#XPike_IoC_SimpleInjector_AspNetCore_IApplicationBuilderExtensions_UseXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection
+  nameWithType: IApplicationBuilderExtensions.UseXPikeDependencyInjection
+- uid: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.html
+  commentId: T:XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions
+  fullName: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+- uid: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection,System.Action{SimpleInjectorAddOptions})
+  name: AddXPikeDependencyInjection(IServiceCollection, Action<SimpleInjectorAddOptions>)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.html#XPike_IoC_SimpleInjector_AspNetCore_IServiceCollectionExtensions_AddXPikeDependencyInjection_IServiceCollection_System_Action_SimpleInjectorAddOptions__
+  commentId: M:XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection,System.Action{SimpleInjectorAddOptions})
+  name.vb: AddXPikeDependencyInjection(IServiceCollection, Action(Of SimpleInjectorAddOptions))
+  fullName: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection, System.Action<SimpleInjectorAddOptions>)
+  fullName.vb: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection, System.Action(Of SimpleInjectorAddOptions))
+  nameWithType: IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection, Action<SimpleInjectorAddOptions>)
+  nameWithType.vb: IServiceCollectionExtensions.AddXPikeDependencyInjection(IServiceCollection, Action(Of SimpleInjectorAddOptions))
+- uid: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection*
+  name: AddXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.html#XPike_IoC_SimpleInjector_AspNetCore_IServiceCollectionExtensions_AddXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.AddXPikeDependencyInjection
+  nameWithType: IServiceCollectionExtensions.AddXPikeDependencyInjection
+- uid: XPike.IoC.SimpleInjector.HttpConfigurationExtensions
+  name: HttpConfigurationExtensions
+  href: api/ioc/api/XPike.IoC.SimpleInjector.HttpConfigurationExtensions.html
+  commentId: T:XPike.IoC.SimpleInjector.HttpConfigurationExtensions
+  fullName: XPike.IoC.SimpleInjector.HttpConfigurationExtensions
+  nameWithType: HttpConfigurationExtensions
+- uid: XPike.IoC.SimpleInjector.HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration,IDependencyProvider)
+  name: UseXPikeDependencyInjection(HttpConfiguration, IDependencyProvider)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.HttpConfigurationExtensions.html#XPike_IoC_SimpleInjector_HttpConfigurationExtensions_UseXPikeDependencyInjection_HttpConfiguration_IDependencyProvider_
+  commentId: M:XPike.IoC.SimpleInjector.HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration,IDependencyProvider)
+  fullName: XPike.IoC.SimpleInjector.HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration, IDependencyProvider)
+  nameWithType: HttpConfigurationExtensions.UseXPikeDependencyInjection(HttpConfiguration, IDependencyProvider)
+- uid: XPike.IoC.SimpleInjector.HttpConfigurationExtensions.UseXPikeDependencyInjection*
+  name: UseXPikeDependencyInjection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.HttpConfigurationExtensions.html#XPike_IoC_SimpleInjector_HttpConfigurationExtensions_UseXPikeDependencyInjection_
+  commentId: Overload:XPike.IoC.SimpleInjector.HttpConfigurationExtensions.UseXPikeDependencyInjection
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.HttpConfigurationExtensions.UseXPikeDependencyInjection
+  nameWithType: HttpConfigurationExtensions.UseXPikeDependencyInjection
+- uid: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions
+  name: IDependencyCollectionExtensions
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html
+  commentId: T:XPike.IoC.SimpleInjector.IDependencyCollectionExtensions
+  fullName: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions
+  nameWithType: IDependencyCollectionExtensions
+- uid: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.Configure(IDependencyCollection,HttpConfiguration)
+  name: Configure(IDependencyCollection, HttpConfiguration)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html#XPike_IoC_SimpleInjector_IDependencyCollectionExtensions_Configure_IDependencyCollection_HttpConfiguration_
+  commentId: M:XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.Configure(IDependencyCollection,HttpConfiguration)
+  fullName: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.Configure(IDependencyCollection, HttpConfiguration)
+  nameWithType: IDependencyCollectionExtensions.Configure(IDependencyCollection, HttpConfiguration)
+- uid: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.Configure*
+  name: Configure
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html#XPike_IoC_SimpleInjector_IDependencyCollectionExtensions_Configure_
+  commentId: Overload:XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.Configure
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.Configure
+  nameWithType: IDependencyCollectionExtensions.Configure
+- uid: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.GetContainer(IDependencyCollection)
+  name: GetContainer(IDependencyCollection)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html#XPike_IoC_SimpleInjector_IDependencyCollectionExtensions_GetContainer_IDependencyCollection_
+  commentId: M:XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.GetContainer(IDependencyCollection)
+  fullName: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.GetContainer(IDependencyCollection)
+  nameWithType: IDependencyCollectionExtensions.GetContainer(IDependencyCollection)
+- uid: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.GetContainer*
+  name: GetContainer
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html#XPike_IoC_SimpleInjector_IDependencyCollectionExtensions_GetContainer_
+  commentId: Overload:XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.GetContainer
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.GetContainer
+  nameWithType: IDependencyCollectionExtensions.GetContainer
+- uid: XPike.IoC.SimpleInjector.IDependencyProviderExtensions
+  name: IDependencyProviderExtensions
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyProviderExtensions.html
+  commentId: T:XPike.IoC.SimpleInjector.IDependencyProviderExtensions
+  fullName: XPike.IoC.SimpleInjector.IDependencyProviderExtensions
+  nameWithType: IDependencyProviderExtensions
+- uid: XPike.IoC.SimpleInjector.IDependencyProviderExtensions.GetContainer(IDependencyProvider)
+  name: GetContainer(IDependencyProvider)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyProviderExtensions.html#XPike_IoC_SimpleInjector_IDependencyProviderExtensions_GetContainer_IDependencyProvider_
+  commentId: M:XPike.IoC.SimpleInjector.IDependencyProviderExtensions.GetContainer(IDependencyProvider)
+  fullName: XPike.IoC.SimpleInjector.IDependencyProviderExtensions.GetContainer(IDependencyProvider)
+  nameWithType: IDependencyProviderExtensions.GetContainer(IDependencyProvider)
+- uid: XPike.IoC.SimpleInjector.IDependencyProviderExtensions.GetContainer*
+  name: GetContainer
+  href: api/ioc/api/XPike.IoC.SimpleInjector.IDependencyProviderExtensions.html#XPike_IoC_SimpleInjector_IDependencyProviderExtensions_GetContainer_
+  commentId: Overload:XPike.IoC.SimpleInjector.IDependencyProviderExtensions.GetContainer
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.IDependencyProviderExtensions.GetContainer
+  nameWithType: IDependencyProviderExtensions.GetContainer
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection
+  name: SimpleInjectorDependencyCollection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html
+  commentId: T:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection
+  nameWithType: SimpleInjectorDependencyCollection
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.#ctor
+  name: SimpleInjectorDependencyCollection()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection__ctor
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.#ctor
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.SimpleInjectorDependencyCollection()
+  nameWithType: SimpleInjectorDependencyCollection.SimpleInjectorDependencyCollection()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.#ctor*
+  name: SimpleInjectorDependencyCollection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection__ctor_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.#ctor
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.SimpleInjectorDependencyCollection
+  nameWithType: SimpleInjectorDependencyCollection.SimpleInjectorDependencyCollection
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection(System.Type,System.Type)
+  name: AddSingletonToCollection(Type, Type)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_AddSingletonToCollection_System_Type_System_Type_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection(System.Type,System.Type)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection(System.Type, System.Type)
+  nameWithType: SimpleInjectorDependencyCollection.AddSingletonToCollection(Type, Type)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection*
+  name: AddSingletonToCollection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_AddSingletonToCollection_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection
+  nameWithType: SimpleInjectorDependencyCollection.AddSingletonToCollection
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection``1(``0)
+  name: AddSingletonToCollection<TService>(TService)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_AddSingletonToCollection__1___0_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection``1(``0)
+  name.vb: AddSingletonToCollection(Of TService)(TService)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection<TService>(TService)
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection(Of TService)(TService)
+  nameWithType: SimpleInjectorDependencyCollection.AddSingletonToCollection<TService>(TService)
+  nameWithType.vb: SimpleInjectorDependencyCollection.AddSingletonToCollection(Of TService)(TService)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection``2
+  name: AddSingletonToCollection<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_AddSingletonToCollection__2
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection``2
+  name.vb: AddSingletonToCollection(Of TService, TImplementation)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection<TService, TImplementation>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)()
+  nameWithType: SimpleInjectorDependencyCollection.AddSingletonToCollection<TService, TImplementation>()
+  nameWithType.vb: SimpleInjectorDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection``2(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: AddSingletonToCollection<TService, TImplementation>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_AddSingletonToCollection__2_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection``2(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: AddSingletonToCollection(Of TService, TImplementation)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection<TService, TImplementation>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: SimpleInjectorDependencyCollection.AddSingletonToCollection<TService, TImplementation>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: SimpleInjectorDependencyCollection.AddSingletonToCollection(Of TService, TImplementation)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.BuildDependencyProvider(System.Boolean)
+  name: BuildDependencyProvider(Boolean)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_BuildDependencyProvider_System_Boolean_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.BuildDependencyProvider(System.Boolean)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.BuildDependencyProvider(System.Boolean)
+  nameWithType: SimpleInjectorDependencyCollection.BuildDependencyProvider(Boolean)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.BuildDependencyProvider*
+  name: BuildDependencyProvider
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_BuildDependencyProvider_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.BuildDependencyProvider
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.BuildDependencyProvider
+  nameWithType: SimpleInjectorDependencyCollection.BuildDependencyProvider
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.Container
+  name: Container
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_Container
+  commentId: P:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.Container
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.Container
+  nameWithType: SimpleInjectorDependencyCollection.Container
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.Container*
+  name: Container
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_Container_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.Container
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.Container
+  nameWithType: SimpleInjectorDependencyCollection.Container
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped(System.Type,System.Type)
+  name: RegisterScoped(Type, Type)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterScoped_System_Type_System_Type_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped(System.Type,System.Type)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped(System.Type, System.Type)
+  nameWithType: SimpleInjectorDependencyCollection.RegisterScoped(Type, Type)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped*
+  name: RegisterScoped
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterScoped_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped
+  nameWithType: SimpleInjectorDependencyCollection.RegisterScoped
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterScoped<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterScoped__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterScoped(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: SimpleInjectorDependencyCollection.RegisterScoped<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterScoped(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped``2
+  name: RegisterScoped<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterScoped__2
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped``2
+  name.vb: RegisterScoped(Of TService, TImplementation)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped<TService, TImplementation>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterScoped(Of TService, TImplementation)()
+  nameWithType: SimpleInjectorDependencyCollection.RegisterScoped<TService, TImplementation>()
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterScoped(Of TService, TImplementation)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton(System.Type,System.Type)
+  name: RegisterSingleton(Type, Type)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingleton_System_Type_System_Type_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton(System.Type,System.Type)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton(System.Type, System.Type)
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingleton(Type, Type)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton*
+  name: RegisterSingleton
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingleton_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingleton
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton``1(``0)
+  name: RegisterSingleton<TService>(TService)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingleton__1___0_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton``1(``0)
+  name.vb: RegisterSingleton(Of TService)(TService)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton<TService>(TService)
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton(Of TService)(TService)
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingleton<TService>(TService)
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterSingleton(Of TService)(TService)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterSingleton<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingleton__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterSingleton(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingleton<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterSingleton(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton``2
+  name: RegisterSingleton<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingleton__2
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton``2
+  name.vb: RegisterSingleton(Of TService, TImplementation)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton<TService, TImplementation>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingleton(Of TService, TImplementation)()
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingleton<TService, TImplementation>()
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterSingleton(Of TService, TImplementation)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingletonFallback(System.Type,System.Type)
+  name: RegisterSingletonFallback(Type, Type)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingletonFallback_System_Type_System_Type_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingletonFallback(System.Type,System.Type)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingletonFallback(System.Type, System.Type)
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingletonFallback(Type, Type)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingletonFallback*
+  name: RegisterSingletonFallback
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterSingletonFallback_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingletonFallback
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterSingletonFallback
+  nameWithType: SimpleInjectorDependencyCollection.RegisterSingletonFallback
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient(System.Type,System.Type)
+  name: RegisterTransient(Type, Type)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterTransient_System_Type_System_Type_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient(System.Type,System.Type)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient(System.Type, System.Type)
+  nameWithType: SimpleInjectorDependencyCollection.RegisterTransient(Type, Type)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient*
+  name: RegisterTransient
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterTransient_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient
+  nameWithType: SimpleInjectorDependencyCollection.RegisterTransient
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name: RegisterTransient<TService>(Func<IDependencyProvider, TService>)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterTransient__1_System_Func_XPike_IoC_IDependencyProvider___0__
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient``1(System.Func{XPike.IoC.IDependencyProvider,``0})
+  name.vb: RegisterTransient(Of TService)(Func(Of IDependencyProvider, TService))
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient<TService>(System.Func<XPike.IoC.IDependencyProvider, TService>)
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient(Of TService)(System.Func(Of XPike.IoC.IDependencyProvider, TService))
+  nameWithType: SimpleInjectorDependencyCollection.RegisterTransient<TService>(Func<IDependencyProvider, TService>)
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterTransient(Of TService)(Func(Of IDependencyProvider, TService))
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient``2
+  name: RegisterTransient<TService, TImplementation>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_RegisterTransient__2
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient``2
+  name.vb: RegisterTransient(Of TService, TImplementation)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient<TService, TImplementation>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.RegisterTransient(Of TService, TImplementation)()
+  nameWithType: SimpleInjectorDependencyCollection.RegisterTransient<TService, TImplementation>()
+  nameWithType.vb: SimpleInjectorDependencyCollection.RegisterTransient(Of TService, TImplementation)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection*
+  name: ResetCollection
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_ResetCollection_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection
+  nameWithType: SimpleInjectorDependencyCollection.ResetCollection
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection``1
+  name: ResetCollection<TService>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyCollection_ResetCollection__1
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection``1
+  name.vb: ResetCollection(Of TService)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection<TService>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.ResetCollection(Of TService)()
+  nameWithType: SimpleInjectorDependencyCollection.ResetCollection<TService>()
+  nameWithType.vb: SimpleInjectorDependencyCollection.ResetCollection(Of TService)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider
+  name: SimpleInjectorDependencyProvider
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html
+  commentId: T:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider
+  nameWithType: SimpleInjectorDependencyProvider
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.BeginScope
+  name: BeginScope()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_BeginScope
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.BeginScope
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.BeginScope()
+  nameWithType: SimpleInjectorDependencyProvider.BeginScope()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.BeginScope*
+  name: BeginScope
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_BeginScope_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.BeginScope
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.BeginScope
+  nameWithType: SimpleInjectorDependencyProvider.BeginScope
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Container
+  name: Container
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_Container
+  commentId: P:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Container
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Container
+  nameWithType: SimpleInjectorDependencyProvider.Container
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Container*
+  name: Container
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_Container_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Container
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Container
+  nameWithType: SimpleInjectorDependencyProvider.Container
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies*
+  name: ResolveDependencies
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_ResolveDependencies_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies
+  nameWithType: SimpleInjectorDependencyProvider.ResolveDependencies
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies``1
+  name: ResolveDependencies<TService>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_ResolveDependencies__1
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies``1
+  name.vb: ResolveDependencies(Of TService)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies<TService>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependencies(Of TService)()
+  nameWithType: SimpleInjectorDependencyProvider.ResolveDependencies<TService>()
+  nameWithType.vb: SimpleInjectorDependencyProvider.ResolveDependencies(Of TService)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency(System.Type)
+  name: ResolveDependency(Type)
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_ResolveDependency_System_Type_
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency(System.Type)
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency(System.Type)
+  nameWithType: SimpleInjectorDependencyProvider.ResolveDependency(Type)
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency*
+  name: ResolveDependency
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_ResolveDependency_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency
+  nameWithType: SimpleInjectorDependencyProvider.ResolveDependency
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency``1
+  name: ResolveDependency<TService>()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_ResolveDependency__1
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency``1
+  name.vb: ResolveDependency(Of TService)()
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency<TService>()
+  fullName.vb: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.ResolveDependency(Of TService)()
+  nameWithType: SimpleInjectorDependencyProvider.ResolveDependency<TService>()
+  nameWithType.vb: SimpleInjectorDependencyProvider.ResolveDependency(Of TService)()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify
+  name: Verify()
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_Verify
+  commentId: M:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify()
+  nameWithType: SimpleInjectorDependencyProvider.Verify()
+- uid: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify*
+  name: Verify
+  href: api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html#XPike_IoC_SimpleInjector_SimpleInjectorDependencyProvider_Verify_
+  commentId: Overload:XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify
+  isSpec: "True"
+  fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify
+  nameWithType: SimpleInjectorDependencyProvider.Verify

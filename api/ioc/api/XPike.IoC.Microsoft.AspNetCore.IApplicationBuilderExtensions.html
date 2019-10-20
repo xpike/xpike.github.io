@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class VerificationResult
+    <title>Class IApplicationBuilderExtensions
    | xPike </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class VerificationResult
+    <meta name="title" content="Class IApplicationBuilderExtensions
    | xPike ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../../">
     <meta property="docfx:newtab" content="true">
@@ -78,18 +78,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="XPike.Extensions.DependencyInjection.VerificationResult">
+            <article class="content wrap" id="_content" data-uid="XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions">
   
   
-  <h1 id="XPike_Extensions_DependencyInjection_VerificationResult" data-uid="XPike.Extensions.DependencyInjection.VerificationResult" class="text-break">Class VerificationResult
+  <h1 id="XPike_IoC_Microsoft_AspNetCore_IApplicationBuilderExtensions" data-uid="XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions" class="text-break">Class IApplicationBuilderExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Encapsulates the result of a failed attempt to verify a registered type in the container.</p>
+  <div class="markdown level0 summary"><p>Extension methods for IApplicationBuilder to support xPike IoC in Asp.Net Core</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">VerificationResult</span></div>
+    <div class="level1"><span class="xref">IApplicationBuilderExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,22 +115,22 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.Extensions.DependencyInjection.html">XPike.Extensions.DependencyInjection</a></h6>
-  <h6><strong>Assembly</strong>: XPike.Extensions.DependencyInjection.dll</h6>
-  <h5 id="XPike_Extensions_DependencyInjection_VerificationResult_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="XPike.IoC.Microsoft.AspNetCore.html">XPike.IoC.Microsoft.AspNetCore</a></h6>
+  <h6><strong>Assembly</strong>: XPike.IoC.Microsoft.AspNetCore.dll</h6>
+  <h5 id="XPike_IoC_Microsoft_AspNetCore_IApplicationBuilderExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class VerificationResult</code></pre>
+    <pre><code class="lang-csharp hljs">public static class IApplicationBuilderExtensions</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult__ctor_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.#ctor*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult__ctor_ServiceDescriptor_System_Exception_System_String_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)">VerificationResult(ServiceDescriptor, Exception, String)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="XPike.Extensions.DependencyInjection.VerificationResult.html">VerificationResult</a> class.</p>
+  <a id="XPike_IoC_Microsoft_AspNetCore_IApplicationBuilderExtensions_UseXPikeDependencyInjection_" data-uid="XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection*"></a>
+  <h4 id="XPike_IoC_Microsoft_AspNetCore_IApplicationBuilderExtensions_UseXPikeDependencyInjection_IApplicationBuilder_" data-uid="XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.UseXPikeDependencyInjection(IApplicationBuilder)">UseXPikeDependencyInjection(IApplicationBuilder)</h4>
+  <div class="markdown level1 summary"><p>Tells the application to use xPike dependency injection for resolution.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VerificationResult(ServiceDescriptor descriptor, Exception exception = null, string message = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IDependencyProvider UseXPikeDependencyInjection(this IApplicationBuilder app)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,21 +143,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ServiceDescriptor</span></td>
-        <td><span class="parametername">descriptor</span></td>
-        <td><p>The ServiceDescriptor being verified.</p>
+        <td><span class="xref">IApplicationBuilder</span></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>The application builder instance.</p>
 </td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">exception</span></td>
-        <td><p>The exception thrown, if any.</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The verification message.</p>
+        <td><span class="xref">IDependencyProvider</span></td>
+        <td><p>IDependencyProvider.</p>
 </td>
       </tr>
     </tbody>
@@ -173,59 +177,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>descriptor</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult_Exception_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Exception*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult_Exception" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Exception">Exception</h4>
-  <div class="markdown level1 summary"><p>Gets the exception that caused the verification to fail.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Exception Exception { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><p>The exception.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="XPike_Extensions_DependencyInjection_VerificationResult_Message_" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Message*"></a>
-  <h4 id="XPike_Extensions_DependencyInjection_VerificationResult_Message" data-uid="XPike.Extensions.DependencyInjection.VerificationResult.Message">Message</h4>
-  <div class="markdown level1 summary"><p>Gets the verification message.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The message.</p>
+        <td><p>app - Extension methods require an instance.</p>
 </td>
       </tr>
     </tbody>
