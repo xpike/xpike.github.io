@@ -45,14 +45,14 @@ jobs:
           OverWrite: true
 
       - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
-        displayName: 'Create IoC Documentation'
+        displayName: 'Create Complete Documentation'
         inputs:
-          solution: '$(Agent.TempDirectory)/docfx_project/docfx.json'
+          solution: '$(Agent.TempDirectory)/documentation/docfx_project/docfx.json'
 
       - task: CopyFiles@2
         displayName: Copy docs
         inputs:
-          SourceFolder: $(Agent.TempDirectory)/docfx_project/_site
+          SourceFolder: $(Agent.TempDirectory)/documentation/docfx_project/_site
           Contents: |
             **
           TargetFolder: $(System.DefaultWorkingDirectory)
