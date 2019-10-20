@@ -33,7 +33,7 @@ jobs:
       - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
         displayName: 'Create IoC Documentation'
         inputs:
-          solution: '$(Agent.TempDirectory)ioc/docs/docfx.json'
+          solution: '$(Agent.TempDirectory)/ioc/docs/docfx.json'
 
       - task: CopyFiles@2
         displayName: Copy IoC api
