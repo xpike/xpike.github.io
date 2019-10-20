@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.DependencyVerificationException.html",
-          "hash": "8U3meq9kiY8vTNl8E19p3A=="
+          "hash": "OS9zHDmP8vGnz78T/VFAAQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyCollection.html",
-          "hash": "6PDg1wERa4xMP13MeSqzgg=="
+          "hash": "GeFj+FmbtAo3FrqCCUBUZw=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyCollectionExtensions.html",
-          "hash": "FgrszuBIpQuz7jqV6XGCRA=="
+          "hash": "lZRrSk1RKZhxBrQKVrRvaQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyPackage.html",
-          "hash": "iKW2DR9yH1atUag6gtFpFQ=="
+          "hash": "W2Ws7S1bimQw+c49dUEaPw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyProvider.html",
-          "hash": "WXKsjCUUDqr21EgF/qyirw=="
+          "hash": "s1d5puDO/0nPqxyQ0Vvjhw=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.html",
-          "hash": "Yn5g6h0f9t6PihzTmL2wbQ=="
+          "hash": "3+6PMiQ+ATO3LsOcox/V5A=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.html",
-          "hash": "JWI/3CQGturWtgwoa96AsA=="
+          "hash": "R/zaaqRTXXabmOMr/SzVMQ=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.AspNetCore.html",
-          "hash": "9zEGNDYxCTJ371MttD/jwQ=="
+          "hash": "i2XgPBFCAolrsSUSlxMHpQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html",
-          "hash": "EAMEEh47m8qJ8ZjLjmpzoQ=="
+          "hash": "VSJZOfxOaZOzH3yO+fxARA=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html",
-          "hash": "3ZaeueKEVZF5savTBvb6xg=="
+          "hash": "G5gkinxqsjQT1q5isitpNA=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.html",
-          "hash": "k3BbA8br2DX+WYVxu0qvPw=="
+          "hash": "t9N2OB4sIAXjHBhq29mWAQ=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html",
-          "hash": "PWbXhha0F3LXQpzk35afOQ=="
+          "hash": "JXkeHwLBwWQxuAnT0N/w0w=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.html",
-          "hash": "1V+6gNnpCCo5rnTJ0gnFtA=="
+          "hash": "yvSI+M7MiWKdekEcKHeQKw=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.html",
-          "hash": "2hEaRMxLkWuVGMyPxrg8kQ=="
+          "hash": "2ustzdLjRBkyFp9FQRoGEQ=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.html",
-          "hash": "E2pTyjx5Dwi4o1MolZlYbA=="
+          "hash": "Hz5YLwtq4y9iNmj4ycf1sg=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html",
-          "hash": "ltTf+dp0b+9nVG+TocPzOA=="
+          "hash": "lB2dCvobfqUnrc1xX88Wfg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html",
-          "hash": "M+4m14v+hLJGjoVwlVC41g=="
+          "hash": "qH66mhqo9DX7AWhWmpGE0g=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Owin.html",
-          "hash": "/ys72XZp8mVdkKohY1A+sg=="
+          "hash": "iXadqLoskLzjb+Ryol8ErQ=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.html",
-          "hash": "Zv/h7tbixZC9ScVKhDP5Hw=="
+          "hash": "lTMbrH82PMCXCSEqra6l6g=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.html",
-          "hash": "j75XdEdSQTFHvYS/GBsWWg=="
+          "hash": "6E8GX2witUJ8j3nuWsIeMA=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.html",
-          "hash": "VbFtcFPUXltS7m2v8P46IQ=="
+          "hash": "bK+O3oTh/thFd2UQJEwnLg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.HttpConfigurationExtensions.html",
-          "hash": "XIYUpZ4hUZsJ8ShkOeEmCA=="
+          "hash": "yROsZac7gldtJvGHMfqr4g=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html",
-          "hash": "O7xxLM7NOlMmIkMUY1B/Bg=="
+          "hash": "uE2CKCVJSrJ1sdFy63zgSQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.IDependencyProviderExtensions.html",
-          "hash": "U9SiG3Wn2ZIWLNqyjucrmw=="
+          "hash": "jpzlLyoar4O+k8JAPQyr8A=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html",
-          "hash": "GeW1fJJ/SVUYBpPnAfHT1w=="
+          "hash": "jMHtqs+JLGAv7m/3ozs+nA=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html",
-          "hash": "Q1n/ps9sFwVqZS9BVRPJdA=="
+          "hash": "t9ZvfUJ0pqamUyFQ5Md8Aw=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.html",
-          "hash": "SpCtbnIn5JVJhvDUNtEUMA=="
+          "hash": "McakoR8fhPGoFuwwSsEmsw=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.html",
-          "hash": "84MFkrmHDPHprnHda0U0dQ=="
+          "hash": "CwUi3elsuqh7UJxVhEketA=="
         }
       },
       "is_incremental": false,
@@ -525,19 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/index.html",
-          "hash": "WetpD6ynilc413hQYngJ7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/ioc/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ioc/api/toc.html",
-          "hash": "hQZr7nZI0HmuVH/aoPM8rA=="
+          "hash": "VOUEegA4rUM2xtEKPPk4QQ=="
         }
       },
       "is_incremental": false,
@@ -549,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/articles/intro.html",
-          "hash": "WetpD6ynilc413hQYngJ7A=="
+          "hash": "VOUEegA4rUM2xtEKPPk4QQ=="
         }
       },
       "is_incremental": false,
@@ -557,23 +545,26 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "api/ioc/articles/toc.yml",
+      "source_relative_path": "api/ioc/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ioc/articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "relative_path": "api/ioc/toc.html",
+          "hash": "YyqnqHdRneszLJo2kGo57w=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "eWl/m2iB2mgjZPbLc4xDqw=="
+          "hash": "C701EZkQeucQBfOqHeobog=="
         }
       },
       "is_incremental": false,
