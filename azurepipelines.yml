@@ -61,6 +61,6 @@ jobs:
       - script: |
           git add *
           git commit -a -m "Updated docs version $(Build.BuildNumber)"
-          git push origin/master
+          git push origin HEAD:master
         workingDirectory: $(System.DefaultWorkingDirectory)
                    
