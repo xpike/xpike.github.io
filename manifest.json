@@ -721,9 +721,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.yml",
       "output": {
@@ -760,9 +757,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.yml",
       "output": {
@@ -775,24 +769,30 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.html",
-          "hash": "PrHtqc5iMTPaIOTD/LkGFQ=="
+          "hash": "sBvrka6CYUlKAw2XMwib1g=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "FGXDkFRVLZDhQSqpk1y1Sg=="
+          "hash": "9sC7CyLO1wLZXxvDRgCCvg=="
         }
       },
       "is_incremental": false,
@@ -1312,6 +1312,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.yml",
       "output": {
@@ -1354,6 +1357,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.yml",
       "output": {
@@ -1366,30 +1372,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.yml",
       "output": {
         ".html": {
           "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.html",
-          "hash": "y0sgf+x+QQ2451OiqcbBfA=="
+          "hash": "D+AACJw44qPPFYd57FAd0A=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
         ".html": {
           "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "VFDuDQL0LHRcGRITdj14bQ=="
+          "hash": "8ABm+mAyKNqzm3cSU9M1Jw=="
         }
       },
       "is_incremental": false,
