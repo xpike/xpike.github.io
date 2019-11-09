@@ -697,9 +697,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
       "output": {
@@ -712,9 +709,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.yml",
       "output": {
@@ -727,9 +721,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.yml",
       "output": {
@@ -810,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "ERcK9+vBYt+hJRC0EVlD3w=="
+          "hash": "q5PtyYy8QYFtXkVrMvTX6A=="
         }
       },
       "is_incremental": false,
@@ -1264,6 +1255,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
       "output": {
@@ -1276,6 +1270,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.yml",
       "output": {
@@ -1324,6 +1321,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.yml",
       "output": {
@@ -1389,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "5sihXZIQm1r5umyO2Rcpaw=="
+          "hash": "hxw8TxPlS509oNqiSvPwDQ=="
         }
       },
       "is_incremental": false,
@@ -1818,16 +1818,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 121,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 16,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 121,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
