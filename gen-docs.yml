@@ -3,16 +3,15 @@ parameters:
 
 steps:
   - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
-    displayName: 'Create ${{repoRoot}} Documentation'
+    displayName: 'Create ${{parameters.repoRoot}} Documentation'
     inputs:
-      solution: '$(Agent.TempDirectory)/${{repoRoot}}/docs/docfx.json'
+      solution: '$(Agent.TempDirectory)/${{parameters.repoRoot}}/docs/docfx.json'
 
   - task: CopyFiles@2
-    displayName: Copy ${{repoRoot}} api
+    displayName: Copy ${{parameters.repoRoot}} api
     inputs:
-      SourceFolder: $(Agent.TempDirectory)/${{repoRoot}}/docs/api
+      SourceFolder: $(Agent.TempDirectory)/${{parameters.repoRoot}}/docs/api
       Contents: |
         **
-      TargetFolder: $(Agent.TempDirectory)/documentation/docfx_project/api/${{repoRoot}}/api
+      TargetFolder: $(Agent.TempDirectory)/documentation/docfx_project/api/${{parameters.repoRoot}}/api
       OverWrite: true
-      

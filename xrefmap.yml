@@ -1,6 +1,1620 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Example.Library
+  name: Example.Library
+  href: api/configuration/api/Example.Library.html
+  commentId: N:Example.Library
+  fullName: Example.Library
+  nameWithType: Example.Library
+- uid: Example.Library.AnotherConfig
+  name: AnotherConfig
+  href: api/configuration/api/Example.Library.AnotherConfig.html
+  commentId: T:Example.Library.AnotherConfig
+  fullName: Example.Library.AnotherConfig
+  nameWithType: AnotherConfig
+- uid: Example.Library.AnotherConfig.Name
+  name: Name
+  href: api/configuration/api/Example.Library.AnotherConfig.html#Example_Library_AnotherConfig_Name
+  commentId: P:Example.Library.AnotherConfig.Name
+  fullName: Example.Library.AnotherConfig.Name
+  nameWithType: AnotherConfig.Name
+- uid: Example.Library.AnotherConfig.Name*
+  name: Name
+  href: api/configuration/api/Example.Library.AnotherConfig.html#Example_Library_AnotherConfig_Name_
+  commentId: Overload:Example.Library.AnotherConfig.Name
+  isSpec: "True"
+  fullName: Example.Library.AnotherConfig.Name
+  nameWithType: AnotherConfig.Name
+- uid: Example.Library.SomeConfig
+  name: SomeConfig
+  href: api/configuration/api/Example.Library.SomeConfig.html
+  commentId: T:Example.Library.SomeConfig
+  fullName: Example.Library.SomeConfig
+  nameWithType: SomeConfig
+- uid: Example.Library.SomeConfig.Name
+  name: Name
+  href: api/configuration/api/Example.Library.SomeConfig.html#Example_Library_SomeConfig_Name
+  commentId: P:Example.Library.SomeConfig.Name
+  fullName: Example.Library.SomeConfig.Name
+  nameWithType: SomeConfig.Name
+- uid: Example.Library.SomeConfig.Name*
+  name: Name
+  href: api/configuration/api/Example.Library.SomeConfig.html#Example_Library_SomeConfig_Name_
+  commentId: Overload:Example.Library.SomeConfig.Name
+  isSpec: "True"
+  fullName: Example.Library.SomeConfig.Name
+  nameWithType: SomeConfig.Name
+- uid: XPike.Configuration
+  name: XPike.Configuration
+  href: api/configuration/api/XPike.Configuration.html
+  commentId: N:XPike.Configuration
+  fullName: XPike.Configuration
+  nameWithType: XPike.Configuration
+- uid: XPike.Configuration.AWS
+  name: XPike.Configuration.AWS
+  href: api/configuration/api/XPike.Configuration.AWS.html
+  commentId: N:XPike.Configuration.AWS
+  fullName: XPike.Configuration.AWS
+  nameWithType: XPike.Configuration.AWS
+- uid: XPike.Configuration.AWS.AWSConfigurationProvider
+  name: AWSConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html
+  commentId: T:XPike.Configuration.AWS.AWSConfigurationProvider
+  fullName: XPike.Configuration.AWS.AWSConfigurationProvider
+  nameWithType: AWSConfigurationProvider
+- uid: XPike.Configuration.AWS.AWSConfigurationProvider.#ctor
+  name: AWSConfigurationProvider()
+  href: api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html#XPike_Configuration_AWS_AWSConfigurationProvider__ctor
+  commentId: M:XPike.Configuration.AWS.AWSConfigurationProvider.#ctor
+  fullName: XPike.Configuration.AWS.AWSConfigurationProvider.AWSConfigurationProvider()
+  nameWithType: AWSConfigurationProvider.AWSConfigurationProvider()
+- uid: XPike.Configuration.AWS.AWSConfigurationProvider.#ctor*
+  name: AWSConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html#XPike_Configuration_AWS_AWSConfigurationProvider__ctor_
+  commentId: Overload:XPike.Configuration.AWS.AWSConfigurationProvider.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.AWS.AWSConfigurationProvider.AWSConfigurationProvider
+  nameWithType: AWSConfigurationProvider.AWSConfigurationProvider
+- uid: XPike.Configuration.AWS.AWSConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html#XPike_Configuration_AWS_AWSConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.AWS.AWSConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.AWS.AWSConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: AWSConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.AWS.AWSConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html#XPike_Configuration_AWS_AWSConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.AWS.AWSConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.AWS.AWSConfigurationProvider.GetValueOrDefault
+  nameWithType: AWSConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.AWS.IAWSConfigurationProvider
+  name: IAWSConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.AWS.IAWSConfigurationProvider.html
+  commentId: T:XPike.Configuration.AWS.IAWSConfigurationProvider
+  fullName: XPike.Configuration.AWS.IAWSConfigurationProvider
+  nameWithType: IAWSConfigurationProvider
+- uid: XPike.Configuration.AWS.Package
+  name: Package
+  href: api/configuration/api/XPike.Configuration.AWS.Package.html
+  commentId: T:XPike.Configuration.AWS.Package
+  fullName: XPike.Configuration.AWS.Package
+  nameWithType: Package
+- uid: XPike.Configuration.AWS.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/configuration/api/XPike.Configuration.AWS.Package.html#XPike_Configuration_AWS_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Configuration.AWS.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Configuration.AWS.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Configuration.AWS.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/configuration/api/XPike.Configuration.AWS.Package.html#XPike_Configuration_AWS_Package_RegisterPackage_
+  commentId: Overload:XPike.Configuration.AWS.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Configuration.AWS.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Configuration.Azure
+  name: XPike.Configuration.Azure
+  href: api/configuration/api/XPike.Configuration.Azure.html
+  commentId: N:XPike.Configuration.Azure
+  fullName: XPike.Configuration.Azure
+  nameWithType: XPike.Configuration.Azure
+- uid: XPike.Configuration.Azure.AzureConfigurationProvider
+  name: AzureConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html
+  commentId: T:XPike.Configuration.Azure.AzureConfigurationProvider
+  fullName: XPike.Configuration.Azure.AzureConfigurationProvider
+  nameWithType: AzureConfigurationProvider
+- uid: XPike.Configuration.Azure.AzureConfigurationProvider.#ctor(System.String)
+  name: AzureConfigurationProvider(String)
+  href: api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html#XPike_Configuration_Azure_AzureConfigurationProvider__ctor_System_String_
+  commentId: M:XPike.Configuration.Azure.AzureConfigurationProvider.#ctor(System.String)
+  fullName: XPike.Configuration.Azure.AzureConfigurationProvider.AzureConfigurationProvider(System.String)
+  nameWithType: AzureConfigurationProvider.AzureConfigurationProvider(String)
+- uid: XPike.Configuration.Azure.AzureConfigurationProvider.#ctor*
+  name: AzureConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html#XPike_Configuration_Azure_AzureConfigurationProvider__ctor_
+  commentId: Overload:XPike.Configuration.Azure.AzureConfigurationProvider.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Azure.AzureConfigurationProvider.AzureConfigurationProvider
+  nameWithType: AzureConfigurationProvider.AzureConfigurationProvider
+- uid: XPike.Configuration.Azure.AzureConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html#XPike_Configuration_Azure_AzureConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.Azure.AzureConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.Azure.AzureConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: AzureConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.Azure.AzureConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html#XPike_Configuration_Azure_AzureConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.Azure.AzureConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.Azure.AzureConfigurationProvider.GetValueOrDefault
+  nameWithType: AzureConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.Azure.IAzureConfigurationProvider
+  name: IAzureConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Azure.IAzureConfigurationProvider.html
+  commentId: T:XPike.Configuration.Azure.IAzureConfigurationProvider
+  fullName: XPike.Configuration.Azure.IAzureConfigurationProvider
+  nameWithType: IAzureConfigurationProvider
+- uid: XPike.Configuration.Azure.Package
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Azure.Package.html
+  commentId: T:XPike.Configuration.Azure.Package
+  fullName: XPike.Configuration.Azure.Package
+  nameWithType: Package
+- uid: XPike.Configuration.Azure.Package.#ctor(System.String)
+  name: Package(String)
+  href: api/configuration/api/XPike.Configuration.Azure.Package.html#XPike_Configuration_Azure_Package__ctor_System_String_
+  commentId: M:XPike.Configuration.Azure.Package.#ctor(System.String)
+  fullName: XPike.Configuration.Azure.Package.Package(System.String)
+  nameWithType: Package.Package(String)
+- uid: XPike.Configuration.Azure.Package.#ctor*
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Azure.Package.html#XPike_Configuration_Azure_Package__ctor_
+  commentId: Overload:XPike.Configuration.Azure.Package.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Azure.Package.Package
+  nameWithType: Package.Package
+- uid: XPike.Configuration.Azure.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/configuration/api/XPike.Configuration.Azure.Package.html#XPike_Configuration_Azure_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Configuration.Azure.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Configuration.Azure.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Configuration.Azure.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/configuration/api/XPike.Configuration.Azure.Package.html#XPike_Configuration_Azure_Package_RegisterPackage_
+  commentId: Overload:XPike.Configuration.Azure.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Configuration.Azure.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Configuration.Config`1
+  name: Config<TConfig>
+  href: api/configuration/api/XPike.Configuration.Config-1.html
+  commentId: T:XPike.Configuration.Config`1
+  name.vb: Config(Of TConfig)
+  fullName: XPike.Configuration.Config<TConfig>
+  fullName.vb: XPike.Configuration.Config(Of TConfig)
+  nameWithType: Config<TConfig>
+  nameWithType.vb: Config(Of TConfig)
+- uid: XPike.Configuration.Config`1.#ctor(System.String,`0)
+  name: Config(String, TConfig)
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1__ctor_System_String__0_
+  commentId: M:XPike.Configuration.Config`1.#ctor(System.String,`0)
+  fullName: XPike.Configuration.Config<TConfig>.Config(System.String, TConfig)
+  fullName.vb: XPike.Configuration.Config(Of TConfig).Config(System.String, TConfig)
+  nameWithType: Config<TConfig>.Config(String, TConfig)
+  nameWithType.vb: Config(Of TConfig).Config(String, TConfig)
+- uid: XPike.Configuration.Config`1.#ctor*
+  name: Config
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1__ctor_
+  commentId: Overload:XPike.Configuration.Config`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Config<TConfig>.Config
+  fullName.vb: XPike.Configuration.Config(Of TConfig).Config
+  nameWithType: Config<TConfig>.Config
+  nameWithType.vb: Config(Of TConfig).Config
+- uid: XPike.Configuration.Config`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1_ConfigurationKey
+  commentId: P:XPike.Configuration.Config`1.ConfigurationKey
+  fullName: XPike.Configuration.Config<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.Config(Of TConfig).ConfigurationKey
+  nameWithType: Config<TConfig>.ConfigurationKey
+  nameWithType.vb: Config(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.Config`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1_ConfigurationKey_
+  commentId: Overload:XPike.Configuration.Config`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Configuration.Config<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.Config(Of TConfig).ConfigurationKey
+  nameWithType: Config<TConfig>.ConfigurationKey
+  nameWithType.vb: Config(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.Config`1.RetrievedUtc
+  name: RetrievedUtc
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1_RetrievedUtc
+  commentId: P:XPike.Configuration.Config`1.RetrievedUtc
+  fullName: XPike.Configuration.Config<TConfig>.RetrievedUtc
+  fullName.vb: XPike.Configuration.Config(Of TConfig).RetrievedUtc
+  nameWithType: Config<TConfig>.RetrievedUtc
+  nameWithType.vb: Config(Of TConfig).RetrievedUtc
+- uid: XPike.Configuration.Config`1.RetrievedUtc*
+  name: RetrievedUtc
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1_RetrievedUtc_
+  commentId: Overload:XPike.Configuration.Config`1.RetrievedUtc
+  isSpec: "True"
+  fullName: XPike.Configuration.Config<TConfig>.RetrievedUtc
+  fullName.vb: XPike.Configuration.Config(Of TConfig).RetrievedUtc
+  nameWithType: Config<TConfig>.RetrievedUtc
+  nameWithType.vb: Config(Of TConfig).RetrievedUtc
+- uid: XPike.Configuration.Config`1.Value
+  name: Value
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1_Value
+  commentId: P:XPike.Configuration.Config`1.Value
+  fullName: XPike.Configuration.Config<TConfig>.Value
+  fullName.vb: XPike.Configuration.Config(Of TConfig).Value
+  nameWithType: Config<TConfig>.Value
+  nameWithType.vb: Config(Of TConfig).Value
+- uid: XPike.Configuration.Config`1.Value*
+  name: Value
+  href: api/configuration/api/XPike.Configuration.Config-1.html#XPike_Configuration_Config_1_Value_
+  commentId: Overload:XPike.Configuration.Config`1.Value
+  isSpec: "True"
+  fullName: XPike.Configuration.Config<TConfig>.Value
+  fullName.vb: XPike.Configuration.Config(Of TConfig).Value
+  nameWithType: Config<TConfig>.Value
+  nameWithType.vb: Config(Of TConfig).Value
+- uid: XPike.Configuration.ConfigLoader`1
+  name: ConfigLoader<TConfig>
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html
+  commentId: T:XPike.Configuration.ConfigLoader`1
+  name.vb: ConfigLoader(Of TConfig)
+  fullName: XPike.Configuration.ConfigLoader<TConfig>
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig)
+  nameWithType: ConfigLoader<TConfig>
+  nameWithType.vb: ConfigLoader(Of TConfig)
+- uid: XPike.Configuration.ConfigLoader`1.#ctor(XPike.Configuration.IConfigManager{`0})
+  name: ConfigLoader(IConfigManager<TConfig>)
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1__ctor_XPike_Configuration_IConfigManager__0__
+  commentId: M:XPike.Configuration.ConfigLoader`1.#ctor(XPike.Configuration.IConfigManager{`0})
+  name.vb: ConfigLoader(IConfigManager(Of TConfig))
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.ConfigLoader(XPike.Configuration.IConfigManager<TConfig>)
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).ConfigLoader(XPike.Configuration.IConfigManager(Of TConfig))
+  nameWithType: ConfigLoader<TConfig>.ConfigLoader(IConfigManager<TConfig>)
+  nameWithType.vb: ConfigLoader(Of TConfig).ConfigLoader(IConfigManager(Of TConfig))
+- uid: XPike.Configuration.ConfigLoader`1.#ctor*
+  name: ConfigLoader
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1__ctor_
+  commentId: Overload:XPike.Configuration.ConfigLoader`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.ConfigLoader
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).ConfigLoader
+  nameWithType: ConfigLoader<TConfig>.ConfigLoader
+  nameWithType.vb: ConfigLoader(Of TConfig).ConfigLoader
+- uid: XPike.Configuration.ConfigLoader`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1_ConfigurationKey
+  commentId: P:XPike.Configuration.ConfigLoader`1.ConfigurationKey
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).ConfigurationKey
+  nameWithType: ConfigLoader<TConfig>.ConfigurationKey
+  nameWithType.vb: ConfigLoader(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.ConfigLoader`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1_ConfigurationKey_
+  commentId: Overload:XPike.Configuration.ConfigLoader`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).ConfigurationKey
+  nameWithType: ConfigLoader<TConfig>.ConfigurationKey
+  nameWithType.vb: ConfigLoader(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.ConfigLoader`1.RetrievedUtc
+  name: RetrievedUtc
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1_RetrievedUtc
+  commentId: P:XPike.Configuration.ConfigLoader`1.RetrievedUtc
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.RetrievedUtc
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).RetrievedUtc
+  nameWithType: ConfigLoader<TConfig>.RetrievedUtc
+  nameWithType.vb: ConfigLoader(Of TConfig).RetrievedUtc
+- uid: XPike.Configuration.ConfigLoader`1.RetrievedUtc*
+  name: RetrievedUtc
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1_RetrievedUtc_
+  commentId: Overload:XPike.Configuration.ConfigLoader`1.RetrievedUtc
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.RetrievedUtc
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).RetrievedUtc
+  nameWithType: ConfigLoader<TConfig>.RetrievedUtc
+  nameWithType.vb: ConfigLoader(Of TConfig).RetrievedUtc
+- uid: XPike.Configuration.ConfigLoader`1.Value
+  name: Value
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1_Value
+  commentId: P:XPike.Configuration.ConfigLoader`1.Value
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.Value
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).Value
+  nameWithType: ConfigLoader<TConfig>.Value
+  nameWithType.vb: ConfigLoader(Of TConfig).Value
+- uid: XPike.Configuration.ConfigLoader`1.Value*
+  name: Value
+  href: api/configuration/api/XPike.Configuration.ConfigLoader-1.html#XPike_Configuration_ConfigLoader_1_Value_
+  commentId: Overload:XPike.Configuration.ConfigLoader`1.Value
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigLoader<TConfig>.Value
+  fullName.vb: XPike.Configuration.ConfigLoader(Of TConfig).Value
+  nameWithType: ConfigLoader<TConfig>.Value
+  nameWithType.vb: ConfigLoader(Of TConfig).Value
+- uid: XPike.Configuration.ConfigManager`1
+  name: ConfigManager<TConfig>
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html
+  commentId: T:XPike.Configuration.ConfigManager`1
+  name.vb: ConfigManager(Of TConfig)
+  fullName: XPike.Configuration.ConfigManager<TConfig>
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig)
+  nameWithType: ConfigManager<TConfig>
+  nameWithType.vb: ConfigManager(Of TConfig)
+- uid: XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService)
+  name: ConfigManager(IConfigurationService)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__ctor_XPike_Configuration_IConfigurationService_
+  commentId: M:XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigManager(XPike.Configuration.IConfigurationService)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigManager(XPike.Configuration.IConfigurationService)
+  nameWithType: ConfigManager<TConfig>.ConfigManager(IConfigurationService)
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigManager(IConfigurationService)
+- uid: XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService,System.Action{`0})
+  name: ConfigManager(IConfigurationService, Action<TConfig>)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__ctor_XPike_Configuration_IConfigurationService_System_Action__0__
+  commentId: M:XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService,System.Action{`0})
+  name.vb: ConfigManager(IConfigurationService, Action(Of TConfig))
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigManager(XPike.Configuration.IConfigurationService, System.Action<TConfig>)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigManager(XPike.Configuration.IConfigurationService, System.Action(Of TConfig))
+  nameWithType: ConfigManager<TConfig>.ConfigManager(IConfigurationService, Action<TConfig>)
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigManager(IConfigurationService, Action(Of TConfig))
+- uid: XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService,System.String)
+  name: ConfigManager(IConfigurationService, String)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__ctor_XPike_Configuration_IConfigurationService_System_String_
+  commentId: M:XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService,System.String)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigManager(XPike.Configuration.IConfigurationService, System.String)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigManager(XPike.Configuration.IConfigurationService, System.String)
+  nameWithType: ConfigManager<TConfig>.ConfigManager(IConfigurationService, String)
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigManager(IConfigurationService, String)
+- uid: XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService,System.String,System.Action{`0})
+  name: ConfigManager(IConfigurationService, String, Action<TConfig>)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__ctor_XPike_Configuration_IConfigurationService_System_String_System_Action__0__
+  commentId: M:XPike.Configuration.ConfigManager`1.#ctor(XPike.Configuration.IConfigurationService,System.String,System.Action{`0})
+  name.vb: ConfigManager(IConfigurationService, String, Action(Of TConfig))
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigManager(XPike.Configuration.IConfigurationService, System.String, System.Action<TConfig>)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigManager(XPike.Configuration.IConfigurationService, System.String, System.Action(Of TConfig))
+  nameWithType: ConfigManager<TConfig>.ConfigManager(IConfigurationService, String, Action<TConfig>)
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigManager(IConfigurationService, String, Action(Of TConfig))
+- uid: XPike.Configuration.ConfigManager`1.#ctor*
+  name: ConfigManager
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__ctor_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigManager
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigManager
+  nameWithType: ConfigManager<TConfig>.ConfigManager
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigManager
+- uid: XPike.Configuration.ConfigManager`1._configService
+  name: _configService
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__configService
+  commentId: F:XPike.Configuration.ConfigManager`1._configService
+  fullName: XPike.Configuration.ConfigManager<TConfig>._configService
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig)._configService
+  nameWithType: ConfigManager<TConfig>._configService
+  nameWithType.vb: ConfigManager(Of TConfig)._configService
+- uid: XPike.Configuration.ConfigManager`1._postConfigureAction
+  name: _postConfigureAction
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1__postConfigureAction
+  commentId: F:XPike.Configuration.ConfigManager`1._postConfigureAction
+  fullName: XPike.Configuration.ConfigManager<TConfig>._postConfigureAction
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig)._postConfigureAction
+  nameWithType: ConfigManager<TConfig>._postConfigureAction
+  nameWithType.vb: ConfigManager(Of TConfig)._postConfigureAction
+- uid: XPike.Configuration.ConfigManager`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_ConfigurationKey
+  commentId: P:XPike.Configuration.ConfigManager`1.ConfigurationKey
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigurationKey
+  nameWithType: ConfigManager<TConfig>.ConfigurationKey
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.ConfigManager`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_ConfigurationKey_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).ConfigurationKey
+  nameWithType: ConfigManager<TConfig>.ConfigurationKey
+  nameWithType.vb: ConfigManager(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.ConfigManager`1.GetConfig
+  name: GetConfig()
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetConfig
+  commentId: M:XPike.Configuration.ConfigManager`1.GetConfig
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetConfig()
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetConfig()
+  nameWithType: ConfigManager<TConfig>.GetConfig()
+  nameWithType.vb: ConfigManager(Of TConfig).GetConfig()
+- uid: XPike.Configuration.ConfigManager`1.GetConfig*
+  name: GetConfig
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetConfig_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.GetConfig
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetConfig
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetConfig
+  nameWithType: ConfigManager<TConfig>.GetConfig
+  nameWithType.vb: ConfigManager(Of TConfig).GetConfig
+- uid: XPike.Configuration.ConfigManager`1.GetConfigOrDefault(`0)
+  name: GetConfigOrDefault(TConfig)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetConfigOrDefault__0_
+  commentId: M:XPike.Configuration.ConfigManager`1.GetConfigOrDefault(`0)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetConfigOrDefault(TConfig)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetConfigOrDefault(TConfig)
+  nameWithType: ConfigManager<TConfig>.GetConfigOrDefault(TConfig)
+  nameWithType.vb: ConfigManager(Of TConfig).GetConfigOrDefault(TConfig)
+- uid: XPike.Configuration.ConfigManager`1.GetConfigOrDefault*
+  name: GetConfigOrDefault
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetConfigOrDefault_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.GetConfigOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetConfigOrDefault
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetConfigOrDefault
+  nameWithType: ConfigManager<TConfig>.GetConfigOrDefault
+  nameWithType.vb: ConfigManager(Of TConfig).GetConfigOrDefault
+- uid: XPike.Configuration.ConfigManager`1.GetValue
+  name: GetValue()
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValue
+  commentId: M:XPike.Configuration.ConfigManager`1.GetValue
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValue()
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValue()
+  nameWithType: ConfigManager<TConfig>.GetValue()
+  nameWithType.vb: ConfigManager(Of TConfig).GetValue()
+- uid: XPike.Configuration.ConfigManager`1.GetValue(System.String)
+  name: GetValue(String)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValue_System_String_
+  commentId: M:XPike.Configuration.ConfigManager`1.GetValue(System.String)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValue(System.String)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValue(System.String)
+  nameWithType: ConfigManager<TConfig>.GetValue(String)
+  nameWithType.vb: ConfigManager(Of TConfig).GetValue(String)
+- uid: XPike.Configuration.ConfigManager`1.GetValue*
+  name: GetValue
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValue_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.GetValue
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValue
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValue
+  nameWithType: ConfigManager<TConfig>.GetValue
+  nameWithType.vb: ConfigManager(Of TConfig).GetValue
+- uid: XPike.Configuration.ConfigManager`1.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValue__1_System_String_
+  commentId: M:XPike.Configuration.ConfigManager`1.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValue<T>(System.String)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValue(Of T)(System.String)
+  nameWithType: ConfigManager<TConfig>.GetValue<T>(String)
+  nameWithType.vb: ConfigManager(Of TConfig).GetValue(Of T)(String)
+- uid: XPike.Configuration.ConfigManager`1.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.ConfigManager`1.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValueOrDefault(System.String, System.String)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValueOrDefault(System.String, System.String)
+  nameWithType: ConfigManager<TConfig>.GetValueOrDefault(String, String)
+  nameWithType.vb: ConfigManager(Of TConfig).GetValueOrDefault(String, String)
+- uid: XPike.Configuration.ConfigManager`1.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValueOrDefault
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValueOrDefault
+  nameWithType: ConfigManager<TConfig>.GetValueOrDefault
+  nameWithType.vb: ConfigManager(Of TConfig).GetValueOrDefault
+- uid: XPike.Configuration.ConfigManager`1.GetValueOrDefault``1(System.String,``0)
+  name: GetValueOrDefault<T>(String, T)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_GetValueOrDefault__1_System_String___0_
+  commentId: M:XPike.Configuration.ConfigManager`1.GetValueOrDefault``1(System.String,``0)
+  name.vb: GetValueOrDefault(Of T)(String, T)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.GetValueOrDefault<T>(System.String, T)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).GetValueOrDefault(Of T)(System.String, T)
+  nameWithType: ConfigManager<TConfig>.GetValueOrDefault<T>(String, T)
+  nameWithType.vb: ConfigManager(Of TConfig).GetValueOrDefault(Of T)(String, T)
+- uid: XPike.Configuration.ConfigManager`1.PostConfigure(`0)
+  name: PostConfigure(TConfig)
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_PostConfigure__0_
+  commentId: M:XPike.Configuration.ConfigManager`1.PostConfigure(`0)
+  fullName: XPike.Configuration.ConfigManager<TConfig>.PostConfigure(TConfig)
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).PostConfigure(TConfig)
+  nameWithType: ConfigManager<TConfig>.PostConfigure(TConfig)
+  nameWithType.vb: ConfigManager(Of TConfig).PostConfigure(TConfig)
+- uid: XPike.Configuration.ConfigManager`1.PostConfigure*
+  name: PostConfigure
+  href: api/configuration/api/XPike.Configuration.ConfigManager-1.html#XPike_Configuration_ConfigManager_1_PostConfigure_
+  commentId: Overload:XPike.Configuration.ConfigManager`1.PostConfigure
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigManager<TConfig>.PostConfigure
+  fullName.vb: XPike.Configuration.ConfigManager(Of TConfig).PostConfigure
+  nameWithType: ConfigManager<TConfig>.PostConfigure
+  nameWithType.vb: ConfigManager(Of TConfig).PostConfigure
+- uid: XPike.Configuration.ConfigurationProviderBase
+  name: ConfigurationProviderBase
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html
+  commentId: T:XPike.Configuration.ConfigurationProviderBase
+  fullName: XPike.Configuration.ConfigurationProviderBase
+  nameWithType: ConfigurationProviderBase
+- uid: XPike.Configuration.ConfigurationProviderBase.GetValue(System.String)
+  name: GetValue(String)
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html#XPike_Configuration_ConfigurationProviderBase_GetValue_System_String_
+  commentId: M:XPike.Configuration.ConfigurationProviderBase.GetValue(System.String)
+  fullName: XPike.Configuration.ConfigurationProviderBase.GetValue(System.String)
+  nameWithType: ConfigurationProviderBase.GetValue(String)
+- uid: XPike.Configuration.ConfigurationProviderBase.GetValue*
+  name: GetValue
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html#XPike_Configuration_ConfigurationProviderBase_GetValue_
+  commentId: Overload:XPike.Configuration.ConfigurationProviderBase.GetValue
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationProviderBase.GetValue
+  nameWithType: ConfigurationProviderBase.GetValue
+- uid: XPike.Configuration.ConfigurationProviderBase.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html#XPike_Configuration_ConfigurationProviderBase_GetValue__1_System_String_
+  commentId: M:XPike.Configuration.ConfigurationProviderBase.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: XPike.Configuration.ConfigurationProviderBase.GetValue<T>(System.String)
+  fullName.vb: XPike.Configuration.ConfigurationProviderBase.GetValue(Of T)(System.String)
+  nameWithType: ConfigurationProviderBase.GetValue<T>(String)
+  nameWithType.vb: ConfigurationProviderBase.GetValue(Of T)(String)
+- uid: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html#XPike_Configuration_ConfigurationProviderBase_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault(System.String, System.String)
+  nameWithType: ConfigurationProviderBase.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html#XPike_Configuration_ConfigurationProviderBase_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault
+  nameWithType: ConfigurationProviderBase.GetValueOrDefault
+- uid: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault``1(System.String,``0)
+  name: GetValueOrDefault<T>(String, T)
+  href: api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html#XPike_Configuration_ConfigurationProviderBase_GetValueOrDefault__1_System_String___0_
+  commentId: M:XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault``1(System.String,``0)
+  name.vb: GetValueOrDefault(Of T)(String, T)
+  fullName: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault<T>(System.String, T)
+  fullName.vb: XPike.Configuration.ConfigurationProviderBase.GetValueOrDefault(Of T)(System.String, T)
+  nameWithType: ConfigurationProviderBase.GetValueOrDefault<T>(String, T)
+  nameWithType.vb: ConfigurationProviderBase.GetValueOrDefault(Of T)(String, T)
+- uid: XPike.Configuration.ConfigurationService
+  name: ConfigurationService
+  href: api/configuration/api/XPike.Configuration.ConfigurationService.html
+  commentId: T:XPike.Configuration.ConfigurationService
+  fullName: XPike.Configuration.ConfigurationService
+  nameWithType: ConfigurationService
+- uid: XPike.Configuration.ConfigurationService.#ctor(System.Collections.Generic.IEnumerable{XPike.Configuration.IConfigurationProvider})
+  name: ConfigurationService(IEnumerable<IConfigurationProvider>)
+  href: api/configuration/api/XPike.Configuration.ConfigurationService.html#XPike_Configuration_ConfigurationService__ctor_System_Collections_Generic_IEnumerable_XPike_Configuration_IConfigurationProvider__
+  commentId: M:XPike.Configuration.ConfigurationService.#ctor(System.Collections.Generic.IEnumerable{XPike.Configuration.IConfigurationProvider})
+  name.vb: ConfigurationService(IEnumerable(Of IConfigurationProvider))
+  fullName: XPike.Configuration.ConfigurationService.ConfigurationService(System.Collections.Generic.IEnumerable<XPike.Configuration.IConfigurationProvider>)
+  fullName.vb: XPike.Configuration.ConfigurationService.ConfigurationService(System.Collections.Generic.IEnumerable(Of XPike.Configuration.IConfigurationProvider))
+  nameWithType: ConfigurationService.ConfigurationService(IEnumerable<IConfigurationProvider>)
+  nameWithType.vb: ConfigurationService.ConfigurationService(IEnumerable(Of IConfigurationProvider))
+- uid: XPike.Configuration.ConfigurationService.#ctor*
+  name: ConfigurationService
+  href: api/configuration/api/XPike.Configuration.ConfigurationService.html#XPike_Configuration_ConfigurationService__ctor_
+  commentId: Overload:XPike.Configuration.ConfigurationService.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationService.ConfigurationService
+  nameWithType: ConfigurationService.ConfigurationService
+- uid: XPike.Configuration.ConfigurationServiceBase`1
+  name: ConfigurationServiceBase<TProvider>
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html
+  commentId: T:XPike.Configuration.ConfigurationServiceBase`1
+  name.vb: ConfigurationServiceBase(Of TProvider)
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider)
+  nameWithType: ConfigurationServiceBase<TProvider>
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider)
+- uid: XPike.Configuration.ConfigurationServiceBase`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: ConfigurationServiceBase(IEnumerable<TProvider>)
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:XPike.Configuration.ConfigurationServiceBase`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: ConfigurationServiceBase(IEnumerable(Of TProvider))
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.ConfigurationServiceBase(System.Collections.Generic.IEnumerable<TProvider>)
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).ConfigurationServiceBase(System.Collections.Generic.IEnumerable(Of TProvider))
+  nameWithType: ConfigurationServiceBase<TProvider>.ConfigurationServiceBase(IEnumerable<TProvider>)
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).ConfigurationServiceBase(IEnumerable(Of TProvider))
+- uid: XPike.Configuration.ConfigurationServiceBase`1.#ctor*
+  name: ConfigurationServiceBase
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1__ctor_
+  commentId: Overload:XPike.Configuration.ConfigurationServiceBase`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.ConfigurationServiceBase
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).ConfigurationServiceBase
+  nameWithType: ConfigurationServiceBase<TProvider>.ConfigurationServiceBase
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).ConfigurationServiceBase
+- uid: XPike.Configuration.ConfigurationServiceBase`1._providers
+  name: _providers
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1__providers
+  commentId: F:XPike.Configuration.ConfigurationServiceBase`1._providers
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>._providers
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider)._providers
+  nameWithType: ConfigurationServiceBase<TProvider>._providers
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider)._providers
+- uid: XPike.Configuration.ConfigurationServiceBase`1.GetValue(System.String)
+  name: GetValue(String)
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_GetValue_System_String_
+  commentId: M:XPike.Configuration.ConfigurationServiceBase`1.GetValue(System.String)
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.GetValue(System.String)
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).GetValue(System.String)
+  nameWithType: ConfigurationServiceBase<TProvider>.GetValue(String)
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).GetValue(String)
+- uid: XPike.Configuration.ConfigurationServiceBase`1.GetValue*
+  name: GetValue
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_GetValue_
+  commentId: Overload:XPike.Configuration.ConfigurationServiceBase`1.GetValue
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.GetValue
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).GetValue
+  nameWithType: ConfigurationServiceBase<TProvider>.GetValue
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).GetValue
+- uid: XPike.Configuration.ConfigurationServiceBase`1.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_GetValue__1_System_String_
+  commentId: M:XPike.Configuration.ConfigurationServiceBase`1.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.GetValue<T>(System.String)
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).GetValue(Of T)(System.String)
+  nameWithType: ConfigurationServiceBase<TProvider>.GetValue<T>(String)
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).GetValue(Of T)(String)
+- uid: XPike.Configuration.ConfigurationServiceBase`1.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.ConfigurationServiceBase`1.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.GetValueOrDefault(System.String, System.String)
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).GetValueOrDefault(System.String, System.String)
+  nameWithType: ConfigurationServiceBase<TProvider>.GetValueOrDefault(String, String)
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).GetValueOrDefault(String, String)
+- uid: XPike.Configuration.ConfigurationServiceBase`1.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.ConfigurationServiceBase`1.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.GetValueOrDefault
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).GetValueOrDefault
+  nameWithType: ConfigurationServiceBase<TProvider>.GetValueOrDefault
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).GetValueOrDefault
+- uid: XPike.Configuration.ConfigurationServiceBase`1.GetValueOrDefault``1(System.String,``0)
+  name: GetValueOrDefault<T>(String, T)
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_GetValueOrDefault__1_System_String___0_
+  commentId: M:XPike.Configuration.ConfigurationServiceBase`1.GetValueOrDefault``1(System.String,``0)
+  name.vb: GetValueOrDefault(Of T)(String, T)
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.GetValueOrDefault<T>(System.String, T)
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).GetValueOrDefault(Of T)(System.String, T)
+  nameWithType: ConfigurationServiceBase<TProvider>.GetValueOrDefault<T>(String, T)
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).GetValueOrDefault(Of T)(String, T)
+- uid: XPike.Configuration.ConfigurationServiceBase`1.Load
+  name: Load()
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_Load
+  commentId: M:XPike.Configuration.ConfigurationServiceBase`1.Load
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.Load()
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).Load()
+  nameWithType: ConfigurationServiceBase<TProvider>.Load()
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).Load()
+- uid: XPike.Configuration.ConfigurationServiceBase`1.Load*
+  name: Load
+  href: api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html#XPike_Configuration_ConfigurationServiceBase_1_Load_
+  commentId: Overload:XPike.Configuration.ConfigurationServiceBase`1.Load
+  isSpec: "True"
+  fullName: XPike.Configuration.ConfigurationServiceBase<TProvider>.Load
+  fullName.vb: XPike.Configuration.ConfigurationServiceBase(Of TProvider).Load
+  nameWithType: ConfigurationServiceBase<TProvider>.Load
+  nameWithType.vb: ConfigurationServiceBase(Of TProvider).Load
+- uid: XPike.Configuration.DefaultConfigManager`1
+  name: DefaultConfigManager<TConfig>
+  href: api/configuration/api/XPike.Configuration.DefaultConfigManager-1.html
+  commentId: T:XPike.Configuration.DefaultConfigManager`1
+  name.vb: DefaultConfigManager(Of TConfig)
+  fullName: XPike.Configuration.DefaultConfigManager<TConfig>
+  fullName.vb: XPike.Configuration.DefaultConfigManager(Of TConfig)
+  nameWithType: DefaultConfigManager<TConfig>
+  nameWithType.vb: DefaultConfigManager(Of TConfig)
+- uid: XPike.Configuration.DefaultConfigManager`1.#ctor(XPike.Configuration.IConfigurationService)
+  name: DefaultConfigManager(IConfigurationService)
+  href: api/configuration/api/XPike.Configuration.DefaultConfigManager-1.html#XPike_Configuration_DefaultConfigManager_1__ctor_XPike_Configuration_IConfigurationService_
+  commentId: M:XPike.Configuration.DefaultConfigManager`1.#ctor(XPike.Configuration.IConfigurationService)
+  fullName: XPike.Configuration.DefaultConfigManager<TConfig>.DefaultConfigManager(XPike.Configuration.IConfigurationService)
+  fullName.vb: XPike.Configuration.DefaultConfigManager(Of TConfig).DefaultConfigManager(XPike.Configuration.IConfigurationService)
+  nameWithType: DefaultConfigManager<TConfig>.DefaultConfigManager(IConfigurationService)
+  nameWithType.vb: DefaultConfigManager(Of TConfig).DefaultConfigManager(IConfigurationService)
+- uid: XPike.Configuration.DefaultConfigManager`1.#ctor*
+  name: DefaultConfigManager
+  href: api/configuration/api/XPike.Configuration.DefaultConfigManager-1.html#XPike_Configuration_DefaultConfigManager_1__ctor_
+  commentId: Overload:XPike.Configuration.DefaultConfigManager`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.DefaultConfigManager<TConfig>.DefaultConfigManager
+  fullName.vb: XPike.Configuration.DefaultConfigManager(Of TConfig).DefaultConfigManager
+  nameWithType: DefaultConfigManager<TConfig>.DefaultConfigManager
+  nameWithType.vb: DefaultConfigManager(Of TConfig).DefaultConfigManager
+- uid: XPike.Configuration.Environment
+  name: XPike.Configuration.Environment
+  href: api/configuration/api/XPike.Configuration.Environment.html
+  commentId: N:XPike.Configuration.Environment
+  fullName: XPike.Configuration.Environment
+  nameWithType: XPike.Configuration.Environment
+- uid: XPike.Configuration.Environment.EnvironmentConfigurationProvider
+  name: EnvironmentConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html
+  commentId: T:XPike.Configuration.Environment.EnvironmentConfigurationProvider
+  fullName: XPike.Configuration.Environment.EnvironmentConfigurationProvider
+  nameWithType: EnvironmentConfigurationProvider
+- uid: XPike.Configuration.Environment.EnvironmentConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html#XPike_Configuration_Environment_EnvironmentConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.Environment.EnvironmentConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.Environment.EnvironmentConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: EnvironmentConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.Environment.EnvironmentConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html#XPike_Configuration_Environment_EnvironmentConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.Environment.EnvironmentConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.Environment.EnvironmentConfigurationProvider.GetValueOrDefault
+  nameWithType: EnvironmentConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.Environment.EnvironmentConfigurationProvider.Load
+  name: Load()
+  href: api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html#XPike_Configuration_Environment_EnvironmentConfigurationProvider_Load
+  commentId: M:XPike.Configuration.Environment.EnvironmentConfigurationProvider.Load
+  fullName: XPike.Configuration.Environment.EnvironmentConfigurationProvider.Load()
+  nameWithType: EnvironmentConfigurationProvider.Load()
+- uid: XPike.Configuration.Environment.EnvironmentConfigurationProvider.Load*
+  name: Load
+  href: api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html#XPike_Configuration_Environment_EnvironmentConfigurationProvider_Load_
+  commentId: Overload:XPike.Configuration.Environment.EnvironmentConfigurationProvider.Load
+  isSpec: "True"
+  fullName: XPike.Configuration.Environment.EnvironmentConfigurationProvider.Load
+  nameWithType: EnvironmentConfigurationProvider.Load
+- uid: XPike.Configuration.Environment.IEnvironmentConfigurationProvider
+  name: IEnvironmentConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Environment.IEnvironmentConfigurationProvider.html
+  commentId: T:XPike.Configuration.Environment.IEnvironmentConfigurationProvider
+  fullName: XPike.Configuration.Environment.IEnvironmentConfigurationProvider
+  nameWithType: IEnvironmentConfigurationProvider
+- uid: XPike.Configuration.IConfig`1
+  name: IConfig<TConfig>
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html
+  commentId: T:XPike.Configuration.IConfig`1
+  name.vb: IConfig(Of TConfig)
+  fullName: XPike.Configuration.IConfig<TConfig>
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig)
+  nameWithType: IConfig<TConfig>
+  nameWithType.vb: IConfig(Of TConfig)
+- uid: XPike.Configuration.IConfig`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html#XPike_Configuration_IConfig_1_ConfigurationKey
+  commentId: P:XPike.Configuration.IConfig`1.ConfigurationKey
+  fullName: XPike.Configuration.IConfig<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig).ConfigurationKey
+  nameWithType: IConfig<TConfig>.ConfigurationKey
+  nameWithType.vb: IConfig(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.IConfig`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html#XPike_Configuration_IConfig_1_ConfigurationKey_
+  commentId: Overload:XPike.Configuration.IConfig`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfig<TConfig>.ConfigurationKey
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig).ConfigurationKey
+  nameWithType: IConfig<TConfig>.ConfigurationKey
+  nameWithType.vb: IConfig(Of TConfig).ConfigurationKey
+- uid: XPike.Configuration.IConfig`1.RetrievedUtc
+  name: RetrievedUtc
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html#XPike_Configuration_IConfig_1_RetrievedUtc
+  commentId: P:XPike.Configuration.IConfig`1.RetrievedUtc
+  fullName: XPike.Configuration.IConfig<TConfig>.RetrievedUtc
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig).RetrievedUtc
+  nameWithType: IConfig<TConfig>.RetrievedUtc
+  nameWithType.vb: IConfig(Of TConfig).RetrievedUtc
+- uid: XPike.Configuration.IConfig`1.RetrievedUtc*
+  name: RetrievedUtc
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html#XPike_Configuration_IConfig_1_RetrievedUtc_
+  commentId: Overload:XPike.Configuration.IConfig`1.RetrievedUtc
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfig<TConfig>.RetrievedUtc
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig).RetrievedUtc
+  nameWithType: IConfig<TConfig>.RetrievedUtc
+  nameWithType.vb: IConfig(Of TConfig).RetrievedUtc
+- uid: XPike.Configuration.IConfig`1.Value
+  name: Value
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html#XPike_Configuration_IConfig_1_Value
+  commentId: P:XPike.Configuration.IConfig`1.Value
+  fullName: XPike.Configuration.IConfig<TConfig>.Value
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig).Value
+  nameWithType: IConfig<TConfig>.Value
+  nameWithType.vb: IConfig(Of TConfig).Value
+- uid: XPike.Configuration.IConfig`1.Value*
+  name: Value
+  href: api/configuration/api/XPike.Configuration.IConfig-1.html#XPike_Configuration_IConfig_1_Value_
+  commentId: Overload:XPike.Configuration.IConfig`1.Value
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfig<TConfig>.Value
+  fullName.vb: XPike.Configuration.IConfig(Of TConfig).Value
+  nameWithType: IConfig<TConfig>.Value
+  nameWithType.vb: IConfig(Of TConfig).Value
+- uid: XPike.Configuration.IConfigLoader`1
+  name: IConfigLoader<TConfig>
+  href: api/configuration/api/XPike.Configuration.IConfigLoader-1.html
+  commentId: T:XPike.Configuration.IConfigLoader`1
+  name.vb: IConfigLoader(Of TConfig)
+  fullName: XPike.Configuration.IConfigLoader<TConfig>
+  fullName.vb: XPike.Configuration.IConfigLoader(Of TConfig)
+  nameWithType: IConfigLoader<TConfig>
+  nameWithType.vb: IConfigLoader(Of TConfig)
+- uid: XPike.Configuration.IConfigManager`1
+  name: IConfigManager<TConfig>
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html
+  commentId: T:XPike.Configuration.IConfigManager`1
+  name.vb: IConfigManager(Of TConfig)
+  fullName: XPike.Configuration.IConfigManager<TConfig>
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig)
+  nameWithType: IConfigManager<TConfig>
+  nameWithType.vb: IConfigManager(Of TConfig)
+- uid: XPike.Configuration.IConfigManager`1.GetConfig
+  name: GetConfig()
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html#XPike_Configuration_IConfigManager_1_GetConfig
+  commentId: M:XPike.Configuration.IConfigManager`1.GetConfig
+  fullName: XPike.Configuration.IConfigManager<TConfig>.GetConfig()
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig).GetConfig()
+  nameWithType: IConfigManager<TConfig>.GetConfig()
+  nameWithType.vb: IConfigManager(Of TConfig).GetConfig()
+- uid: XPike.Configuration.IConfigManager`1.GetConfig*
+  name: GetConfig
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html#XPike_Configuration_IConfigManager_1_GetConfig_
+  commentId: Overload:XPike.Configuration.IConfigManager`1.GetConfig
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfigManager<TConfig>.GetConfig
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig).GetConfig
+  nameWithType: IConfigManager<TConfig>.GetConfig
+  nameWithType.vb: IConfigManager(Of TConfig).GetConfig
+- uid: XPike.Configuration.IConfigManager`1.GetConfigOrDefault(`0)
+  name: GetConfigOrDefault(TConfig)
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html#XPike_Configuration_IConfigManager_1_GetConfigOrDefault__0_
+  commentId: M:XPike.Configuration.IConfigManager`1.GetConfigOrDefault(`0)
+  fullName: XPike.Configuration.IConfigManager<TConfig>.GetConfigOrDefault(TConfig)
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig).GetConfigOrDefault(TConfig)
+  nameWithType: IConfigManager<TConfig>.GetConfigOrDefault(TConfig)
+  nameWithType.vb: IConfigManager(Of TConfig).GetConfigOrDefault(TConfig)
+- uid: XPike.Configuration.IConfigManager`1.GetConfigOrDefault*
+  name: GetConfigOrDefault
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html#XPike_Configuration_IConfigManager_1_GetConfigOrDefault_
+  commentId: Overload:XPike.Configuration.IConfigManager`1.GetConfigOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfigManager<TConfig>.GetConfigOrDefault
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig).GetConfigOrDefault
+  nameWithType: IConfigManager<TConfig>.GetConfigOrDefault
+  nameWithType.vb: IConfigManager(Of TConfig).GetConfigOrDefault
+- uid: XPike.Configuration.IConfigManager`1.GetValue
+  name: GetValue()
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html#XPike_Configuration_IConfigManager_1_GetValue
+  commentId: M:XPike.Configuration.IConfigManager`1.GetValue
+  fullName: XPike.Configuration.IConfigManager<TConfig>.GetValue()
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig).GetValue()
+  nameWithType: IConfigManager<TConfig>.GetValue()
+  nameWithType.vb: IConfigManager(Of TConfig).GetValue()
+- uid: XPike.Configuration.IConfigManager`1.GetValue*
+  name: GetValue
+  href: api/configuration/api/XPike.Configuration.IConfigManager-1.html#XPike_Configuration_IConfigManager_1_GetValue_
+  commentId: Overload:XPike.Configuration.IConfigManager`1.GetValue
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfigManager<TConfig>.GetValue
+  fullName.vb: XPike.Configuration.IConfigManager(Of TConfig).GetValue
+  nameWithType: IConfigManager<TConfig>.GetValue
+  nameWithType.vb: IConfigManager(Of TConfig).GetValue
+- uid: XPike.Configuration.IConfigurationLoader
+  name: IConfigurationLoader
+  href: api/configuration/api/XPike.Configuration.IConfigurationLoader.html
+  commentId: T:XPike.Configuration.IConfigurationLoader
+  fullName: XPike.Configuration.IConfigurationLoader
+  nameWithType: IConfigurationLoader
+- uid: XPike.Configuration.IConfigurationLoader.Load
+  name: Load()
+  href: api/configuration/api/XPike.Configuration.IConfigurationLoader.html#XPike_Configuration_IConfigurationLoader_Load
+  commentId: M:XPike.Configuration.IConfigurationLoader.Load
+  fullName: XPike.Configuration.IConfigurationLoader.Load()
+  nameWithType: IConfigurationLoader.Load()
+- uid: XPike.Configuration.IConfigurationLoader.Load*
+  name: Load
+  href: api/configuration/api/XPike.Configuration.IConfigurationLoader.html#XPike_Configuration_IConfigurationLoader_Load_
+  commentId: Overload:XPike.Configuration.IConfigurationLoader.Load
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfigurationLoader.Load
+  nameWithType: IConfigurationLoader.Load
+- uid: XPike.Configuration.IConfigurationProvider
+  name: IConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html
+  commentId: T:XPike.Configuration.IConfigurationProvider
+  fullName: XPike.Configuration.IConfigurationProvider
+  nameWithType: IConfigurationProvider
+- uid: XPike.Configuration.IConfigurationProvider.GetValue(System.String)
+  name: GetValue(String)
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html#XPike_Configuration_IConfigurationProvider_GetValue_System_String_
+  commentId: M:XPike.Configuration.IConfigurationProvider.GetValue(System.String)
+  fullName: XPike.Configuration.IConfigurationProvider.GetValue(System.String)
+  nameWithType: IConfigurationProvider.GetValue(String)
+- uid: XPike.Configuration.IConfigurationProvider.GetValue*
+  name: GetValue
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html#XPike_Configuration_IConfigurationProvider_GetValue_
+  commentId: Overload:XPike.Configuration.IConfigurationProvider.GetValue
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfigurationProvider.GetValue
+  nameWithType: IConfigurationProvider.GetValue
+- uid: XPike.Configuration.IConfigurationProvider.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html#XPike_Configuration_IConfigurationProvider_GetValue__1_System_String_
+  commentId: M:XPike.Configuration.IConfigurationProvider.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: XPike.Configuration.IConfigurationProvider.GetValue<T>(System.String)
+  fullName.vb: XPike.Configuration.IConfigurationProvider.GetValue(Of T)(System.String)
+  nameWithType: IConfigurationProvider.GetValue<T>(String)
+  nameWithType.vb: IConfigurationProvider.GetValue(Of T)(String)
+- uid: XPike.Configuration.IConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html#XPike_Configuration_IConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.IConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.IConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: IConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.IConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html#XPike_Configuration_IConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.IConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.IConfigurationProvider.GetValueOrDefault
+  nameWithType: IConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.IConfigurationProvider.GetValueOrDefault``1(System.String,``0)
+  name: GetValueOrDefault<T>(String, T)
+  href: api/configuration/api/XPike.Configuration.IConfigurationProvider.html#XPike_Configuration_IConfigurationProvider_GetValueOrDefault__1_System_String___0_
+  commentId: M:XPike.Configuration.IConfigurationProvider.GetValueOrDefault``1(System.String,``0)
+  name.vb: GetValueOrDefault(Of T)(String, T)
+  fullName: XPike.Configuration.IConfigurationProvider.GetValueOrDefault<T>(System.String, T)
+  fullName.vb: XPike.Configuration.IConfigurationProvider.GetValueOrDefault(Of T)(System.String, T)
+  nameWithType: IConfigurationProvider.GetValueOrDefault<T>(String, T)
+  nameWithType.vb: IConfigurationProvider.GetValueOrDefault(Of T)(String, T)
+- uid: XPike.Configuration.IConfigurationService
+  name: IConfigurationService
+  href: api/configuration/api/XPike.Configuration.IConfigurationService.html
+  commentId: T:XPike.Configuration.IConfigurationService
+  fullName: XPike.Configuration.IConfigurationService
+  nameWithType: IConfigurationService
+- uid: XPike.Configuration.IDependencyCollectionExtensions
+  name: IDependencyCollectionExtensions
+  href: api/configuration/api/XPike.Configuration.IDependencyCollectionExtensions.html
+  commentId: T:XPike.Configuration.IDependencyCollectionExtensions
+  fullName: XPike.Configuration.IDependencyCollectionExtensions
+  nameWithType: IDependencyCollectionExtensions
+- uid: XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration(IDependencyCollection,System.Action{XPike.Configuration.IXPikeConfigBuilder})
+  name: AddXPikeConfiguration(IDependencyCollection, Action<IXPikeConfigBuilder>)
+  href: api/configuration/api/XPike.Configuration.IDependencyCollectionExtensions.html#XPike_Configuration_IDependencyCollectionExtensions_AddXPikeConfiguration_IDependencyCollection_System_Action_XPike_Configuration_IXPikeConfigBuilder__
+  commentId: M:XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration(IDependencyCollection,System.Action{XPike.Configuration.IXPikeConfigBuilder})
+  name.vb: AddXPikeConfiguration(IDependencyCollection, Action(Of IXPikeConfigBuilder))
+  fullName: XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration(IDependencyCollection, System.Action<XPike.Configuration.IXPikeConfigBuilder>)
+  fullName.vb: XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration(IDependencyCollection, System.Action(Of XPike.Configuration.IXPikeConfigBuilder))
+  nameWithType: IDependencyCollectionExtensions.AddXPikeConfiguration(IDependencyCollection, Action<IXPikeConfigBuilder>)
+  nameWithType.vb: IDependencyCollectionExtensions.AddXPikeConfiguration(IDependencyCollection, Action(Of IXPikeConfigBuilder))
+- uid: XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration*
+  name: AddXPikeConfiguration
+  href: api/configuration/api/XPike.Configuration.IDependencyCollectionExtensions.html#XPike_Configuration_IDependencyCollectionExtensions_AddXPikeConfiguration_
+  commentId: Overload:XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration
+  isSpec: "True"
+  fullName: XPike.Configuration.IDependencyCollectionExtensions.AddXPikeConfiguration
+  nameWithType: IDependencyCollectionExtensions.AddXPikeConfiguration
+- uid: XPike.Configuration.InvalidConfigurationException
+  name: InvalidConfigurationException
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html
+  commentId: T:XPike.Configuration.InvalidConfigurationException
+  fullName: XPike.Configuration.InvalidConfigurationException
+  nameWithType: InvalidConfigurationException
+- uid: XPike.Configuration.InvalidConfigurationException.#ctor(System.String)
+  name: InvalidConfigurationException(String)
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html#XPike_Configuration_InvalidConfigurationException__ctor_System_String_
+  commentId: M:XPike.Configuration.InvalidConfigurationException.#ctor(System.String)
+  fullName: XPike.Configuration.InvalidConfigurationException.InvalidConfigurationException(System.String)
+  nameWithType: InvalidConfigurationException.InvalidConfigurationException(String)
+- uid: XPike.Configuration.InvalidConfigurationException.#ctor(System.String,System.Exception)
+  name: InvalidConfigurationException(String, Exception)
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html#XPike_Configuration_InvalidConfigurationException__ctor_System_String_System_Exception_
+  commentId: M:XPike.Configuration.InvalidConfigurationException.#ctor(System.String,System.Exception)
+  fullName: XPike.Configuration.InvalidConfigurationException.InvalidConfigurationException(System.String, System.Exception)
+  nameWithType: InvalidConfigurationException.InvalidConfigurationException(String, Exception)
+- uid: XPike.Configuration.InvalidConfigurationException.#ctor(System.String,System.String)
+  name: InvalidConfigurationException(String, String)
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html#XPike_Configuration_InvalidConfigurationException__ctor_System_String_System_String_
+  commentId: M:XPike.Configuration.InvalidConfigurationException.#ctor(System.String,System.String)
+  fullName: XPike.Configuration.InvalidConfigurationException.InvalidConfigurationException(System.String, System.String)
+  nameWithType: InvalidConfigurationException.InvalidConfigurationException(String, String)
+- uid: XPike.Configuration.InvalidConfigurationException.#ctor*
+  name: InvalidConfigurationException
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html#XPike_Configuration_InvalidConfigurationException__ctor_
+  commentId: Overload:XPike.Configuration.InvalidConfigurationException.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.InvalidConfigurationException.InvalidConfigurationException
+  nameWithType: InvalidConfigurationException.InvalidConfigurationException
+- uid: XPike.Configuration.InvalidConfigurationException.ConfigurationKey
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html#XPike_Configuration_InvalidConfigurationException_ConfigurationKey
+  commentId: P:XPike.Configuration.InvalidConfigurationException.ConfigurationKey
+  fullName: XPike.Configuration.InvalidConfigurationException.ConfigurationKey
+  nameWithType: InvalidConfigurationException.ConfigurationKey
+- uid: XPike.Configuration.InvalidConfigurationException.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/configuration/api/XPike.Configuration.InvalidConfigurationException.html#XPike_Configuration_InvalidConfigurationException_ConfigurationKey_
+  commentId: Overload:XPike.Configuration.InvalidConfigurationException.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Configuration.InvalidConfigurationException.ConfigurationKey
+  nameWithType: InvalidConfigurationException.ConfigurationKey
+- uid: XPike.Configuration.IXPikeConfigBuilder
+  name: IXPikeConfigBuilder
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html
+  commentId: T:XPike.Configuration.IXPikeConfigBuilder
+  fullName: XPike.Configuration.IXPikeConfigBuilder
+  nameWithType: IXPikeConfigBuilder
+- uid: XPike.Configuration.IXPikeConfigBuilder.AddProvider(XPike.Configuration.IConfigurationProvider)
+  name: AddProvider(IConfigurationProvider)
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_AddProvider_XPike_Configuration_IConfigurationProvider_
+  commentId: M:XPike.Configuration.IXPikeConfigBuilder.AddProvider(XPike.Configuration.IConfigurationProvider)
+  fullName: XPike.Configuration.IXPikeConfigBuilder.AddProvider(XPike.Configuration.IConfigurationProvider)
+  nameWithType: IXPikeConfigBuilder.AddProvider(IConfigurationProvider)
+- uid: XPike.Configuration.IXPikeConfigBuilder.AddProvider*
+  name: AddProvider
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_AddProvider_
+  commentId: Overload:XPike.Configuration.IXPikeConfigBuilder.AddProvider
+  isSpec: "True"
+  fullName: XPike.Configuration.IXPikeConfigBuilder.AddProvider
+  nameWithType: IXPikeConfigBuilder.AddProvider
+- uid: XPike.Configuration.IXPikeConfigBuilder.Build
+  name: Build()
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_Build
+  commentId: M:XPike.Configuration.IXPikeConfigBuilder.Build
+  fullName: XPike.Configuration.IXPikeConfigBuilder.Build()
+  nameWithType: IXPikeConfigBuilder.Build()
+- uid: XPike.Configuration.IXPikeConfigBuilder.Build*
+  name: Build
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_Build_
+  commentId: Overload:XPike.Configuration.IXPikeConfigBuilder.Build
+  isSpec: "True"
+  fullName: XPike.Configuration.IXPikeConfigBuilder.Build
+  nameWithType: IXPikeConfigBuilder.Build
+- uid: XPike.Configuration.IXPikeConfigBuilder.ClearProviders
+  name: ClearProviders()
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_ClearProviders
+  commentId: M:XPike.Configuration.IXPikeConfigBuilder.ClearProviders
+  fullName: XPike.Configuration.IXPikeConfigBuilder.ClearProviders()
+  nameWithType: IXPikeConfigBuilder.ClearProviders()
+- uid: XPike.Configuration.IXPikeConfigBuilder.ClearProviders*
+  name: ClearProviders
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_ClearProviders_
+  commentId: Overload:XPike.Configuration.IXPikeConfigBuilder.ClearProviders
+  isSpec: "True"
+  fullName: XPike.Configuration.IXPikeConfigBuilder.ClearProviders
+  nameWithType: IXPikeConfigBuilder.ClearProviders
+- uid: XPike.Configuration.IXPikeConfigBuilder.ConfigurationService
+  name: ConfigurationService
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_ConfigurationService
+  commentId: P:XPike.Configuration.IXPikeConfigBuilder.ConfigurationService
+  fullName: XPike.Configuration.IXPikeConfigBuilder.ConfigurationService
+  nameWithType: IXPikeConfigBuilder.ConfigurationService
+- uid: XPike.Configuration.IXPikeConfigBuilder.ConfigurationService*
+  name: ConfigurationService
+  href: api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html#XPike_Configuration_IXPikeConfigBuilder_ConfigurationService_
+  commentId: Overload:XPike.Configuration.IXPikeConfigBuilder.ConfigurationService
+  isSpec: "True"
+  fullName: XPike.Configuration.IXPikeConfigBuilder.ConfigurationService
+  nameWithType: IXPikeConfigBuilder.ConfigurationService
+- uid: XPike.Configuration.Memory
+  name: XPike.Configuration.Memory
+  href: api/configuration/api/XPike.Configuration.Memory.html
+  commentId: N:XPike.Configuration.Memory
+  fullName: XPike.Configuration.Memory
+  nameWithType: XPike.Configuration.Memory
+- uid: XPike.Configuration.Memory.IMemoryConfigurationProvider
+  name: IMemoryConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Memory.IMemoryConfigurationProvider.html
+  commentId: T:XPike.Configuration.Memory.IMemoryConfigurationProvider
+  fullName: XPike.Configuration.Memory.IMemoryConfigurationProvider
+  nameWithType: IMemoryConfigurationProvider
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider
+  name: MemoryConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html
+  commentId: T:XPike.Configuration.Memory.MemoryConfigurationProvider
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider
+  nameWithType: MemoryConfigurationProvider
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})
+  name: MemoryConfigurationProvider(IDictionary<String, String>)
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html#XPike_Configuration_Memory_MemoryConfigurationProvider__ctor_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:XPike.Configuration.Memory.MemoryConfigurationProvider.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})
+  name.vb: MemoryConfigurationProvider(IDictionary(Of String, String))
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider.MemoryConfigurationProvider(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: XPike.Configuration.Memory.MemoryConfigurationProvider.MemoryConfigurationProvider(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  nameWithType: MemoryConfigurationProvider.MemoryConfigurationProvider(IDictionary<String, String>)
+  nameWithType.vb: MemoryConfigurationProvider.MemoryConfigurationProvider(IDictionary(Of String, String))
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider.#ctor*
+  name: MemoryConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html#XPike_Configuration_Memory_MemoryConfigurationProvider__ctor_
+  commentId: Overload:XPike.Configuration.Memory.MemoryConfigurationProvider.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider.MemoryConfigurationProvider
+  nameWithType: MemoryConfigurationProvider.MemoryConfigurationProvider
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html#XPike_Configuration_Memory_MemoryConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.Memory.MemoryConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: MemoryConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html#XPike_Configuration_Memory_MemoryConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.Memory.MemoryConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider.GetValueOrDefault
+  nameWithType: MemoryConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider.Load
+  name: Load()
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html#XPike_Configuration_Memory_MemoryConfigurationProvider_Load
+  commentId: M:XPike.Configuration.Memory.MemoryConfigurationProvider.Load
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider.Load()
+  nameWithType: MemoryConfigurationProvider.Load()
+- uid: XPike.Configuration.Memory.MemoryConfigurationProvider.Load*
+  name: Load
+  href: api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html#XPike_Configuration_Memory_MemoryConfigurationProvider_Load_
+  commentId: Overload:XPike.Configuration.Memory.MemoryConfigurationProvider.Load
+  isSpec: "True"
+  fullName: XPike.Configuration.Memory.MemoryConfigurationProvider.Load
+  nameWithType: MemoryConfigurationProvider.Load
+- uid: XPike.Configuration.Microsoft
+  name: XPike.Configuration.Microsoft
+  href: api/configuration/api/XPike.Configuration.Microsoft.html
+  commentId: N:XPike.Configuration.Microsoft
+  fullName: XPike.Configuration.Microsoft
+  nameWithType: XPike.Configuration.Microsoft
+- uid: XPike.Configuration.Microsoft.AspNetCore
+  name: XPike.Configuration.Microsoft.AspNetCore
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.html
+  commentId: N:XPike.Configuration.Microsoft.AspNetCore
+  fullName: XPike.Configuration.Microsoft.AspNetCore
+  nameWithType: XPike.Configuration.Microsoft.AspNetCore
+- uid: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions
+  name: IConfigurationBuilderExtensions
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html
+  commentId: T:XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions
+  nameWithType: IConfigurationBuilderExtensions
+- uid: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.AddXPikeConfiguration(IConfigurationBuilder,XPike.Configuration.IConfigurationService)
+  name: AddXPikeConfiguration(IConfigurationBuilder, IConfigurationService)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IConfigurationBuilderExtensions_AddXPikeConfiguration_IConfigurationBuilder_XPike_Configuration_IConfigurationService_
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.AddXPikeConfiguration(IConfigurationBuilder,XPike.Configuration.IConfigurationService)
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.AddXPikeConfiguration(IConfigurationBuilder, XPike.Configuration.IConfigurationService)
+  nameWithType: IConfigurationBuilderExtensions.AddXPikeConfiguration(IConfigurationBuilder, IConfigurationService)
+- uid: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.AddXPikeConfiguration*
+  name: AddXPikeConfiguration
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IConfigurationBuilderExtensions_AddXPikeConfiguration_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.AddXPikeConfiguration
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.AddXPikeConfiguration
+  nameWithType: IConfigurationBuilderExtensions.AddXPikeConfiguration
+- uid: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration(IConfigurationBuilder,System.Action{XPike.Configuration.IXPikeConfigBuilder})
+  name: ConfigureXPikeConfiguration(IConfigurationBuilder, Action<IXPikeConfigBuilder>)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IConfigurationBuilderExtensions_ConfigureXPikeConfiguration_IConfigurationBuilder_System_Action_XPike_Configuration_IXPikeConfigBuilder__
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration(IConfigurationBuilder,System.Action{XPike.Configuration.IXPikeConfigBuilder})
+  name.vb: ConfigureXPikeConfiguration(IConfigurationBuilder, Action(Of IXPikeConfigBuilder))
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration(IConfigurationBuilder, System.Action<XPike.Configuration.IXPikeConfigBuilder>)
+  fullName.vb: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration(IConfigurationBuilder, System.Action(Of XPike.Configuration.IXPikeConfigBuilder))
+  nameWithType: IConfigurationBuilderExtensions.ConfigureXPikeConfiguration(IConfigurationBuilder, Action<IXPikeConfigBuilder>)
+  nameWithType.vb: IConfigurationBuilderExtensions.ConfigureXPikeConfiguration(IConfigurationBuilder, Action(Of IXPikeConfigBuilder))
+- uid: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration*
+  name: ConfigureXPikeConfiguration
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IConfigurationBuilderExtensions_ConfigureXPikeConfiguration_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.ConfigureXPikeConfiguration
+  nameWithType: IConfigurationBuilderExtensions.ConfigureXPikeConfiguration
+- uid: XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.html
+  commentId: T:XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+- uid: XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike(IServiceCollection)
+  name: UseMicrosoftConfigurationForXPike(IServiceCollection)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IServiceCollectionExtensions_UseMicrosoftConfigurationForXPike_IServiceCollection_
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike(IServiceCollection)
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike(IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike(IServiceCollection)
+- uid: XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike*
+  name: UseMicrosoftConfigurationForXPike
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IServiceCollectionExtensions_UseMicrosoftConfigurationForXPike_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike
+  nameWithType: IServiceCollectionExtensions.UseMicrosoftConfigurationForXPike
+- uid: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions
+  name: IWebHostBuilderExtensions
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.html
+  commentId: T:XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions
+  nameWithType: IWebHostBuilderExtensions
+- uid: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration(IWebHostBuilder,System.Action{XPike.Configuration.IXPikeConfigBuilder})
+  name: AddXPikeConfiguration(IWebHostBuilder, Action<IXPikeConfigBuilder>)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IWebHostBuilderExtensions_AddXPikeConfiguration_IWebHostBuilder_System_Action_XPike_Configuration_IXPikeConfigBuilder__
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration(IWebHostBuilder,System.Action{XPike.Configuration.IXPikeConfigBuilder})
+  name.vb: AddXPikeConfiguration(IWebHostBuilder, Action(Of IXPikeConfigBuilder))
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration(IWebHostBuilder, System.Action<XPike.Configuration.IXPikeConfigBuilder>)
+  fullName.vb: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration(IWebHostBuilder, System.Action(Of XPike.Configuration.IXPikeConfigBuilder))
+  nameWithType: IWebHostBuilderExtensions.AddXPikeConfiguration(IWebHostBuilder, Action<IXPikeConfigBuilder>)
+  nameWithType.vb: IWebHostBuilderExtensions.AddXPikeConfiguration(IWebHostBuilder, Action(Of IXPikeConfigBuilder))
+- uid: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration*
+  name: AddXPikeConfiguration
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.html#XPike_Configuration_Microsoft_AspNetCore_IWebHostBuilderExtensions_AddXPikeConfiguration_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.AddXPikeConfiguration
+  nameWithType: IWebHostBuilderExtensions.AddXPikeConfiguration
+- uid: XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource
+  name: IXPikeConfigurationSource
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource.html
+  commentId: T:XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource
+  fullName: XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource
+  nameWithType: IXPikeConfigurationSource
+- uid: XPike.Configuration.Microsoft.AspNetCore.Package
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.Package.html
+  commentId: T:XPike.Configuration.Microsoft.AspNetCore.Package
+  fullName: XPike.Configuration.Microsoft.AspNetCore.Package
+  nameWithType: Package
+- uid: XPike.Configuration.Microsoft.AspNetCore.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.Package.html#XPike_Configuration_Microsoft_AspNetCore_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Configuration.Microsoft.AspNetCore.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Configuration.Microsoft.AspNetCore.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.Package.html#XPike_Configuration_Microsoft_AspNetCore_Package_RegisterPackage_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource
+  name: XPikeConfigurationSource
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html
+  commentId: T:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource
+  nameWithType: XPikeConfigurationSource
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.#ctor(XPike.Configuration.IConfigurationService)
+  name: XPikeConfigurationSource(IConfigurationService)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html#XPike_Configuration_Microsoft_AspNetCore_XPikeConfigurationSource__ctor_XPike_Configuration_IConfigurationService_
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.#ctor(XPike.Configuration.IConfigurationService)
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.XPikeConfigurationSource(XPike.Configuration.IConfigurationService)
+  nameWithType: XPikeConfigurationSource.XPikeConfigurationSource(IConfigurationService)
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.#ctor*
+  name: XPikeConfigurationSource
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html#XPike_Configuration_Microsoft_AspNetCore_XPikeConfigurationSource__ctor_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.XPikeConfigurationSource
+  nameWithType: XPikeConfigurationSource.XPikeConfigurationSource
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Build(IConfigurationBuilder)
+  name: Build(IConfigurationBuilder)
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html#XPike_Configuration_Microsoft_AspNetCore_XPikeConfigurationSource_Build_IConfigurationBuilder_
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Build(IConfigurationBuilder)
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Build(IConfigurationBuilder)
+  nameWithType: XPikeConfigurationSource.Build(IConfigurationBuilder)
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Build*
+  name: Build
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html#XPike_Configuration_Microsoft_AspNetCore_XPikeConfigurationSource_Build_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Build
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Build
+  nameWithType: XPikeConfigurationSource.Build
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Load
+  name: Load()
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html#XPike_Configuration_Microsoft_AspNetCore_XPikeConfigurationSource_Load
+  commentId: M:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Load
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Load()
+  nameWithType: XPikeConfigurationSource.Load()
+- uid: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Load*
+  name: Load
+  href: api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html#XPike_Configuration_Microsoft_AspNetCore_XPikeConfigurationSource_Load_
+  commentId: Overload:XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Load
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.Load
+  nameWithType: XPikeConfigurationSource.Load
+- uid: XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider
+  name: IMicrosoftConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider.html
+  commentId: T:XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider
+  fullName: XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider
+  nameWithType: IMicrosoftConfigurationProvider
+- uid: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider
+  name: MicrosoftConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html
+  commentId: T:XPike.Configuration.Microsoft.MicrosoftConfigurationProvider
+  fullName: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider
+  nameWithType: MicrosoftConfigurationProvider
+- uid: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.#ctor(IConfiguration)
+  name: MicrosoftConfigurationProvider(IConfiguration)
+  href: api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html#XPike_Configuration_Microsoft_MicrosoftConfigurationProvider__ctor_IConfiguration_
+  commentId: M:XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.#ctor(IConfiguration)
+  fullName: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.MicrosoftConfigurationProvider(IConfiguration)
+  nameWithType: MicrosoftConfigurationProvider.MicrosoftConfigurationProvider(IConfiguration)
+- uid: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.#ctor*
+  name: MicrosoftConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html#XPike_Configuration_Microsoft_MicrosoftConfigurationProvider__ctor_
+  commentId: Overload:XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.MicrosoftConfigurationProvider
+  nameWithType: MicrosoftConfigurationProvider.MicrosoftConfigurationProvider
+- uid: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html#XPike_Configuration_Microsoft_MicrosoftConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: MicrosoftConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html#XPike_Configuration_Microsoft_MicrosoftConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.GetValueOrDefault
+  nameWithType: MicrosoftConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.Microsoft.Package
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Microsoft.Package.html
+  commentId: T:XPike.Configuration.Microsoft.Package
+  fullName: XPike.Configuration.Microsoft.Package
+  nameWithType: Package
+- uid: XPike.Configuration.Microsoft.Package.#ctor
+  name: Package()
+  href: api/configuration/api/XPike.Configuration.Microsoft.Package.html#XPike_Configuration_Microsoft_Package__ctor
+  commentId: M:XPike.Configuration.Microsoft.Package.#ctor
+  fullName: XPike.Configuration.Microsoft.Package.Package()
+  nameWithType: Package.Package()
+- uid: XPike.Configuration.Microsoft.Package.#ctor(IConfiguration)
+  name: Package(IConfiguration)
+  href: api/configuration/api/XPike.Configuration.Microsoft.Package.html#XPike_Configuration_Microsoft_Package__ctor_IConfiguration_
+  commentId: M:XPike.Configuration.Microsoft.Package.#ctor(IConfiguration)
+  fullName: XPike.Configuration.Microsoft.Package.Package(IConfiguration)
+  nameWithType: Package.Package(IConfiguration)
+- uid: XPike.Configuration.Microsoft.Package.#ctor*
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Microsoft.Package.html#XPike_Configuration_Microsoft_Package__ctor_
+  commentId: Overload:XPike.Configuration.Microsoft.Package.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.Package.Package
+  nameWithType: Package.Package
+- uid: XPike.Configuration.Microsoft.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/configuration/api/XPike.Configuration.Microsoft.Package.html#XPike_Configuration_Microsoft_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Configuration.Microsoft.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Configuration.Microsoft.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Configuration.Microsoft.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/configuration/api/XPike.Configuration.Microsoft.Package.html#XPike_Configuration_Microsoft_Package_RegisterPackage_
+  commentId: Overload:XPike.Configuration.Microsoft.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Configuration.Microsoft.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Configuration.Null
+  name: XPike.Configuration.Null
+  href: api/configuration/api/XPike.Configuration.Null.html
+  commentId: N:XPike.Configuration.Null
+  fullName: XPike.Configuration.Null
+  nameWithType: XPike.Configuration.Null
+- uid: XPike.Configuration.Null.INullConfigurationProvider
+  name: INullConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Null.INullConfigurationProvider.html
+  commentId: T:XPike.Configuration.Null.INullConfigurationProvider
+  fullName: XPike.Configuration.Null.INullConfigurationProvider
+  nameWithType: INullConfigurationProvider
+- uid: XPike.Configuration.Null.NullConfigurationProvider
+  name: NullConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html
+  commentId: T:XPike.Configuration.Null.NullConfigurationProvider
+  fullName: XPike.Configuration.Null.NullConfigurationProvider
+  nameWithType: NullConfigurationProvider
+- uid: XPike.Configuration.Null.NullConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html#XPike_Configuration_Null_NullConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.Null.NullConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.Null.NullConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: NullConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.Null.NullConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html#XPike_Configuration_Null_NullConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.Null.NullConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.Null.NullConfigurationProvider.GetValueOrDefault
+  nameWithType: NullConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.Null.NullConfigurationProvider.Load
+  name: Load()
+  href: api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html#XPike_Configuration_Null_NullConfigurationProvider_Load
+  commentId: M:XPike.Configuration.Null.NullConfigurationProvider.Load
+  fullName: XPike.Configuration.Null.NullConfigurationProvider.Load()
+  nameWithType: NullConfigurationProvider.Load()
+- uid: XPike.Configuration.Null.NullConfigurationProvider.Load*
+  name: Load
+  href: api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html#XPike_Configuration_Null_NullConfigurationProvider_Load_
+  commentId: Overload:XPike.Configuration.Null.NullConfigurationProvider.Load
+  isSpec: "True"
+  fullName: XPike.Configuration.Null.NullConfigurationProvider.Load
+  nameWithType: NullConfigurationProvider.Load
+- uid: XPike.Configuration.Package
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Package.html
+  commentId: T:XPike.Configuration.Package
+  fullName: XPike.Configuration.Package
+  nameWithType: Package
+- uid: XPike.Configuration.Package.#ctor
+  name: Package()
+  href: api/configuration/api/XPike.Configuration.Package.html#XPike_Configuration_Package__ctor
+  commentId: M:XPike.Configuration.Package.#ctor
+  fullName: XPike.Configuration.Package.Package()
+  nameWithType: Package.Package()
+- uid: XPike.Configuration.Package.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})
+  name: Package(IDictionary<String, String>)
+  href: api/configuration/api/XPike.Configuration.Package.html#XPike_Configuration_Package__ctor_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:XPike.Configuration.Package.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})
+  name.vb: Package(IDictionary(Of String, String))
+  fullName: XPike.Configuration.Package.Package(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: XPike.Configuration.Package.Package(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  nameWithType: Package.Package(IDictionary<String, String>)
+  nameWithType.vb: Package.Package(IDictionary(Of String, String))
+- uid: XPike.Configuration.Package.#ctor*
+  name: Package
+  href: api/configuration/api/XPike.Configuration.Package.html#XPike_Configuration_Package__ctor_
+  commentId: Overload:XPike.Configuration.Package.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.Package.Package
+  nameWithType: Package.Package
+- uid: XPike.Configuration.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/configuration/api/XPike.Configuration.Package.html#XPike_Configuration_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Configuration.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Configuration.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Configuration.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/configuration/api/XPike.Configuration.Package.html#XPike_Configuration_Package_RegisterPackage_
+  commentId: Overload:XPike.Configuration.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Configuration.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Configuration.System
+  name: XPike.Configuration.System
+  href: api/configuration/api/XPike.Configuration.System.html
+  commentId: N:XPike.Configuration.System
+  fullName: XPike.Configuration.System
+  nameWithType: XPike.Configuration.System
+- uid: XPike.Configuration.System.ISystemConfigurationProvider
+  name: ISystemConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.System.ISystemConfigurationProvider.html
+  commentId: T:XPike.Configuration.System.ISystemConfigurationProvider
+  fullName: XPike.Configuration.System.ISystemConfigurationProvider
+  nameWithType: ISystemConfigurationProvider
+- uid: XPike.Configuration.System.Package
+  name: Package
+  href: api/configuration/api/XPike.Configuration.System.Package.html
+  commentId: T:XPike.Configuration.System.Package
+  fullName: XPike.Configuration.System.Package
+  nameWithType: Package
+- uid: XPike.Configuration.System.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/configuration/api/XPike.Configuration.System.Package.html#XPike_Configuration_System_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Configuration.System.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Configuration.System.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Configuration.System.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/configuration/api/XPike.Configuration.System.Package.html#XPike_Configuration_System_Package_RegisterPackage_
+  commentId: Overload:XPike.Configuration.System.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Configuration.System.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Configuration.System.SystemConfigurationProvider
+  name: SystemConfigurationProvider
+  href: api/configuration/api/XPike.Configuration.System.SystemConfigurationProvider.html
+  commentId: T:XPike.Configuration.System.SystemConfigurationProvider
+  fullName: XPike.Configuration.System.SystemConfigurationProvider
+  nameWithType: SystemConfigurationProvider
+- uid: XPike.Configuration.System.SystemConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/configuration/api/XPike.Configuration.System.SystemConfigurationProvider.html#XPike_Configuration_System_SystemConfigurationProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Configuration.System.SystemConfigurationProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Configuration.System.SystemConfigurationProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: SystemConfigurationProvider.GetValueOrDefault(String, String)
+- uid: XPike.Configuration.System.SystemConfigurationProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/configuration/api/XPike.Configuration.System.SystemConfigurationProvider.html#XPike_Configuration_System_SystemConfigurationProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Configuration.System.SystemConfigurationProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Configuration.System.SystemConfigurationProvider.GetValueOrDefault
+  nameWithType: SystemConfigurationProvider.GetValueOrDefault
+- uid: XPike.Configuration.XPikeConfigBuilder
+  name: XPikeConfigBuilder
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html
+  commentId: T:XPike.Configuration.XPikeConfigBuilder
+  fullName: XPike.Configuration.XPikeConfigBuilder
+  nameWithType: XPikeConfigBuilder
+- uid: XPike.Configuration.XPikeConfigBuilder.#ctor
+  name: XPikeConfigBuilder()
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder__ctor
+  commentId: M:XPike.Configuration.XPikeConfigBuilder.#ctor
+  fullName: XPike.Configuration.XPikeConfigBuilder.XPikeConfigBuilder()
+  nameWithType: XPikeConfigBuilder.XPikeConfigBuilder()
+- uid: XPike.Configuration.XPikeConfigBuilder.#ctor*
+  name: XPikeConfigBuilder
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder__ctor_
+  commentId: Overload:XPike.Configuration.XPikeConfigBuilder.#ctor
+  isSpec: "True"
+  fullName: XPike.Configuration.XPikeConfigBuilder.XPikeConfigBuilder
+  nameWithType: XPikeConfigBuilder.XPikeConfigBuilder
+- uid: XPike.Configuration.XPikeConfigBuilder.AddProvider(XPike.Configuration.IConfigurationProvider)
+  name: AddProvider(IConfigurationProvider)
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_AddProvider_XPike_Configuration_IConfigurationProvider_
+  commentId: M:XPike.Configuration.XPikeConfigBuilder.AddProvider(XPike.Configuration.IConfigurationProvider)
+  fullName: XPike.Configuration.XPikeConfigBuilder.AddProvider(XPike.Configuration.IConfigurationProvider)
+  nameWithType: XPikeConfigBuilder.AddProvider(IConfigurationProvider)
+- uid: XPike.Configuration.XPikeConfigBuilder.AddProvider*
+  name: AddProvider
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_AddProvider_
+  commentId: Overload:XPike.Configuration.XPikeConfigBuilder.AddProvider
+  isSpec: "True"
+  fullName: XPike.Configuration.XPikeConfigBuilder.AddProvider
+  nameWithType: XPikeConfigBuilder.AddProvider
+- uid: XPike.Configuration.XPikeConfigBuilder.Build
+  name: Build()
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_Build
+  commentId: M:XPike.Configuration.XPikeConfigBuilder.Build
+  fullName: XPike.Configuration.XPikeConfigBuilder.Build()
+  nameWithType: XPikeConfigBuilder.Build()
+- uid: XPike.Configuration.XPikeConfigBuilder.Build*
+  name: Build
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_Build_
+  commentId: Overload:XPike.Configuration.XPikeConfigBuilder.Build
+  isSpec: "True"
+  fullName: XPike.Configuration.XPikeConfigBuilder.Build
+  nameWithType: XPikeConfigBuilder.Build
+- uid: XPike.Configuration.XPikeConfigBuilder.ClearProviders
+  name: ClearProviders()
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_ClearProviders
+  commentId: M:XPike.Configuration.XPikeConfigBuilder.ClearProviders
+  fullName: XPike.Configuration.XPikeConfigBuilder.ClearProviders()
+  nameWithType: XPikeConfigBuilder.ClearProviders()
+- uid: XPike.Configuration.XPikeConfigBuilder.ClearProviders*
+  name: ClearProviders
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_ClearProviders_
+  commentId: Overload:XPike.Configuration.XPikeConfigBuilder.ClearProviders
+  isSpec: "True"
+  fullName: XPike.Configuration.XPikeConfigBuilder.ClearProviders
+  nameWithType: XPikeConfigBuilder.ClearProviders
+- uid: XPike.Configuration.XPikeConfigBuilder.ConfigurationService
+  name: ConfigurationService
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_ConfigurationService
+  commentId: P:XPike.Configuration.XPikeConfigBuilder.ConfigurationService
+  fullName: XPike.Configuration.XPikeConfigBuilder.ConfigurationService
+  nameWithType: XPikeConfigBuilder.ConfigurationService
+- uid: XPike.Configuration.XPikeConfigBuilder.ConfigurationService*
+  name: ConfigurationService
+  href: api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html#XPike_Configuration_XPikeConfigBuilder_ConfigurationService_
+  commentId: Overload:XPike.Configuration.XPikeConfigBuilder.ConfigurationService
+  isSpec: "True"
+  fullName: XPike.Configuration.XPikeConfigBuilder.ConfigurationService
+  nameWithType: XPikeConfigBuilder.ConfigurationService
 - uid: XPike.Extensions.DependencyInjection
   name: XPike.Extensions.DependencyInjection
   href: api/extensions/api/XPike.Extensions.DependencyInjection.html
@@ -15,9 +1629,15 @@ references:
   nameWithType: IServiceCollectionExtensions
 - uid: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
   name: AddServiceProviderVerification(IServiceCollection)
-  href: api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_IServiceCollectionExtensions_AddServiceProviderVerification_IServiceCollection_
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_IServiceCollectionExtensions_AddServiceProviderVerification_IServiceCollection_
   commentId: M:XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
   fullName: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
+- uid: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddServiceProviderVerification(IServiceCollection)
+  href: api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_IServiceCollectionExtensions_AddServiceProviderVerification_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   nameWithType: IServiceCollectionExtensions.AddServiceProviderVerification(IServiceCollection)
 - uid: XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.AddServiceProviderVerification*
   name: AddServiceProviderVerification
@@ -45,6 +1665,63 @@ references:
   isSpec: "True"
   fullName: XPike.Extensions.DependencyInjection.IServiceProviderExtensions.Verify
   nameWithType: IServiceProviderExtensions.Verify
+- uid: XPike.Extensions.DependencyInjection.Owin
+  name: XPike.Extensions.DependencyInjection.Owin
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.html
+  commentId: N:XPike.Extensions.DependencyInjection.Owin
+  fullName: XPike.Extensions.DependencyInjection.Owin
+  nameWithType: XPike.Extensions.DependencyInjection.Owin
+- uid: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware
+  name: DependencyInjectionMiddleware
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.html
+  commentId: T:XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware
+  fullName: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware
+  nameWithType: DependencyInjectionMiddleware
+- uid: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.#ctor(OwinMiddleware,System.IServiceProvider)
+  name: DependencyInjectionMiddleware(OwinMiddleware, IServiceProvider)
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.html#XPike_Extensions_DependencyInjection_Owin_DependencyInjectionMiddleware__ctor_OwinMiddleware_System_IServiceProvider_
+  commentId: M:XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.#ctor(OwinMiddleware,System.IServiceProvider)
+  fullName: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.DependencyInjectionMiddleware(OwinMiddleware, System.IServiceProvider)
+  nameWithType: DependencyInjectionMiddleware.DependencyInjectionMiddleware(OwinMiddleware, IServiceProvider)
+- uid: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.#ctor*
+  name: DependencyInjectionMiddleware
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.html#XPike_Extensions_DependencyInjection_Owin_DependencyInjectionMiddleware__ctor_
+  commentId: Overload:XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.#ctor
+  isSpec: "True"
+  fullName: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.DependencyInjectionMiddleware
+  nameWithType: DependencyInjectionMiddleware.DependencyInjectionMiddleware
+- uid: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.Invoke(IOwinContext)
+  name: Invoke(IOwinContext)
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.html#XPike_Extensions_DependencyInjection_Owin_DependencyInjectionMiddleware_Invoke_IOwinContext_
+  commentId: M:XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.Invoke(IOwinContext)
+  fullName: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.Invoke(IOwinContext)
+  nameWithType: DependencyInjectionMiddleware.Invoke(IOwinContext)
+- uid: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.Invoke*
+  name: Invoke
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.html#XPike_Extensions_DependencyInjection_Owin_DependencyInjectionMiddleware_Invoke_
+  commentId: Overload:XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.Invoke
+  isSpec: "True"
+  fullName: XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.Invoke
+  nameWithType: DependencyInjectionMiddleware.Invoke
+- uid: XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions
+  name: IAppBuilderExtensions
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.html
+  commentId: T:XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions
+  fullName: XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions
+  nameWithType: IAppBuilderExtensions
+- uid: XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.UseMicrosoftDependencyInjection(IAppBuilder,System.IServiceProvider,HttpConfiguration)
+  name: UseMicrosoftDependencyInjection(IAppBuilder, IServiceProvider, HttpConfiguration)
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.html#XPike_Extensions_DependencyInjection_Owin_IAppBuilderExtensions_UseMicrosoftDependencyInjection_IAppBuilder_System_IServiceProvider_HttpConfiguration_
+  commentId: M:XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.UseMicrosoftDependencyInjection(IAppBuilder,System.IServiceProvider,HttpConfiguration)
+  fullName: XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.UseMicrosoftDependencyInjection(IAppBuilder, System.IServiceProvider, HttpConfiguration)
+  nameWithType: IAppBuilderExtensions.UseMicrosoftDependencyInjection(IAppBuilder, IServiceProvider, HttpConfiguration)
+- uid: XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.UseMicrosoftDependencyInjection*
+  name: UseMicrosoftDependencyInjection
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.html#XPike_Extensions_DependencyInjection_Owin_IAppBuilderExtensions_UseMicrosoftDependencyInjection_
+  commentId: Overload:XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.UseMicrosoftDependencyInjection
+  isSpec: "True"
+  fullName: XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.UseMicrosoftDependencyInjection
+  nameWithType: IAppBuilderExtensions.UseMicrosoftDependencyInjection
 - uid: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException
   name: ServiceProviderVerificationException
   href: api/extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html
@@ -73,6 +1750,19 @@ references:
   isSpec: "True"
   fullName: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.ServiceProviderVerificationException
   nameWithType: ServiceProviderVerificationException.ServiceProviderVerificationException
+- uid: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html#XPike_Extensions_DependencyInjection_ServiceProviderVerificationException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: ServiceProviderVerificationException.GetObjectData(SerializationInfo, StreamingContext)
+- uid: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.GetObjectData*
+  name: GetObjectData
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html#XPike_Extensions_DependencyInjection_ServiceProviderVerificationException_GetObjectData_
+  commentId: Overload:XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.GetObjectData
+  isSpec: "True"
+  fullName: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.GetObjectData
+  nameWithType: ServiceProviderVerificationException.GetObjectData
 - uid: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Restults
   name: Restults
   href: api/extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html#XPike_Extensions_DependencyInjection_ServiceProviderVerificationException_Restults
@@ -86,15 +1776,34 @@ references:
   isSpec: "True"
   fullName: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Restults
   nameWithType: ServiceProviderVerificationException.Restults
+- uid: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Results
+  name: Results
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html#XPike_Extensions_DependencyInjection_ServiceProviderVerificationException_Results
+  commentId: P:XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Results
+  fullName: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Results
+  nameWithType: ServiceProviderVerificationException.Results
+- uid: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Results*
+  name: Results
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html#XPike_Extensions_DependencyInjection_ServiceProviderVerificationException_Results_
+  commentId: Overload:XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Results
+  isSpec: "True"
+  fullName: XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.Results
+  nameWithType: ServiceProviderVerificationException.Results
 - uid: XPike.Extensions.DependencyInjection.VerificationResult
   name: VerificationResult
   href: api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html
   commentId: T:XPike.Extensions.DependencyInjection.VerificationResult
   fullName: XPike.Extensions.DependencyInjection.VerificationResult
   nameWithType: VerificationResult
+- uid: XPike.Extensions.DependencyInjection.VerificationResult.#ctor(Microsoft.Extensions.DependencyInjection.ServiceDescriptor,System.Exception,System.String)
+  name: VerificationResult(ServiceDescriptor, Exception, String)
+  href: api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html#XPike_Extensions_DependencyInjection_VerificationResult__ctor_Microsoft_Extensions_DependencyInjection_ServiceDescriptor_System_Exception_System_String_
+  commentId: M:XPike.Extensions.DependencyInjection.VerificationResult.#ctor(Microsoft.Extensions.DependencyInjection.ServiceDescriptor,System.Exception,System.String)
+  fullName: XPike.Extensions.DependencyInjection.VerificationResult.VerificationResult(Microsoft.Extensions.DependencyInjection.ServiceDescriptor, System.Exception, System.String)
+  nameWithType: VerificationResult.VerificationResult(ServiceDescriptor, Exception, String)
 - uid: XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)
   name: VerificationResult(ServiceDescriptor, Exception, String)
-  href: api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html#XPike_Extensions_DependencyInjection_VerificationResult__ctor_ServiceDescriptor_System_Exception_System_String_
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html#XPike_Extensions_DependencyInjection_VerificationResult__ctor_ServiceDescriptor_System_Exception_System_String_
   commentId: M:XPike.Extensions.DependencyInjection.VerificationResult.#ctor(ServiceDescriptor,System.Exception,System.String)
   fullName: XPike.Extensions.DependencyInjection.VerificationResult.VerificationResult(ServiceDescriptor, System.Exception, System.String)
   nameWithType: VerificationResult.VerificationResult(ServiceDescriptor, Exception, String)
@@ -145,9 +1854,15 @@ references:
   nameWithType: IServiceCollectionExtensions
 - uid: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
   name: AddApiControllers(IServiceCollection)
-  href: api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_WebApi_IServiceCollectionExtensions_AddApiControllers_IServiceCollection_
+  href: api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_WebApi_IServiceCollectionExtensions_AddApiControllers_IServiceCollection_
   commentId: M:XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
   fullName: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
+- uid: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddApiControllers(IServiceCollection)
+  href: api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html#XPike_Extensions_DependencyInjection_WebApi_IServiceCollectionExtensions_AddApiControllers_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   nameWithType: IServiceCollectionExtensions.AddApiControllers(IServiceCollection)
 - uid: XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.AddApiControllers*
   name: AddApiControllers
@@ -1523,3 +3238,831 @@ references:
   isSpec: "True"
   fullName: XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.Verify
   nameWithType: SimpleInjectorDependencyProvider.Verify
+- uid: XPike.Settings
+  name: XPike.Settings
+  href: api/settings/api/XPike.Settings.html
+  commentId: N:XPike.Settings
+  fullName: XPike.Settings
+  nameWithType: XPike.Settings
+- uid: XPike.Settings.AspNetCore
+  name: XPike.Settings.AspNetCore
+  href: api/settings/api/XPike.Settings.AspNetCore.html
+  commentId: N:XPike.Settings.AspNetCore
+  fullName: XPike.Settings.AspNetCore
+  nameWithType: XPike.Settings.AspNetCore
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html
+  commentId: T:XPike.Settings.AspNetCore.IServiceCollectionExtensions
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.AddXPikeSettings(IServiceCollection)
+  name: AddXPikeSettings(IServiceCollection)
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_AddXPikeSettings_IServiceCollection_
+  commentId: M:XPike.Settings.AspNetCore.IServiceCollectionExtensions.AddXPikeSettings(IServiceCollection)
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.AddXPikeSettings(IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.AddXPikeSettings(IServiceCollection)
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.AddXPikeSettings*
+  name: AddXPikeSettings
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_AddXPikeSettings_
+  commentId: Overload:XPike.Settings.AspNetCore.IServiceCollectionExtensions.AddXPikeSettings
+  isSpec: "True"
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.AddXPikeSettings
+  nameWithType: IServiceCollectionExtensions.AddXPikeSettings
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings*
+  name: ConfigureXPikeSettings
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_ConfigureXPikeSettings_
+  commentId: Overload:XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings
+  isSpec: "True"
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings
+  nameWithType: IServiceCollectionExtensions.ConfigureXPikeSettings
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``1(IServiceCollection,System.Action{``0})
+  name: ConfigureXPikeSettings<TSettings>(IServiceCollection, Action<TSettings>)
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_ConfigureXPikeSettings__1_IServiceCollection_System_Action___0__
+  commentId: M:XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``1(IServiceCollection,System.Action{``0})
+  name.vb: ConfigureXPikeSettings(Of TSettings)(IServiceCollection, Action(Of TSettings))
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings>(IServiceCollection, System.Action<TSettings>)
+  fullName.vb: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings)(IServiceCollection, System.Action(Of TSettings))
+  nameWithType: IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings>(IServiceCollection, Action<TSettings>)
+  nameWithType.vb: IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings)(IServiceCollection, Action(Of TSettings))
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``1(IServiceCollection,System.String)
+  name: ConfigureXPikeSettings<TSettings>(IServiceCollection, String)
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_ConfigureXPikeSettings__1_IServiceCollection_System_String_
+  commentId: M:XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``1(IServiceCollection,System.String)
+  name.vb: ConfigureXPikeSettings(Of TSettings)(IServiceCollection, String)
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings>(IServiceCollection, System.String)
+  fullName.vb: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings)(IServiceCollection, System.String)
+  nameWithType: IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings>(IServiceCollection, String)
+  nameWithType.vb: IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings)(IServiceCollection, String)
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``1(IServiceCollection,System.String,System.Action{``0})
+  name: ConfigureXPikeSettings<TSettings>(IServiceCollection, String, Action<TSettings>)
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_ConfigureXPikeSettings__1_IServiceCollection_System_String_System_Action___0__
+  commentId: M:XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``1(IServiceCollection,System.String,System.Action{``0})
+  name.vb: ConfigureXPikeSettings(Of TSettings)(IServiceCollection, String, Action(Of TSettings))
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings>(IServiceCollection, System.String, System.Action<TSettings>)
+  fullName.vb: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings)(IServiceCollection, System.String, System.Action(Of TSettings))
+  nameWithType: IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings>(IServiceCollection, String, Action<TSettings>)
+  nameWithType.vb: IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings)(IServiceCollection, String, Action(Of TSettings))
+- uid: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``2(IServiceCollection)
+  name: ConfigureXPikeSettings<TSettings, TManager>(IServiceCollection)
+  href: api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html#XPike_Settings_AspNetCore_IServiceCollectionExtensions_ConfigureXPikeSettings__2_IServiceCollection_
+  commentId: M:XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings``2(IServiceCollection)
+  name.vb: ConfigureXPikeSettings(Of TSettings, TManager)(IServiceCollection)
+  fullName: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings, TManager>(IServiceCollection)
+  fullName.vb: XPike.Settings.AspNetCore.IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings, TManager)(IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.ConfigureXPikeSettings<TSettings, TManager>(IServiceCollection)
+  nameWithType.vb: IServiceCollectionExtensions.ConfigureXPikeSettings(Of TSettings, TManager)(IServiceCollection)
+- uid: XPike.Settings.Basic
+  name: XPike.Settings.Basic
+  href: api/settings/api/XPike.Settings.Basic.html
+  commentId: N:XPike.Settings.Basic
+  fullName: XPike.Settings.Basic
+  nameWithType: XPike.Settings.Basic
+- uid: XPike.Settings.Basic.Settings`1
+  name: Settings<TSettings>
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html
+  commentId: T:XPike.Settings.Basic.Settings`1
+  name.vb: Settings(Of TSettings)
+  fullName: XPike.Settings.Basic.Settings<TSettings>
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings)
+  nameWithType: Settings<TSettings>
+  nameWithType.vb: Settings(Of TSettings)
+- uid: XPike.Settings.Basic.Settings`1.#ctor(System.String,`0)
+  name: Settings(String, TSettings)
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1__ctor_System_String__0_
+  commentId: M:XPike.Settings.Basic.Settings`1.#ctor(System.String,`0)
+  fullName: XPike.Settings.Basic.Settings<TSettings>.Settings(System.String, TSettings)
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).Settings(System.String, TSettings)
+  nameWithType: Settings<TSettings>.Settings(String, TSettings)
+  nameWithType.vb: Settings(Of TSettings).Settings(String, TSettings)
+- uid: XPike.Settings.Basic.Settings`1.#ctor*
+  name: Settings
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1__ctor_
+  commentId: Overload:XPike.Settings.Basic.Settings`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.Settings<TSettings>.Settings
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).Settings
+  nameWithType: Settings<TSettings>.Settings
+  nameWithType.vb: Settings(Of TSettings).Settings
+- uid: XPike.Settings.Basic.Settings`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1_ConfigurationKey
+  commentId: P:XPike.Settings.Basic.Settings`1.ConfigurationKey
+  fullName: XPike.Settings.Basic.Settings<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).ConfigurationKey
+  nameWithType: Settings<TSettings>.ConfigurationKey
+  nameWithType.vb: Settings(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.Basic.Settings`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1_ConfigurationKey_
+  commentId: Overload:XPike.Settings.Basic.Settings`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.Settings<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).ConfigurationKey
+  nameWithType: Settings<TSettings>.ConfigurationKey
+  nameWithType.vb: Settings(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.Basic.Settings`1.LastRetrievedUtc
+  name: LastRetrievedUtc
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1_LastRetrievedUtc
+  commentId: P:XPike.Settings.Basic.Settings`1.LastRetrievedUtc
+  fullName: XPike.Settings.Basic.Settings<TSettings>.LastRetrievedUtc
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).LastRetrievedUtc
+  nameWithType: Settings<TSettings>.LastRetrievedUtc
+  nameWithType.vb: Settings(Of TSettings).LastRetrievedUtc
+- uid: XPike.Settings.Basic.Settings`1.LastRetrievedUtc*
+  name: LastRetrievedUtc
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1_LastRetrievedUtc_
+  commentId: Overload:XPike.Settings.Basic.Settings`1.LastRetrievedUtc
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.Settings<TSettings>.LastRetrievedUtc
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).LastRetrievedUtc
+  nameWithType: Settings<TSettings>.LastRetrievedUtc
+  nameWithType.vb: Settings(Of TSettings).LastRetrievedUtc
+- uid: XPike.Settings.Basic.Settings`1.Value
+  name: Value
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1_Value
+  commentId: P:XPike.Settings.Basic.Settings`1.Value
+  fullName: XPike.Settings.Basic.Settings<TSettings>.Value
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).Value
+  nameWithType: Settings<TSettings>.Value
+  nameWithType.vb: Settings(Of TSettings).Value
+- uid: XPike.Settings.Basic.Settings`1.Value*
+  name: Value
+  href: api/settings/api/XPike.Settings.Basic.Settings-1.html#XPike_Settings_Basic_Settings_1_Value_
+  commentId: Overload:XPike.Settings.Basic.Settings`1.Value
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.Settings<TSettings>.Value
+  fullName.vb: XPike.Settings.Basic.Settings(Of TSettings).Value
+  nameWithType: Settings<TSettings>.Value
+  nameWithType.vb: Settings(Of TSettings).Value
+- uid: XPike.Settings.Basic.SettingsService
+  name: SettingsService
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html
+  commentId: T:XPike.Settings.Basic.SettingsService
+  fullName: XPike.Settings.Basic.SettingsService
+  nameWithType: SettingsService
+- uid: XPike.Settings.Basic.SettingsService.#ctor(System.Collections.Generic.IEnumerable{XPike.Settings.Providers.ISettingsProvider})
+  name: SettingsService(IEnumerable<ISettingsProvider>)
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService__ctor_System_Collections_Generic_IEnumerable_XPike_Settings_Providers_ISettingsProvider__
+  commentId: M:XPike.Settings.Basic.SettingsService.#ctor(System.Collections.Generic.IEnumerable{XPike.Settings.Providers.ISettingsProvider})
+  name.vb: SettingsService(IEnumerable(Of ISettingsProvider))
+  fullName: XPike.Settings.Basic.SettingsService.SettingsService(System.Collections.Generic.IEnumerable<XPike.Settings.Providers.ISettingsProvider>)
+  fullName.vb: XPike.Settings.Basic.SettingsService.SettingsService(System.Collections.Generic.IEnumerable(Of XPike.Settings.Providers.ISettingsProvider))
+  nameWithType: SettingsService.SettingsService(IEnumerable<ISettingsProvider>)
+  nameWithType.vb: SettingsService.SettingsService(IEnumerable(Of ISettingsProvider))
+- uid: XPike.Settings.Basic.SettingsService.#ctor*
+  name: SettingsService
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService__ctor_
+  commentId: Overload:XPike.Settings.Basic.SettingsService.#ctor
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.SettingsService.SettingsService
+  nameWithType: SettingsService.SettingsService
+- uid: XPike.Settings.Basic.SettingsService.GetSettings*
+  name: GetSettings
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService_GetSettings_
+  commentId: Overload:XPike.Settings.Basic.SettingsService.GetSettings
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.SettingsService.GetSettings
+  nameWithType: SettingsService.GetSettings
+- uid: XPike.Settings.Basic.SettingsService.GetSettings``1(System.String)
+  name: GetSettings<TSettings>(String)
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService_GetSettings__1_System_String_
+  commentId: M:XPike.Settings.Basic.SettingsService.GetSettings``1(System.String)
+  name.vb: GetSettings(Of TSettings)(String)
+  fullName: XPike.Settings.Basic.SettingsService.GetSettings<TSettings>(System.String)
+  fullName.vb: XPike.Settings.Basic.SettingsService.GetSettings(Of TSettings)(System.String)
+  nameWithType: SettingsService.GetSettings<TSettings>(String)
+  nameWithType.vb: SettingsService.GetSettings(Of TSettings)(String)
+- uid: XPike.Settings.Basic.SettingsService.GetSettingsOrDefault*
+  name: GetSettingsOrDefault
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService_GetSettingsOrDefault_
+  commentId: Overload:XPike.Settings.Basic.SettingsService.GetSettingsOrDefault
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.SettingsService.GetSettingsOrDefault
+  nameWithType: SettingsService.GetSettingsOrDefault
+- uid: XPike.Settings.Basic.SettingsService.GetSettingsOrDefault``1(System.String,``0)
+  name: GetSettingsOrDefault<TSettings>(String, TSettings)
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService_GetSettingsOrDefault__1_System_String___0_
+  commentId: M:XPike.Settings.Basic.SettingsService.GetSettingsOrDefault``1(System.String,``0)
+  name.vb: GetSettingsOrDefault(Of TSettings)(String, TSettings)
+  fullName: XPike.Settings.Basic.SettingsService.GetSettingsOrDefault<TSettings>(System.String, TSettings)
+  fullName.vb: XPike.Settings.Basic.SettingsService.GetSettingsOrDefault(Of TSettings)(System.String, TSettings)
+  nameWithType: SettingsService.GetSettingsOrDefault<TSettings>(String, TSettings)
+  nameWithType.vb: SettingsService.GetSettingsOrDefault(Of TSettings)(String, TSettings)
+- uid: XPike.Settings.Basic.SettingsService.WrapSettings*
+  name: WrapSettings
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService_WrapSettings_
+  commentId: Overload:XPike.Settings.Basic.SettingsService.WrapSettings
+  isSpec: "True"
+  fullName: XPike.Settings.Basic.SettingsService.WrapSettings
+  nameWithType: SettingsService.WrapSettings
+- uid: XPike.Settings.Basic.SettingsService.WrapSettings``1(System.String,``0)
+  name: WrapSettings<TSettings>(String, TSettings)
+  href: api/settings/api/XPike.Settings.Basic.SettingsService.html#XPike_Settings_Basic_SettingsService_WrapSettings__1_System_String___0_
+  commentId: M:XPike.Settings.Basic.SettingsService.WrapSettings``1(System.String,``0)
+  name.vb: WrapSettings(Of TSettings)(String, TSettings)
+  fullName: XPike.Settings.Basic.SettingsService.WrapSettings<TSettings>(System.String, TSettings)
+  fullName.vb: XPike.Settings.Basic.SettingsService.WrapSettings(Of TSettings)(System.String, TSettings)
+  nameWithType: SettingsService.WrapSettings<TSettings>(String, TSettings)
+  nameWithType.vb: SettingsService.WrapSettings(Of TSettings)(String, TSettings)
+- uid: XPike.Settings.DefaultSettingsManager`1
+  name: DefaultSettingsManager<TSettings>
+  href: api/settings/api/XPike.Settings.DefaultSettingsManager-1.html
+  commentId: T:XPike.Settings.DefaultSettingsManager`1
+  name.vb: DefaultSettingsManager(Of TSettings)
+  fullName: XPike.Settings.DefaultSettingsManager<TSettings>
+  fullName.vb: XPike.Settings.DefaultSettingsManager(Of TSettings)
+  nameWithType: DefaultSettingsManager<TSettings>
+  nameWithType.vb: DefaultSettingsManager(Of TSettings)
+- uid: XPike.Settings.DefaultSettingsManager`1.#ctor(XPike.Settings.ISettingsService)
+  name: DefaultSettingsManager(ISettingsService)
+  href: api/settings/api/XPike.Settings.DefaultSettingsManager-1.html#XPike_Settings_DefaultSettingsManager_1__ctor_XPike_Settings_ISettingsService_
+  commentId: M:XPike.Settings.DefaultSettingsManager`1.#ctor(XPike.Settings.ISettingsService)
+  fullName: XPike.Settings.DefaultSettingsManager<TSettings>.DefaultSettingsManager(XPike.Settings.ISettingsService)
+  fullName.vb: XPike.Settings.DefaultSettingsManager(Of TSettings).DefaultSettingsManager(XPike.Settings.ISettingsService)
+  nameWithType: DefaultSettingsManager<TSettings>.DefaultSettingsManager(ISettingsService)
+  nameWithType.vb: DefaultSettingsManager(Of TSettings).DefaultSettingsManager(ISettingsService)
+- uid: XPike.Settings.DefaultSettingsManager`1.#ctor*
+  name: DefaultSettingsManager
+  href: api/settings/api/XPike.Settings.DefaultSettingsManager-1.html#XPike_Settings_DefaultSettingsManager_1__ctor_
+  commentId: Overload:XPike.Settings.DefaultSettingsManager`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Settings.DefaultSettingsManager<TSettings>.DefaultSettingsManager
+  fullName.vb: XPike.Settings.DefaultSettingsManager(Of TSettings).DefaultSettingsManager
+  nameWithType: DefaultSettingsManager<TSettings>.DefaultSettingsManager
+  nameWithType.vb: DefaultSettingsManager(Of TSettings).DefaultSettingsManager
+- uid: XPike.Settings.ISettings`1
+  name: ISettings<TSettings>
+  href: api/settings/api/XPike.Settings.ISettings-1.html
+  commentId: T:XPike.Settings.ISettings`1
+  name.vb: ISettings(Of TSettings)
+  fullName: XPike.Settings.ISettings<TSettings>
+  fullName.vb: XPike.Settings.ISettings(Of TSettings)
+  nameWithType: ISettings<TSettings>
+  nameWithType.vb: ISettings(Of TSettings)
+- uid: XPike.Settings.ISettings`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.ISettings-1.html#XPike_Settings_ISettings_1_ConfigurationKey
+  commentId: P:XPike.Settings.ISettings`1.ConfigurationKey
+  fullName: XPike.Settings.ISettings<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.ISettings(Of TSettings).ConfigurationKey
+  nameWithType: ISettings<TSettings>.ConfigurationKey
+  nameWithType.vb: ISettings(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.ISettings`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.ISettings-1.html#XPike_Settings_ISettings_1_ConfigurationKey_
+  commentId: Overload:XPike.Settings.ISettings`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Settings.ISettings<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.ISettings(Of TSettings).ConfigurationKey
+  nameWithType: ISettings<TSettings>.ConfigurationKey
+  nameWithType.vb: ISettings(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.ISettings`1.LastRetrievedUtc
+  name: LastRetrievedUtc
+  href: api/settings/api/XPike.Settings.ISettings-1.html#XPike_Settings_ISettings_1_LastRetrievedUtc
+  commentId: P:XPike.Settings.ISettings`1.LastRetrievedUtc
+  fullName: XPike.Settings.ISettings<TSettings>.LastRetrievedUtc
+  fullName.vb: XPike.Settings.ISettings(Of TSettings).LastRetrievedUtc
+  nameWithType: ISettings<TSettings>.LastRetrievedUtc
+  nameWithType.vb: ISettings(Of TSettings).LastRetrievedUtc
+- uid: XPike.Settings.ISettings`1.LastRetrievedUtc*
+  name: LastRetrievedUtc
+  href: api/settings/api/XPike.Settings.ISettings-1.html#XPike_Settings_ISettings_1_LastRetrievedUtc_
+  commentId: Overload:XPike.Settings.ISettings`1.LastRetrievedUtc
+  isSpec: "True"
+  fullName: XPike.Settings.ISettings<TSettings>.LastRetrievedUtc
+  fullName.vb: XPike.Settings.ISettings(Of TSettings).LastRetrievedUtc
+  nameWithType: ISettings<TSettings>.LastRetrievedUtc
+  nameWithType.vb: ISettings(Of TSettings).LastRetrievedUtc
+- uid: XPike.Settings.ISettings`1.Value
+  name: Value
+  href: api/settings/api/XPike.Settings.ISettings-1.html#XPike_Settings_ISettings_1_Value
+  commentId: P:XPike.Settings.ISettings`1.Value
+  fullName: XPike.Settings.ISettings<TSettings>.Value
+  fullName.vb: XPike.Settings.ISettings(Of TSettings).Value
+  nameWithType: ISettings<TSettings>.Value
+  nameWithType.vb: ISettings(Of TSettings).Value
+- uid: XPike.Settings.ISettings`1.Value*
+  name: Value
+  href: api/settings/api/XPike.Settings.ISettings-1.html#XPike_Settings_ISettings_1_Value_
+  commentId: Overload:XPike.Settings.ISettings`1.Value
+  isSpec: "True"
+  fullName: XPike.Settings.ISettings<TSettings>.Value
+  fullName.vb: XPike.Settings.ISettings(Of TSettings).Value
+  nameWithType: ISettings<TSettings>.Value
+  nameWithType.vb: ISettings(Of TSettings).Value
+- uid: XPike.Settings.ISettingsManager`1
+  name: ISettingsManager<TSettings>
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html
+  commentId: T:XPike.Settings.ISettingsManager`1
+  name.vb: ISettingsManager(Of TSettings)
+  fullName: XPike.Settings.ISettingsManager<TSettings>
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings)
+  nameWithType: ISettingsManager<TSettings>
+  nameWithType.vb: ISettingsManager(Of TSettings)
+- uid: XPike.Settings.ISettingsManager`1.GetSettings
+  name: GetSettings()
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html#XPike_Settings_ISettingsManager_1_GetSettings
+  commentId: M:XPike.Settings.ISettingsManager`1.GetSettings
+  fullName: XPike.Settings.ISettingsManager<TSettings>.GetSettings()
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings).GetSettings()
+  nameWithType: ISettingsManager<TSettings>.GetSettings()
+  nameWithType.vb: ISettingsManager(Of TSettings).GetSettings()
+- uid: XPike.Settings.ISettingsManager`1.GetSettings*
+  name: GetSettings
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html#XPike_Settings_ISettingsManager_1_GetSettings_
+  commentId: Overload:XPike.Settings.ISettingsManager`1.GetSettings
+  isSpec: "True"
+  fullName: XPike.Settings.ISettingsManager<TSettings>.GetSettings
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings).GetSettings
+  nameWithType: ISettingsManager<TSettings>.GetSettings
+  nameWithType.vb: ISettingsManager(Of TSettings).GetSettings
+- uid: XPike.Settings.ISettingsManager`1.GetSettingsOrDefault(`0)
+  name: GetSettingsOrDefault(TSettings)
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html#XPike_Settings_ISettingsManager_1_GetSettingsOrDefault__0_
+  commentId: M:XPike.Settings.ISettingsManager`1.GetSettingsOrDefault(`0)
+  fullName: XPike.Settings.ISettingsManager<TSettings>.GetSettingsOrDefault(TSettings)
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings).GetSettingsOrDefault(TSettings)
+  nameWithType: ISettingsManager<TSettings>.GetSettingsOrDefault(TSettings)
+  nameWithType.vb: ISettingsManager(Of TSettings).GetSettingsOrDefault(TSettings)
+- uid: XPike.Settings.ISettingsManager`1.GetSettingsOrDefault*
+  name: GetSettingsOrDefault
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html#XPike_Settings_ISettingsManager_1_GetSettingsOrDefault_
+  commentId: Overload:XPike.Settings.ISettingsManager`1.GetSettingsOrDefault
+  isSpec: "True"
+  fullName: XPike.Settings.ISettingsManager<TSettings>.GetSettingsOrDefault
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings).GetSettingsOrDefault
+  nameWithType: ISettingsManager<TSettings>.GetSettingsOrDefault
+  nameWithType.vb: ISettingsManager(Of TSettings).GetSettingsOrDefault
+- uid: XPike.Settings.ISettingsManager`1.GetValue
+  name: GetValue()
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html#XPike_Settings_ISettingsManager_1_GetValue
+  commentId: M:XPike.Settings.ISettingsManager`1.GetValue
+  fullName: XPike.Settings.ISettingsManager<TSettings>.GetValue()
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings).GetValue()
+  nameWithType: ISettingsManager<TSettings>.GetValue()
+  nameWithType.vb: ISettingsManager(Of TSettings).GetValue()
+- uid: XPike.Settings.ISettingsManager`1.GetValue*
+  name: GetValue
+  href: api/settings/api/XPike.Settings.ISettingsManager-1.html#XPike_Settings_ISettingsManager_1_GetValue_
+  commentId: Overload:XPike.Settings.ISettingsManager`1.GetValue
+  isSpec: "True"
+  fullName: XPike.Settings.ISettingsManager<TSettings>.GetValue
+  fullName.vb: XPike.Settings.ISettingsManager(Of TSettings).GetValue
+  nameWithType: ISettingsManager<TSettings>.GetValue
+  nameWithType.vb: ISettingsManager(Of TSettings).GetValue
+- uid: XPike.Settings.ISettingsService
+  name: ISettingsService
+  href: api/settings/api/XPike.Settings.ISettingsService.html
+  commentId: T:XPike.Settings.ISettingsService
+  fullName: XPike.Settings.ISettingsService
+  nameWithType: ISettingsService
+- uid: XPike.Settings.ISettingsService.GetSettings*
+  name: GetSettings
+  href: api/settings/api/XPike.Settings.ISettingsService.html#XPike_Settings_ISettingsService_GetSettings_
+  commentId: Overload:XPike.Settings.ISettingsService.GetSettings
+  isSpec: "True"
+  fullName: XPike.Settings.ISettingsService.GetSettings
+  nameWithType: ISettingsService.GetSettings
+- uid: XPike.Settings.ISettingsService.GetSettings``1(System.String)
+  name: GetSettings<TSettings>(String)
+  href: api/settings/api/XPike.Settings.ISettingsService.html#XPike_Settings_ISettingsService_GetSettings__1_System_String_
+  commentId: M:XPike.Settings.ISettingsService.GetSettings``1(System.String)
+  name.vb: GetSettings(Of TSettings)(String)
+  fullName: XPike.Settings.ISettingsService.GetSettings<TSettings>(System.String)
+  fullName.vb: XPike.Settings.ISettingsService.GetSettings(Of TSettings)(System.String)
+  nameWithType: ISettingsService.GetSettings<TSettings>(String)
+  nameWithType.vb: ISettingsService.GetSettings(Of TSettings)(String)
+- uid: XPike.Settings.ISettingsService.GetSettingsOrDefault*
+  name: GetSettingsOrDefault
+  href: api/settings/api/XPike.Settings.ISettingsService.html#XPike_Settings_ISettingsService_GetSettingsOrDefault_
+  commentId: Overload:XPike.Settings.ISettingsService.GetSettingsOrDefault
+  isSpec: "True"
+  fullName: XPike.Settings.ISettingsService.GetSettingsOrDefault
+  nameWithType: ISettingsService.GetSettingsOrDefault
+- uid: XPike.Settings.ISettingsService.GetSettingsOrDefault``1(System.String,``0)
+  name: GetSettingsOrDefault<TSettings>(String, TSettings)
+  href: api/settings/api/XPike.Settings.ISettingsService.html#XPike_Settings_ISettingsService_GetSettingsOrDefault__1_System_String___0_
+  commentId: M:XPike.Settings.ISettingsService.GetSettingsOrDefault``1(System.String,``0)
+  name.vb: GetSettingsOrDefault(Of TSettings)(String, TSettings)
+  fullName: XPike.Settings.ISettingsService.GetSettingsOrDefault<TSettings>(System.String, TSettings)
+  fullName.vb: XPike.Settings.ISettingsService.GetSettingsOrDefault(Of TSettings)(System.String, TSettings)
+  nameWithType: ISettingsService.GetSettingsOrDefault<TSettings>(String, TSettings)
+  nameWithType.vb: ISettingsService.GetSettingsOrDefault(Of TSettings)(String, TSettings)
+- uid: XPike.Settings.Managers
+  name: XPike.Settings.Managers
+  href: api/settings/api/XPike.Settings.Managers.html
+  commentId: N:XPike.Settings.Managers
+  fullName: XPike.Settings.Managers
+  nameWithType: XPike.Settings.Managers
+- uid: XPike.Settings.Managers.ISettingsLoader`1
+  name: ISettingsLoader<TSettings>
+  href: api/settings/api/XPike.Settings.Managers.ISettingsLoader-1.html
+  commentId: T:XPike.Settings.Managers.ISettingsLoader`1
+  name.vb: ISettingsLoader(Of TSettings)
+  fullName: XPike.Settings.Managers.ISettingsLoader<TSettings>
+  fullName.vb: XPike.Settings.Managers.ISettingsLoader(Of TSettings)
+  nameWithType: ISettingsLoader<TSettings>
+  nameWithType.vb: ISettingsLoader(Of TSettings)
+- uid: XPike.Settings.Managers.SettingsLoader`1
+  name: SettingsLoader<TSettings>
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html
+  commentId: T:XPike.Settings.Managers.SettingsLoader`1
+  name.vb: SettingsLoader(Of TSettings)
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings)
+  nameWithType: SettingsLoader<TSettings>
+  nameWithType.vb: SettingsLoader(Of TSettings)
+- uid: XPike.Settings.Managers.SettingsLoader`1.#ctor(XPike.Settings.ISettingsManager{`0})
+  name: SettingsLoader(ISettingsManager<TSettings>)
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1__ctor_XPike_Settings_ISettingsManager__0__
+  commentId: M:XPike.Settings.Managers.SettingsLoader`1.#ctor(XPike.Settings.ISettingsManager{`0})
+  name.vb: SettingsLoader(ISettingsManager(Of TSettings))
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.SettingsLoader(XPike.Settings.ISettingsManager<TSettings>)
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).SettingsLoader(XPike.Settings.ISettingsManager(Of TSettings))
+  nameWithType: SettingsLoader<TSettings>.SettingsLoader(ISettingsManager<TSettings>)
+  nameWithType.vb: SettingsLoader(Of TSettings).SettingsLoader(ISettingsManager(Of TSettings))
+- uid: XPike.Settings.Managers.SettingsLoader`1.#ctor*
+  name: SettingsLoader
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1__ctor_
+  commentId: Overload:XPike.Settings.Managers.SettingsLoader`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.SettingsLoader
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).SettingsLoader
+  nameWithType: SettingsLoader<TSettings>.SettingsLoader
+  nameWithType.vb: SettingsLoader(Of TSettings).SettingsLoader
+- uid: XPike.Settings.Managers.SettingsLoader`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1_ConfigurationKey
+  commentId: P:XPike.Settings.Managers.SettingsLoader`1.ConfigurationKey
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).ConfigurationKey
+  nameWithType: SettingsLoader<TSettings>.ConfigurationKey
+  nameWithType.vb: SettingsLoader(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.Managers.SettingsLoader`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1_ConfigurationKey_
+  commentId: Overload:XPike.Settings.Managers.SettingsLoader`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).ConfigurationKey
+  nameWithType: SettingsLoader<TSettings>.ConfigurationKey
+  nameWithType.vb: SettingsLoader(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.Managers.SettingsLoader`1.LastRetrievedUtc
+  name: LastRetrievedUtc
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1_LastRetrievedUtc
+  commentId: P:XPike.Settings.Managers.SettingsLoader`1.LastRetrievedUtc
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.LastRetrievedUtc
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).LastRetrievedUtc
+  nameWithType: SettingsLoader<TSettings>.LastRetrievedUtc
+  nameWithType.vb: SettingsLoader(Of TSettings).LastRetrievedUtc
+- uid: XPike.Settings.Managers.SettingsLoader`1.LastRetrievedUtc*
+  name: LastRetrievedUtc
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1_LastRetrievedUtc_
+  commentId: Overload:XPike.Settings.Managers.SettingsLoader`1.LastRetrievedUtc
+  isSpec: "True"
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.LastRetrievedUtc
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).LastRetrievedUtc
+  nameWithType: SettingsLoader<TSettings>.LastRetrievedUtc
+  nameWithType.vb: SettingsLoader(Of TSettings).LastRetrievedUtc
+- uid: XPike.Settings.Managers.SettingsLoader`1.Value
+  name: Value
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1_Value
+  commentId: P:XPike.Settings.Managers.SettingsLoader`1.Value
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.Value
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).Value
+  nameWithType: SettingsLoader<TSettings>.Value
+  nameWithType.vb: SettingsLoader(Of TSettings).Value
+- uid: XPike.Settings.Managers.SettingsLoader`1.Value*
+  name: Value
+  href: api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html#XPike_Settings_Managers_SettingsLoader_1_Value_
+  commentId: Overload:XPike.Settings.Managers.SettingsLoader`1.Value
+  isSpec: "True"
+  fullName: XPike.Settings.Managers.SettingsLoader<TSettings>.Value
+  fullName.vb: XPike.Settings.Managers.SettingsLoader(Of TSettings).Value
+  nameWithType: SettingsLoader<TSettings>.Value
+  nameWithType.vb: SettingsLoader(Of TSettings).Value
+- uid: XPike.Settings.Package
+  name: Package
+  href: api/settings/api/XPike.Settings.Package.html
+  commentId: T:XPike.Settings.Package
+  fullName: XPike.Settings.Package
+  nameWithType: Package
+- uid: XPike.Settings.Package.RegisterPackage(IDependencyCollection)
+  name: RegisterPackage(IDependencyCollection)
+  href: api/settings/api/XPike.Settings.Package.html#XPike_Settings_Package_RegisterPackage_IDependencyCollection_
+  commentId: M:XPike.Settings.Package.RegisterPackage(IDependencyCollection)
+  fullName: XPike.Settings.Package.RegisterPackage(IDependencyCollection)
+  nameWithType: Package.RegisterPackage(IDependencyCollection)
+- uid: XPike.Settings.Package.RegisterPackage*
+  name: RegisterPackage
+  href: api/settings/api/XPike.Settings.Package.html#XPike_Settings_Package_RegisterPackage_
+  commentId: Overload:XPike.Settings.Package.RegisterPackage
+  isSpec: "True"
+  fullName: XPike.Settings.Package.RegisterPackage
+  nameWithType: Package.RegisterPackage
+- uid: XPike.Settings.Providers
+  name: XPike.Settings.Providers
+  href: api/settings/api/XPike.Settings.Providers.html
+  commentId: N:XPike.Settings.Providers
+  fullName: XPike.Settings.Providers
+  nameWithType: XPike.Settings.Providers
+- uid: XPike.Settings.Providers.Configuration
+  name: XPike.Settings.Providers.Configuration
+  href: api/settings/api/XPike.Settings.Providers.Configuration.html
+  commentId: N:XPike.Settings.Providers.Configuration
+  fullName: XPike.Settings.Providers.Configuration
+  nameWithType: XPike.Settings.Providers.Configuration
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider
+  name: ConfigurationSettingsProvider
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html
+  commentId: T:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider
+  nameWithType: ConfigurationSettingsProvider
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.#ctor(IConfigurationService)
+  name: ConfigurationSettingsProvider(IConfigurationService)
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider__ctor_IConfigurationService_
+  commentId: M:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.#ctor(IConfigurationService)
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.ConfigurationSettingsProvider(IConfigurationService)
+  nameWithType: ConfigurationSettingsProvider.ConfigurationSettingsProvider(IConfigurationService)
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.#ctor*
+  name: ConfigurationSettingsProvider
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider__ctor_
+  commentId: Overload:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.#ctor
+  isSpec: "True"
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.ConfigurationSettingsProvider
+  nameWithType: ConfigurationSettingsProvider.ConfigurationSettingsProvider
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue(System.String)
+  name: GetValue(String)
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_GetValue_System_String_
+  commentId: M:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue(System.String)
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue(System.String)
+  nameWithType: ConfigurationSettingsProvider.GetValue(String)
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue*
+  name: GetValue
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_GetValue_
+  commentId: Overload:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue
+  isSpec: "True"
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue
+  nameWithType: ConfigurationSettingsProvider.GetValue
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_GetValue__1_System_String_
+  commentId: M:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue<T>(System.String)
+  fullName.vb: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValue(Of T)(System.String)
+  nameWithType: ConfigurationSettingsProvider.GetValue<T>(String)
+  nameWithType.vb: ConfigurationSettingsProvider.GetValue(Of T)(String)
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault(System.String, System.String)
+  nameWithType: ConfigurationSettingsProvider.GetValueOrDefault(String, String)
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_GetValueOrDefault_
+  commentId: Overload:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault
+  nameWithType: ConfigurationSettingsProvider.GetValueOrDefault
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault``1(System.String,``0)
+  name: GetValueOrDefault<T>(String, T)
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_GetValueOrDefault__1_System_String___0_
+  commentId: M:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault``1(System.String,``0)
+  name.vb: GetValueOrDefault(Of T)(String, T)
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault<T>(System.String, T)
+  fullName.vb: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.GetValueOrDefault(Of T)(System.String, T)
+  nameWithType: ConfigurationSettingsProvider.GetValueOrDefault<T>(String, T)
+  nameWithType.vb: ConfigurationSettingsProvider.GetValueOrDefault(Of T)(String, T)
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.Load
+  name: Load()
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_Load
+  commentId: M:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.Load
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.Load()
+  nameWithType: ConfigurationSettingsProvider.Load()
+- uid: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.Load*
+  name: Load
+  href: api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html#XPike_Settings_Providers_Configuration_ConfigurationSettingsProvider_Load_
+  commentId: Overload:XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.Load
+  isSpec: "True"
+  fullName: XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.Load
+  nameWithType: ConfigurationSettingsProvider.Load
+- uid: XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider
+  name: IConfigurationSettingsProvider
+  href: api/settings/api/XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider.html
+  commentId: T:XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider
+  fullName: XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider
+  nameWithType: IConfigurationSettingsProvider
+- uid: XPike.Settings.Providers.ISettingsProvider
+  name: ISettingsProvider
+  href: api/settings/api/XPike.Settings.Providers.ISettingsProvider.html
+  commentId: T:XPike.Settings.Providers.ISettingsProvider
+  fullName: XPike.Settings.Providers.ISettingsProvider
+  nameWithType: ISettingsProvider
+- uid: XPike.Settings.SettingsManager`1
+  name: SettingsManager<TSettings>
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html
+  commentId: T:XPike.Settings.SettingsManager`1
+  name.vb: SettingsManager(Of TSettings)
+  fullName: XPike.Settings.SettingsManager<TSettings>
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings)
+  nameWithType: SettingsManager<TSettings>
+  nameWithType.vb: SettingsManager(Of TSettings)
+- uid: XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService)
+  name: SettingsManager(ISettingsService)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__ctor_XPike_Settings_ISettingsService_
+  commentId: M:XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService)
+  fullName: XPike.Settings.SettingsManager<TSettings>.SettingsManager(XPike.Settings.ISettingsService)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).SettingsManager(XPike.Settings.ISettingsService)
+  nameWithType: SettingsManager<TSettings>.SettingsManager(ISettingsService)
+  nameWithType.vb: SettingsManager(Of TSettings).SettingsManager(ISettingsService)
+- uid: XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService,System.Action{`0})
+  name: SettingsManager(ISettingsService, Action<TSettings>)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__ctor_XPike_Settings_ISettingsService_System_Action__0__
+  commentId: M:XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService,System.Action{`0})
+  name.vb: SettingsManager(ISettingsService, Action(Of TSettings))
+  fullName: XPike.Settings.SettingsManager<TSettings>.SettingsManager(XPike.Settings.ISettingsService, System.Action<TSettings>)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).SettingsManager(XPike.Settings.ISettingsService, System.Action(Of TSettings))
+  nameWithType: SettingsManager<TSettings>.SettingsManager(ISettingsService, Action<TSettings>)
+  nameWithType.vb: SettingsManager(Of TSettings).SettingsManager(ISettingsService, Action(Of TSettings))
+- uid: XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService,System.String)
+  name: SettingsManager(ISettingsService, String)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__ctor_XPike_Settings_ISettingsService_System_String_
+  commentId: M:XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService,System.String)
+  fullName: XPike.Settings.SettingsManager<TSettings>.SettingsManager(XPike.Settings.ISettingsService, System.String)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).SettingsManager(XPike.Settings.ISettingsService, System.String)
+  nameWithType: SettingsManager<TSettings>.SettingsManager(ISettingsService, String)
+  nameWithType.vb: SettingsManager(Of TSettings).SettingsManager(ISettingsService, String)
+- uid: XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService,System.String,System.Action{`0})
+  name: SettingsManager(ISettingsService, String, Action<TSettings>)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__ctor_XPike_Settings_ISettingsService_System_String_System_Action__0__
+  commentId: M:XPike.Settings.SettingsManager`1.#ctor(XPike.Settings.ISettingsService,System.String,System.Action{`0})
+  name.vb: SettingsManager(ISettingsService, String, Action(Of TSettings))
+  fullName: XPike.Settings.SettingsManager<TSettings>.SettingsManager(XPike.Settings.ISettingsService, System.String, System.Action<TSettings>)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).SettingsManager(XPike.Settings.ISettingsService, System.String, System.Action(Of TSettings))
+  nameWithType: SettingsManager<TSettings>.SettingsManager(ISettingsService, String, Action<TSettings>)
+  nameWithType.vb: SettingsManager(Of TSettings).SettingsManager(ISettingsService, String, Action(Of TSettings))
+- uid: XPike.Settings.SettingsManager`1.#ctor*
+  name: SettingsManager
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__ctor_
+  commentId: Overload:XPike.Settings.SettingsManager`1.#ctor
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.SettingsManager
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).SettingsManager
+  nameWithType: SettingsManager<TSettings>.SettingsManager
+  nameWithType.vb: SettingsManager(Of TSettings).SettingsManager
+- uid: XPike.Settings.SettingsManager`1._postConfigureAction
+  name: _postConfigureAction
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__postConfigureAction
+  commentId: F:XPike.Settings.SettingsManager`1._postConfigureAction
+  fullName: XPike.Settings.SettingsManager<TSettings>._postConfigureAction
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings)._postConfigureAction
+  nameWithType: SettingsManager<TSettings>._postConfigureAction
+  nameWithType.vb: SettingsManager(Of TSettings)._postConfigureAction
+- uid: XPike.Settings.SettingsManager`1._settingsService
+  name: _settingsService
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1__settingsService
+  commentId: F:XPike.Settings.SettingsManager`1._settingsService
+  fullName: XPike.Settings.SettingsManager<TSettings>._settingsService
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings)._settingsService
+  nameWithType: SettingsManager<TSettings>._settingsService
+  nameWithType.vb: SettingsManager(Of TSettings)._settingsService
+- uid: XPike.Settings.SettingsManager`1.ConfigurationKey
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_ConfigurationKey
+  commentId: P:XPike.Settings.SettingsManager`1.ConfigurationKey
+  fullName: XPike.Settings.SettingsManager<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).ConfigurationKey
+  nameWithType: SettingsManager<TSettings>.ConfigurationKey
+  nameWithType.vb: SettingsManager(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.SettingsManager`1.ConfigurationKey*
+  name: ConfigurationKey
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_ConfigurationKey_
+  commentId: Overload:XPike.Settings.SettingsManager`1.ConfigurationKey
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.ConfigurationKey
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).ConfigurationKey
+  nameWithType: SettingsManager<TSettings>.ConfigurationKey
+  nameWithType.vb: SettingsManager(Of TSettings).ConfigurationKey
+- uid: XPike.Settings.SettingsManager`1.GetSettings
+  name: GetSettings()
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetSettings
+  commentId: M:XPike.Settings.SettingsManager`1.GetSettings
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetSettings()
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetSettings()
+  nameWithType: SettingsManager<TSettings>.GetSettings()
+  nameWithType.vb: SettingsManager(Of TSettings).GetSettings()
+- uid: XPike.Settings.SettingsManager`1.GetSettings*
+  name: GetSettings
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetSettings_
+  commentId: Overload:XPike.Settings.SettingsManager`1.GetSettings
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetSettings
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetSettings
+  nameWithType: SettingsManager<TSettings>.GetSettings
+  nameWithType.vb: SettingsManager(Of TSettings).GetSettings
+- uid: XPike.Settings.SettingsManager`1.GetSettingsOrDefault(`0)
+  name: GetSettingsOrDefault(TSettings)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetSettingsOrDefault__0_
+  commentId: M:XPike.Settings.SettingsManager`1.GetSettingsOrDefault(`0)
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetSettingsOrDefault(TSettings)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetSettingsOrDefault(TSettings)
+  nameWithType: SettingsManager<TSettings>.GetSettingsOrDefault(TSettings)
+  nameWithType.vb: SettingsManager(Of TSettings).GetSettingsOrDefault(TSettings)
+- uid: XPike.Settings.SettingsManager`1.GetSettingsOrDefault*
+  name: GetSettingsOrDefault
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetSettingsOrDefault_
+  commentId: Overload:XPike.Settings.SettingsManager`1.GetSettingsOrDefault
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetSettingsOrDefault
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetSettingsOrDefault
+  nameWithType: SettingsManager<TSettings>.GetSettingsOrDefault
+  nameWithType.vb: SettingsManager(Of TSettings).GetSettingsOrDefault
+- uid: XPike.Settings.SettingsManager`1.GetValue
+  name: GetValue()
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValue
+  commentId: M:XPike.Settings.SettingsManager`1.GetValue
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValue()
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValue()
+  nameWithType: SettingsManager<TSettings>.GetValue()
+  nameWithType.vb: SettingsManager(Of TSettings).GetValue()
+- uid: XPike.Settings.SettingsManager`1.GetValue(System.String)
+  name: GetValue(String)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValue_System_String_
+  commentId: M:XPike.Settings.SettingsManager`1.GetValue(System.String)
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValue(System.String)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValue(System.String)
+  nameWithType: SettingsManager<TSettings>.GetValue(String)
+  nameWithType.vb: SettingsManager(Of TSettings).GetValue(String)
+- uid: XPike.Settings.SettingsManager`1.GetValue*
+  name: GetValue
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValue_
+  commentId: Overload:XPike.Settings.SettingsManager`1.GetValue
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValue
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValue
+  nameWithType: SettingsManager<TSettings>.GetValue
+  nameWithType.vb: SettingsManager(Of TSettings).GetValue
+- uid: XPike.Settings.SettingsManager`1.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValue__1_System_String_
+  commentId: M:XPike.Settings.SettingsManager`1.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValue<T>(System.String)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValue(Of T)(System.String)
+  nameWithType: SettingsManager<TSettings>.GetValue<T>(String)
+  nameWithType.vb: SettingsManager(Of TSettings).GetValue(Of T)(String)
+- uid: XPike.Settings.SettingsManager`1.GetValueOrDefault(System.String,System.String)
+  name: GetValueOrDefault(String, String)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValueOrDefault_System_String_System_String_
+  commentId: M:XPike.Settings.SettingsManager`1.GetValueOrDefault(System.String,System.String)
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValueOrDefault(System.String, System.String)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValueOrDefault(System.String, System.String)
+  nameWithType: SettingsManager<TSettings>.GetValueOrDefault(String, String)
+  nameWithType.vb: SettingsManager(Of TSettings).GetValueOrDefault(String, String)
+- uid: XPike.Settings.SettingsManager`1.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValueOrDefault_
+  commentId: Overload:XPike.Settings.SettingsManager`1.GetValueOrDefault
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValueOrDefault
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValueOrDefault
+  nameWithType: SettingsManager<TSettings>.GetValueOrDefault
+  nameWithType.vb: SettingsManager(Of TSettings).GetValueOrDefault
+- uid: XPike.Settings.SettingsManager`1.GetValueOrDefault``1(System.String,``0)
+  name: GetValueOrDefault<T>(String, T)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_GetValueOrDefault__1_System_String___0_
+  commentId: M:XPike.Settings.SettingsManager`1.GetValueOrDefault``1(System.String,``0)
+  name.vb: GetValueOrDefault(Of T)(String, T)
+  fullName: XPike.Settings.SettingsManager<TSettings>.GetValueOrDefault<T>(System.String, T)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).GetValueOrDefault(Of T)(System.String, T)
+  nameWithType: SettingsManager<TSettings>.GetValueOrDefault<T>(String, T)
+  nameWithType.vb: SettingsManager(Of TSettings).GetValueOrDefault(Of T)(String, T)
+- uid: XPike.Settings.SettingsManager`1.PostConfigureSettings(`0)
+  name: PostConfigureSettings(TSettings)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_PostConfigureSettings__0_
+  commentId: M:XPike.Settings.SettingsManager`1.PostConfigureSettings(`0)
+  fullName: XPike.Settings.SettingsManager<TSettings>.PostConfigureSettings(TSettings)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).PostConfigureSettings(TSettings)
+  nameWithType: SettingsManager<TSettings>.PostConfigureSettings(TSettings)
+  nameWithType.vb: SettingsManager(Of TSettings).PostConfigureSettings(TSettings)
+- uid: XPike.Settings.SettingsManager`1.PostConfigureSettings(XPike.Settings.ISettings{`0})
+  name: PostConfigureSettings(ISettings<TSettings>)
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_PostConfigureSettings_XPike_Settings_ISettings__0__
+  commentId: M:XPike.Settings.SettingsManager`1.PostConfigureSettings(XPike.Settings.ISettings{`0})
+  name.vb: PostConfigureSettings(ISettings(Of TSettings))
+  fullName: XPike.Settings.SettingsManager<TSettings>.PostConfigureSettings(XPike.Settings.ISettings<TSettings>)
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).PostConfigureSettings(XPike.Settings.ISettings(Of TSettings))
+  nameWithType: SettingsManager<TSettings>.PostConfigureSettings(ISettings<TSettings>)
+  nameWithType.vb: SettingsManager(Of TSettings).PostConfigureSettings(ISettings(Of TSettings))
+- uid: XPike.Settings.SettingsManager`1.PostConfigureSettings*
+  name: PostConfigureSettings
+  href: api/settings/api/XPike.Settings.SettingsManager-1.html#XPike_Settings_SettingsManager_1_PostConfigureSettings_
+  commentId: Overload:XPike.Settings.SettingsManager`1.PostConfigureSettings
+  isSpec: "True"
+  fullName: XPike.Settings.SettingsManager<TSettings>.PostConfigureSettings
+  fullName.vb: XPike.Settings.SettingsManager(Of TSettings).PostConfigureSettings
+  nameWithType: SettingsManager<TSettings>.PostConfigureSettings
+  nameWithType.vb: SettingsManager(Of TSettings).PostConfigureSettings

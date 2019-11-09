@@ -8,7 +8,7 @@
     <title>Verifying the Container | xPike </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Verifying the Container | xPike ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -108,7 +108,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 </code></pre>
 <h2 id="step-3">Step 3</h2>
-<p>Call the extension method on <code>IServiceProvider</code> to add the verify the container:</p>
+<p>Call the extension method on <code>IServiceProvider</code> to verify the container:</p>
 <pre><code class="lang-cs">public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 {
     app.ApplicationServices.Verify(); //this should be the first thing you do.
@@ -116,6 +116,10 @@ public void ConfigureServices(IServiceCollection services)
     app.UseMvc();
 }
 </code></pre>
+<h2 id="when-verification-fails">When Verification Fails</h2>
+<p>If the container fails to verify for one or more reasons, a <code>ServiceProviderVerificationException</code> is thrown. The
+exception contains a <code>Results</code> property, providing an IEnumerable of VerifcationResults that can be inspected for
+details about why the container failed to validate.</p>
 <h2 id="performance-considerations">Performance Considerations</h2>
 <p>There is a performance hit at startup. The impact depends on the number of registrations.
 You may want to only verify the container in non-production environments. Assuming you have your
@@ -134,6 +138,13 @@ You may want to only verify the container in non-production environments. Assumi
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/xpike/documentation/blob/master/docfx_project/api/extensions/articles/verifying-the-container.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
