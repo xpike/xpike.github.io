@@ -79,94 +79,18 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="introduction">Introduction</h1>
 
-<p>xPike Settings provides application settings management for the xPike paved-road.</p>
-<p>xPike Settings is the recommended source for application settings.</p>
-<p>It uses xPike Configuration as its configuration source by default, and other providers can be added.
-In addition, it adds a configurable layer of caching, as well as settings refresh capabilities.</p>
-<p>Settings Providers are fully DI-managed objects (unlike Configuration Providers).</p>
-<p>The use of Settings in xPike is analogous to IOptions in Asp.Net Core.</p>
+<p>xPike Configuration provides configuration abstractions and default implementations for the xPike
+paved-road.</p>
+<p>XPike Configuration is intended for use before Dependency Injection is configured, to provide some basic bootstrap settings.
+Because of this, <em><strong>Configuration Providers should not require injected dependencies.</strong></em></p>
+<p>Providers are wrapped by the <strong>Configuration Service</strong> which scans them in reverse order, returning the first value it finds.
+While Providers can be used directly, the Configuration Service should be your go-to (and it is compatible with .NET Core <code>IConfiguration</code>).</p>
+<p>Though the Configuration Service does not rely on DI, it is intended to be registered with the container along with any Providers.
+This is because XPike Settings (which adds capabilities such as caching and refresh - similar to .NET Core <code>IOptions</code>)
+relies on the Configuration Service as its default Settings Provider.</p>
+<p>For application-oriented settings, it is recommended to use the <code>XPike.Settings</code> Package to retrieve a settings POCO.</p>
 <h2 id="examples">Examples</h2>
-<p>Working examples can be found on <a href="https://github.com/xpike/settings/tree/master/examples">GitHub</a>.</p>
-<h2 id="usage">Usage</h2>
-<h3 id="define-your-settings-poco">Define your Settings POCO</h3>
-<pre><code class="lang-cs">using XPike.Settings;
-
-namespace MyLibrary
-{
-    public class MySettings
-    {
-        public string CompanyName { get; set; }
-        public IList&lt;DateTime&gt; UpcomingHolidays { get; set; }
-        public IDictionary&lt;string, string&gt; LocationPhoneNumbers { get; set; }
-    }
-}
-</code></pre>
-<h3 id="load-automatically-from-json">Load Automatically from JSON</h3>
-<p>xPike supports a &quot;touchless&quot; settings system.</p>
-<p><strong>Just inject <code>ISettings&lt;MySettings&gt;</code> wherever you want.</strong></p>
-<p>xPike will search for a setting with a matching fully-qualified class name (eg <code>&quot;MyLibrary.MySettings&quot;</code>).
-The settings will be deserialized from a JSON string.  <strong>Note:</strong> This may vary by Provider.</p>
-<p>The value can come from any of the registered Configuration or Settings Providers.
-xPike Settings will handle caching and periodic refresh automatically.</p>
-<h3 id="specifying-options">Specifying Options</h3>
-<p>The built-in Settings Manager allows you to specify a custom configuration key.  You can also specify an action
-to be called upon load to further customize your settings.</p>
-<pre><code class="lang-cs">container.RegisterSingleton&lt;ISettingsManager&lt;MySettings&gt;&gt;(provider =&gt;
-    new SettingsManager(provider.ResolveDependency&lt;ISettingsService&gt;(),
-        &quot;myCustomKey&quot;,
-        settings =&gt;
-        {
-            // further customization of settings object
-
-            return settings;
-        });
-</code></pre>
-<h3 id="custom-settings-manager">Custom Settings Manager</h3>
-<p>For the most flexibility, you can specify your own Settings Manager.</p>
-<pre><code class="lang-cs">using XPike.Settings;
-
-namespace MyLibrary
-{
-    public class MySettingsManager
-        : SettingsManagerBase&lt;MySettings&gt;
-    {
-        protected override string ConfigurationKey =&gt; $&quot;{nameof(MyLibrary)}::{nameof(MySettings)}&quot;;
-
-        public MySettingsManager(ISettingsService settingsService)
-            : base(settingsService)
-        {
-        }
-
-        public override ISettings&lt;TSettings&gt; GetSettings()
-        {
-            var settings = new MySettings
-            {
-                CompanyName = GetValue(&quot;CompanyName&quot;),
-                UpcomingHolidays = GetValue&lt;IList&lt;DateTime&gt;&gt;(&quot;UpcomingHolidays&quot;),
-                LocationPhoneNumbers = string.Split(new[] {','},
-                                                    GetValueOrDefault(&quot;LocationPhoneNumbers&quot;, &quot;555-1212&quot;))
-            };
-
-            return new Settings(ConfigurationKey, settings);
-        }
-    }
-}
-</code></pre>
-<h4 id="registering-your-custom-settings-manager">Registering your Custom Settings Manager</h4>
-<p><code>container.RegisterSingleton&lt;ISettingsManager&lt;MySettings&gt;, MySettingsManager&gt;();</code></p>
-<p><strong>Note:</strong> If you are using SimpleInjector for dependency injection, then you must be certain
-that any custom Settings Managers are registered <em><strong>before the Settings Package</strong></em>.  Since a
-Package can load other Packages, this may require that you define them at the start of your
-top-level Package.</p>
-<h4 id="some-things-to-note">Some things to note:</h4>
-<ul>
-<li><p>The <code>GetValue()</code> and <code>GetValueOrDefault()</code> overloads on <code>SettingsManager&lt;TSettings&gt;</code> prepend the <code>ConfigurationKey</code> to the specified <code>key</code>.</p>
-</li>
-<li><p>The default <code>ConfigurationKey</code> is the full class and namespace of the Settings POCO.</p>
-</li>
-<li><p>In this example, the call to <code>GetValue&lt;IList&lt;DateTime&gt;&gt;(...)</code> loads its value from a JSON string in the <code>MyLibrary.MySettings::UpcomingHolidays</code> key.</p>
-</li>
-</ul>
+<p>Working examples can be found on <a href="https://github.com/xpike/configuration/tree/master/examples">GitHub</a>.</p>
 <h2 id="packages">Packages</h2>
 <h3 id="xpikeconfiguration">XPike.Configuration</h3>
 <p><a href="https://nuget.org/packages/XPike.Configuration"><img src="https://img.shields.io/nuget/v/XPike.Configuration" alt="Nuget"></a></p>
@@ -205,7 +129,7 @@ to use XPike.Configuration as a source.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/xpike/documentation/blob/master/docfx_project/api/settings/api/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/xpike/documentation/blob/master/docfx_project/api/configuration/articles/intro.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
