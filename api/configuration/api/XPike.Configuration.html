@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace XPike.Configuration
+   | xPike </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace XPike.Configuration
+   | xPike ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-default ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../images/xpike.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="XPike.Configuration">
+  
+  <h1 id="XPike_Configuration" data-uid="XPike.Configuration" class="text-break">Namespace XPike.Configuration
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="XPike.Configuration.Config-1.html">Config&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.ConfigLoader-1.html">ConfigLoader&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.ConfigManager-1.html">ConfigManager&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.ConfigurationProviderBase.html">ConfigurationProviderBase</a></h4>
+      <section><p>Abstract implementation of a Configuration Provider, to simplify the creation of new Providers.</p>
+<p>In particular, adds proper exceptions when requesting &quot;required&quot; values using GetValue(),
+as well as intrinsic datatype conversion and JSON deserialization support.</p>
+<p>To create a new Provider, simply override this class and implement the GetValueOrDefault() method.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.ConfigurationService.html">ConfigurationService</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.ConfigurationServiceBase-1.html">ConfigurationServiceBase&lt;TProvider&gt;</a></h4>
+      <section><p>Abstract base implementation of a Configuration Service.</p>
+<p>This is effectively a complete implementation, however.
+It is abstracted away because Configuration Service works identically to Settings Service, except for which type of Provider it uses.</p>
+<p>This is very convenient since the Configuration Service and Settings Service share a common interface,
+as do Configuration Provider and Settings Provider.</p>
+<p>To create a new Configuration Service, just inherit this class and specify the desired type of TProvider.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.DefaultConfigManager-1.html">DefaultConfigManager&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.IDependencyCollectionExtensions.html">IDependencyCollectionExtensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.InvalidConfigurationException.html">InvalidConfigurationException</a></h4>
+      <section><p>Represents an exception resulting from a failure to load a value from Configuration.
+This could be from a missing key, a failed conversion, or any other error in the underlying Provider.
+Also used by XPike.Settings in identical scenarios.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.Package.html">Package</a></h4>
+      <section><p>XPike Configuration Package</p>
+<p>Singleton Registrations:</p>
+<ul>
+<li>IEnvironmentConfigurationProvider =&gt; EnvironmentConfigurationProvider</li>
+<li>INullConfigurationProvider =&gt; NullConfigurationProvider</li>
+<li>IConfigurationService =&gt; ConfigurationService</li>
+<li>IMemoryConfigurationProvider =&gt; MemoryConfigurationProvider (when specified, see note below)</li>
+</ul>
+<p>Collection Registrations:</p>
+<ul>
+<li>IConfigurationProvider += EnvironmentConfigurationProvider</li>
+<li>IConfigurationProvider += MemoryConfigurationProvider (when specified, see note below)</li>
+</ul>
+<p>NOTE:
+If the Package is instantiated by passing in a Dictionary&lt;string, string&gt;,
+these will be used as development-time defaults.  Values in other registered Providers
+(Environment Configuration Provider is added by default) will override these.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.XPikeConfigBuilder.html">XPikeConfigBuilder</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="XPike.Configuration.IConfig-1.html">IConfig&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.IConfigLoader-1.html">IConfigLoader&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.IConfigManager-1.html">IConfigManager&lt;TConfig&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="XPike.Configuration.IConfigurationLoader.html">IConfigurationLoader</a></h4>
+      <section><p>Defines a Configuration Loader.
+A Configuration Loader is a Configuration Provider that can load its settings in bulk.</p>
+<p>This is necessary for compatibility with ASP.NET Core's IConfiguration and IOptions.
+Providers that do not implement this interface will not work with either of those paradigms.</p>
+<p>XPike Configuration and XPike Settings are fully compatible with Providers that do not implement this interface, however.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.IConfigurationProvider.html">IConfigurationProvider</a></h4>
+      <section><p>Defines a Configuration Provider, the most-granular source of configuration values in XPike.
+These are the basis of all of the functionality in XPike.Configuration and XPike.Settings.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.IConfigurationService.html">IConfigurationService</a></h4>
+      <section><p>Represents a Configuration Service, which is the &quot;end-user-facing consumable&quot; from this Package.
+This is what you should use to retrieve configuration values in most cases.
+The Configuration Service is also expected to aggregate a Bulk Load of values from Providers that support it.</p>
+<p>This parallels (and is inter-operable with) the IConfiguration service in ASP.NET Core.
+See the XPike.Configuration.Microsoft.AspNetCore package for details.</p>
+</section>
+      <h4><a class="xref" href="XPike.Configuration.IXPikeConfigBuilder.html">IXPikeConfigBuilder</a></h4>
+      <section><p>Orchestrates the construction of an XPike Configuration Service.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy; xPike Contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

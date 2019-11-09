@@ -14,95 +14,794 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
+      "source_relative_path": "api/configuration/api/Example.Library.AnotherConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html",
-          "hash": "x9QeTmw9eEjx2HGnhDsJeA=="
+          "relative_path": "api/configuration/api/Example.Library.AnotherConfig.html",
+          "hash": "s6QU7Ks34heMxbgI/6FewQ=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/Example.Library.SomeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/Example.Library.SomeConfig.html",
+          "hash": "1CA1TBsKKl2fROdSxsmAPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/Example.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/Example.Library.html",
+          "hash": "fvbiAPQI1TNCJr3fuhc/tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html",
+          "hash": "aSHuSazdTRs3dzYpYGX22A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.AWS.IAWSConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.AWS.IAWSConfigurationProvider.html",
+          "hash": "CpWaYcbSseKKqutMRYTYqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.AWS.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.AWS.Package.html",
+          "hash": "Vfw2fFEmIfEdEvH/MGZ6DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.AWS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.AWS.html",
+          "hash": "ugQk08Y3YX7hooYEmpkfPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html",
+          "hash": "p/rYRhWgIzuedhHG22G+uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Azure.IAzureConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Azure.IAzureConfigurationProvider.html",
+          "hash": "Lm66Ud2q8y5oPw9D11SnUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Azure.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Azure.Package.html",
+          "hash": "7gdRVzhlTd7rxwniqE+sMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Azure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Azure.html",
+          "hash": "3yy76gcbyufERHZY8fwZfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Config-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Config-1.html",
+          "hash": "AOz2BULT2k8aaozhIrO2DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.ConfigLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.ConfigLoader-1.html",
+          "hash": "YEO91/PKmDmzGmcInLH95g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.ConfigManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.ConfigManager-1.html",
+          "hash": "BUsMig9RwKncp5L4PV673Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.ConfigurationProviderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html",
+          "hash": "Nflif4mWXJvJqTE+lJb9Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.ConfigurationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.ConfigurationService.html",
+          "hash": "UJmYh2bHz/mZYdpCY7wbdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html",
+          "hash": "djTgwSdpXbrDorvuwZSdDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.DefaultConfigManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.DefaultConfigManager-1.html",
+          "hash": "63+oCFwHQLdLn/Jwy07npw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html",
+          "hash": "+BmrlX+5sRusMAgLpPAgQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Environment.IEnvironmentConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Environment.IEnvironmentConfigurationProvider.html",
+          "hash": "3yzqsCSFJX/00aBTcNWBpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Environment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Environment.html",
+          "hash": "J/NdiZIUdAeYsUPMiGtemQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IConfig-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IConfig-1.html",
+          "hash": "98WMGgchIdEudaAA4UZY6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IConfigLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IConfigLoader-1.html",
+          "hash": "HZE5oVF7DcP9VRydZt3nUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IConfigManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IConfigManager-1.html",
+          "hash": "UU1NYmmyPKiTXqFQeNm/pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IConfigurationLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IConfigurationLoader.html",
+          "hash": "ugqZz4Yyo2CwzvlmhmnBdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IConfigurationProvider.html",
+          "hash": "tVgRjrtrnTfbnq3RmVO3yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IConfigurationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IConfigurationService.html",
+          "hash": "dprYIodT1SXlVSwKfudOUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IDependencyCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IDependencyCollectionExtensions.html",
+          "hash": "8mhbThS+8tCEjUUz7mzwrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html",
+          "hash": "pSwrGMmgd+Wig+uJrXvL6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.InvalidConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.InvalidConfigurationException.html",
+          "hash": "MAk+piuMXsXFBOVAjIYsIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Memory.IMemoryConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Memory.IMemoryConfigurationProvider.html",
+          "hash": "krfaZ6uk+J5xb3+k+hBzLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html",
+          "hash": "Gel+YL2LihxHyXaAz03PAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Memory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Memory.html",
+          "hash": "WyKAw7zHW55xyTnoVASDlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html",
+          "hash": "yrru3t3DRcpmCuPodU7GHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.html",
+          "hash": "t8wi9kfY3/ZFVgtlSknWvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.html",
+          "hash": "3pMDabH1sq0SdXWHopdYQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource.html",
+          "hash": "FoDsFwD4TO+btiQ9Cj+J2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.Package.html",
+          "hash": "uqHgfWlelHTd1lfEMEoGvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html",
+          "hash": "fAIR8ejZZn2r1ypI87+SFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.html",
+          "hash": "uNnQq1hlizub/Y/jlSvlQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider.html",
+          "hash": "dvq8WsoU052LChXnim1eEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html",
+          "hash": "3ZJUU+9AqctoPhWc9s0ixg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.Package.html",
+          "hash": "lSSWgA2pR9DSodYDdZocgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Microsoft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.html",
+          "hash": "2z7RM/5xH/NyhofoOptDeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Null.INullConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Null.INullConfigurationProvider.html",
+          "hash": "F4rmO6IOIrFTxt7mgk/XGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html",
+          "hash": "0MjCcfSpObqljQTNWIdejA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Null.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Null.html",
+          "hash": "logUErdxRWj83CacGAEDeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.Package.html",
+          "hash": "9SLFZpd8uC38SsXkqgt0xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.System.ISystemConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.System.ISystemConfigurationProvider.html",
+          "hash": "ErMDYibKi79HsVQXpBzEZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.System.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.System.Package.html",
+          "hash": "utcfN8s7idjoh1B3QPwV2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.System.SystemConfigurationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.System.SystemConfigurationProvider.html",
+          "hash": "oLURHw9QqD0Vt6g9Oz4p4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.System.html",
+          "hash": "/8+TrZGZ7jNBLMtySw8iGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.XPikeConfigBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html",
+          "hash": "n7D3gGZWx5KcxGP2CM2GxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/configuration/api/XPike.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/XPike.Configuration.html",
+          "hash": "K7HFaAu6iHOfDkZxhEWbAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "api/configuration/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/index.html",
+          "hash": "1j1ju3ccN36xSsqChKP0VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/configuration/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/api/toc.html",
+          "hash": "L/CiCaOT7qHU+jDwM8lPpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html",
+          "hash": "IAWPbYEXi2hHbqC/s2ttgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.html",
-          "hash": "OGqAhtdbvG5zGzLabi3Teg=="
+          "hash": "Y/4cs9xhxNya1sXu6T9vYQ=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html",
-          "hash": "coYVbcBntnN/Swj06/mjCQ=="
+          "hash": "JfJywiJ2tFAQ+tGJqAEOKg=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html",
-          "hash": "FYE6Pspx3ueQIgiLnsNkyg=="
+          "hash": "Twg9LnO3a4FdO40DsM/cog=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html",
-          "hash": "GAVDymJIY9xTQslQun5uhQ=="
+          "hash": "Y0RRr8a4a8lTLAlCR4W8ww=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.html",
-          "hash": "U5uucPV8Rf0QUuXj1Hi7Og=="
+          "hash": "2vASlN3OceJyt2eXzgjWag=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.html",
-          "hash": "Se40Y/idHHxxY/s7lPQnkw=="
+          "hash": "qY3GRenlX0ww4/r8J4dw6w=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "GSAEm4e3JYsXK2NeNbmSzA=="
+          "hash": "ERcK9+vBYt+hJRC0EVlD3w=="
         }
       },
       "is_incremental": false,
@@ -114,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/index.html",
-          "hash": "aQeLd5e9NoS8LN4EKEoL8A=="
+          "hash": "czo2MlkE0E01u1DBen1iWg=="
         }
       },
       "is_incremental": false,
@@ -126,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/extensions/articles/intro.html",
-          "hash": "aQeLd5e9NoS8LN4EKEoL8A=="
+          "hash": "71uw4s0d1PQCce9PHKI8zg=="
         }
       },
       "is_incremental": false,
@@ -138,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/extensions/articles/using-msid-in-webapi.html",
-          "hash": "kBKcp9whly/2sNPKcmcFrw=="
+          "hash": "cEeP+VZyNVCBwmgUmVBfXg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/extensions/articles/verifying-the-container.html",
-          "hash": "r1Ez6OfHQt0ktxS85CVC/w=="
+          "hash": "eBlx4nNs4TDBg9iGiZdlCQ=="
         }
       },
       "is_incremental": false,
@@ -162,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/extensions/toc.html",
-          "hash": "5pXWneka2gmFmCoOxRz0kA=="
+          "hash": "ezju3kLfbREnoJdFlPMK6Q=="
         }
       },
       "is_incremental": false,
@@ -177,7 +876,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Sv9aAe5SFqMVLSxb+HbBRw=="
+          "hash": "6zZfr28qdeZvFPFQ2V2AjQ=="
         }
       },
       "is_incremental": false,
@@ -189,7 +888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.DependencyVerificationException.html",
-          "hash": "OS9zHDmP8vGnz78T/VFAAQ=="
+          "hash": "q7TA9W7js8PewHI5I94BBg=="
         }
       },
       "is_incremental": false,
@@ -201,7 +900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyCollection.html",
-          "hash": "GeFj+FmbtAo3FrqCCUBUZw=="
+          "hash": "4uUSfG1VcKFtZCDh4avNiA=="
         }
       },
       "is_incremental": false,
@@ -213,7 +912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyCollectionExtensions.html",
-          "hash": "lZRrSk1RKZhxBrQKVrRvaQ=="
+          "hash": "ot/9TKwLfsrjWde7TyK+Iw=="
         }
       },
       "is_incremental": false,
@@ -225,7 +924,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyPackage.html",
-          "hash": "W2Ws7S1bimQw+c49dUEaPw=="
+          "hash": "Ovw1O4gl/8aYFv12hcdV2w=="
         }
       },
       "is_incremental": false,
@@ -237,7 +936,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.IDependencyProvider.html",
-          "hash": "s1d5puDO/0nPqxyQ0Vvjhw=="
+          "hash": "Q55NHAuecBpU3N4O4BwXHQ=="
         }
       },
       "is_incremental": false,
@@ -249,7 +948,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IApplicationBuilderExtensions.html",
-          "hash": "3+6PMiQ+ATO3LsOcox/V5A=="
+          "hash": "CBFdDl3Y+BAK+toQcUSMSw=="
         }
       },
       "is_incremental": false,
@@ -261,7 +960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.AspNetCore.IServiceCollectionExtensions.html",
-          "hash": "R/zaaqRTXXabmOMr/SzVMQ=="
+          "hash": "uf1W1e53RKC2U3BaHx2UbQ=="
         }
       },
       "is_incremental": false,
@@ -273,7 +972,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.AspNetCore.html",
-          "hash": "i2XgPBFCAolrsSUSlxMHpQ=="
+          "hash": "41faRYAvs7iZFtqtv8iXBQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +984,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyCollection.html",
-          "hash": "VSJZOfxOaZOzH3yO+fxARA=="
+          "hash": "SZzN+low01enmqWui9uF3A=="
         }
       },
       "is_incremental": false,
@@ -297,7 +996,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.MicrosoftDependencyProvider.html",
-          "hash": "G5gkinxqsjQT1q5isitpNA=="
+          "hash": "lJRmNNLhSyawnVqDHRDH6g=="
         }
       },
       "is_incremental": false,
@@ -309,7 +1008,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.HttpConfigurationExtensions.html",
-          "hash": "t9N2OB4sIAXjHBhq29mWAQ=="
+          "hash": "QbBJkf/Qn4FLrJiJGqf59g=="
         }
       },
       "is_incremental": false,
@@ -321,7 +1020,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyCollectionExtensions.html",
-          "hash": "JXkeHwLBwWQxuAnT0N/w0w=="
+          "hash": "ae7iUfFns9RI6eHLz75hVQ=="
         }
       },
       "is_incremental": false,
@@ -333,7 +1032,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.IDependencyProviderExtensions.html",
-          "hash": "yvSI+M7MiWKdekEcKHeQKw=="
+          "hash": "3zELafGXgWeUmG8HHDFPhA=="
         }
       },
       "is_incremental": false,
@@ -345,7 +1044,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.WebApi.html",
-          "hash": "2ustzdLjRBkyFp9FQRoGEQ=="
+          "hash": "tGVfinZWUtX9FAbAxcL7BQ=="
         }
       },
       "is_incremental": false,
@@ -357,7 +1056,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Microsoft.html",
-          "hash": "Hz5YLwtq4y9iNmj4ycf1sg=="
+          "hash": "AeUgTciyeayj/X3p0m6zOg=="
         }
       },
       "is_incremental": false,
@@ -369,7 +1068,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Owin.IAppBuilderExtensions.html",
-          "hash": "lB2dCvobfqUnrc1xX88Wfg=="
+          "hash": "6tt8EVPnfIdYuIzbz2Z5Zg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +1080,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Owin.XPikeDependencyInjectionMiddleware.html",
-          "hash": "qH66mhqo9DX7AWhWmpGE0g=="
+          "hash": "pr5Mf75MwcZ8TsUzsrxcJg=="
         }
       },
       "is_incremental": false,
@@ -393,7 +1092,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.Owin.html",
-          "hash": "iXadqLoskLzjb+Ryol8ErQ=="
+          "hash": "TFW7aH8MpdOjUjb1zAdcZA=="
         }
       },
       "is_incremental": false,
@@ -405,7 +1104,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IApplicationBuilderExtensions.html",
-          "hash": "lTMbrH82PMCXCSEqra6l6g=="
+          "hash": "YQkkh3wRO7uIV5dfEy/NIw=="
         }
       },
       "is_incremental": false,
@@ -417,7 +1116,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.IServiceCollectionExtensions.html",
-          "hash": "6E8GX2witUJ8j3nuWsIeMA=="
+          "hash": "90ajlxW0d8j+Z1k9drb/QQ=="
         }
       },
       "is_incremental": false,
@@ -429,7 +1128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.AspNetCore.html",
-          "hash": "bK+O3oTh/thFd2UQJEwnLg=="
+          "hash": "3NidtJC8W+n8+54kE6TZLA=="
         }
       },
       "is_incremental": false,
@@ -441,7 +1140,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.HttpConfigurationExtensions.html",
-          "hash": "yROsZac7gldtJvGHMfqr4g=="
+          "hash": "dGvI5t3EP4YRcxLF9Bbk4A=="
         }
       },
       "is_incremental": false,
@@ -453,7 +1152,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.IDependencyCollectionExtensions.html",
-          "hash": "uE2CKCVJSrJ1sdFy63zgSQ=="
+          "hash": "f30dbdOeJoL9QTwOWIelOw=="
         }
       },
       "is_incremental": false,
@@ -465,7 +1164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.IDependencyProviderExtensions.html",
-          "hash": "jpzlLyoar4O+k8JAPQyr8A=="
+          "hash": "7x/W+lKmzzfbYA6tW5NjsA=="
         }
       },
       "is_incremental": false,
@@ -477,7 +1176,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyCollection.html",
-          "hash": "jMHtqs+JLGAv7m/3ozs+nA=="
+          "hash": "42/DKg1siy98W0T1RqG8Lw=="
         }
       },
       "is_incremental": false,
@@ -489,7 +1188,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.SimpleInjectorDependencyProvider.html",
-          "hash": "t9ZvfUJ0pqamUyFQ5Md8Aw=="
+          "hash": "MQpLAVeViBaG0QmBLHVMEA=="
         }
       },
       "is_incremental": false,
@@ -501,7 +1200,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.SimpleInjector.html",
-          "hash": "McakoR8fhPGoFuwwSsEmsw=="
+          "hash": "/9mWGv9TEhY5uIyd26HUlA=="
         }
       },
       "is_incremental": false,
@@ -513,7 +1212,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/XPike.IoC.html",
-          "hash": "CwUi3elsuqh7UJxVhEketA=="
+          "hash": "mWadirWmG/ZoN5REybpImA=="
         }
       },
       "is_incremental": false,
@@ -525,7 +1224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/api/index.html",
-          "hash": "VOUEegA4rUM2xtEKPPk4QQ=="
+          "hash": "PyihWOguflQN9qlOcVGgQg=="
         }
       },
       "is_incremental": false,
@@ -537,7 +1236,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/articles/intro.html",
-          "hash": "VOUEegA4rUM2xtEKPPk4QQ=="
+          "hash": "LTMTuE/j/cca/WKXpMzKOA=="
         }
       },
       "is_incremental": false,
@@ -549,7 +1248,433 @@
       "output": {
         ".html": {
           "relative_path": "api/ioc/toc.html",
-          "hash": "YyqnqHdRneszLJo2kGo57w=="
+          "hash": "+SM1mT49pEWa867tzE6dWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.html",
+          "hash": "eB//vLhkZjVG31SMAi5i9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.html",
+          "hash": "PwMK7HWnzxSb9v4UsKkxAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.DependencyInjectionMiddleware.html",
+          "hash": "SlHTzoP4bzlBrb2QWknZDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.IAppBuilderExtensions.html",
+          "hash": "StvhvSm12nW4osdoMCyEqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.Owin.html",
+          "hash": "lxIMd3QnMbM8036f+LtXFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.ServiceProviderVerificationException.html",
+          "hash": "V3C3H7MUJsNZ4jxU1tZEVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.VerificationResult.html",
+          "hash": "UmNe/fgw6PKh3cpeymU9Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.IServiceCollectionExtensions.html",
+          "hash": "2YLfwiK2ULZgHKWwVW1+jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.html",
+          "hash": "n3u8AAiixd+SRdIC0fwJUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.html",
+          "hash": "jS+acUgpSi38wnApeU7bmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.html",
+          "hash": "5sihXZIQm1r5umyO2Rcpaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "api/microsoft-extensions/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/index.html",
+          "hash": "JqX32/5qi8s0+POlQkPbkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/microsoft-extensions/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/microsoft-extensions/api/toc.html",
+          "hash": "Vdsw83KywrpniXbw0cJCrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html",
+          "hash": "ni24v8Js2D0r9kveAOyNrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.AspNetCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.AspNetCore.html",
+          "hash": "Dz+f8JfwE0MmiEUhbv8Txg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Basic.Settings-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Basic.Settings-1.html",
+          "hash": "QGhz2q0pxxnNy4MQybG6xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Basic.SettingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Basic.SettingsService.html",
+          "hash": "rFWQt4fniqGsKJE3euhrjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Basic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Basic.html",
+          "hash": "3RI6MCn5S6pg+Hg+3CzrFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.DefaultSettingsManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.DefaultSettingsManager-1.html",
+          "hash": "x+ENEhyIf1znu2+/7AcZmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.ISettings-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.ISettings-1.html",
+          "hash": "X3jLgyjnAmbUu5KZWCfImw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.ISettingsManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.ISettingsManager-1.html",
+          "hash": "Mb8S9h4D3e1Q4ccDXqyasg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.ISettingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.ISettingsService.html",
+          "hash": "FQyVh3AFGHwvlFUDuvrTfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Managers.ISettingsLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Managers.ISettingsLoader-1.html",
+          "hash": "oQiITDzPA1uMv7RtOtIGKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Managers.SettingsLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html",
+          "hash": "5sCmatKRSYHd9vVWLGtDzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Managers.html",
+          "hash": "WEmJTPRjXVtDkB/MOg2KuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Package.html",
+          "hash": "oWbQRJJ62IIg0NJmHoWLDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html",
+          "hash": "0UKO9G781LIeuL/88tSPxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider.html",
+          "hash": "eCBsHmCLzxwpYlU9fK5bNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.html",
+          "hash": "maLQc1cG1Kx+Ljq7S3fIRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Providers.ISettingsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Providers.ISettingsProvider.html",
+          "hash": "xDMdBKhxqXPb5a+nPEgYWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.Providers.html",
+          "hash": "EWP9DUUzOZd/HOgag6Ag1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.SettingsManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.SettingsManager-1.html",
+          "hash": "xOtBGjGexIOF46y/rzjNSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/settings/api/XPike.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/XPike.Settings.html",
+          "hash": "hzMhZ5pGJ9Y7S9mtVZDQoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "api/settings/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/index.html",
+          "hash": "RZUcSBQXHBfjl4gzPYcspw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/settings/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/api/toc.html",
+          "hash": "WszZ98LmoQqr1rT0yCXTpw=="
         }
       },
       "is_incremental": false,
@@ -564,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "C701EZkQeucQBfOqHeobog=="
+          "hash": "0/mgFv6Mga13wDSrNuk5Vg=="
         }
       },
       "is_incremental": false,
@@ -579,7 +1704,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/contributing.html",
-          "hash": "VTk/8JCpOHkSbWnbt0MOHQ=="
+          "hash": "JAciSTHQi1sNU6f/UPIgxA=="
         }
       },
       "is_incremental": false,
@@ -591,7 +1716,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "cH722W1jrp/Vs7rYGVhsYg=="
+          "hash": "bP0SLQDZ2lXQbhlTk4VbmA=="
         }
       },
       "is_incremental": false,
@@ -603,7 +1728,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/license.html",
-          "hash": "9Mr7c9DPrF9ccckGF6MveA=="
+          "hash": "L1SpsbhRKMhDGU69W2QJPw=="
         }
       },
       "is_incremental": false,
@@ -615,7 +1740,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "4csWB8k8sEzLlAoA3j59bQ=="
+          "hash": "SQLNQhiWTt8xxzH8K7IG1Q=="
         }
       },
       "is_incremental": false,
@@ -638,7 +1763,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "RnRRwwtVC1OmluNWwEdpMQ=="
+          "hash": "gJ7EqeI2Dp0SKMS4T4eqCg=="
         }
       },
       "is_incremental": false,
@@ -650,7 +1775,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "7oDvjCMtOQPdrGkY+sc8vg=="
+          "hash": "7seSq+0PZOZ8JpGXhv8l5w=="
         }
       },
       "is_incremental": false,
@@ -678,13 +1803,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 11,
+          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 36,
+          "total_file_count": 121,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -8,7 +8,7 @@
     <title>Using Microsoft.Extensions.DependencyInjection in Asp.Net WebAPI | xPike </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Using Microsoft.Extensions.DependencyInjection in Asp.Net WebAPI | xPike ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -79,8 +79,50 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="using-microsoftextensionsdependencyinjection-in-aspnet-webapi">Using Microsoft.Extensions.DependencyInjection in Asp.Net WebAPI</h1>
 
+<p>The XPike.Extensions.DependencyInjection.WebApi package provides integration of Microsoft.Extensions.DependencyInjection
+into legacy Asp.Net WebAPI application.</p>
+<h2 id="step-1">Step 1</h2>
+<p>Install the <code>XPike.Extensions.DependencyInjection.WebApi</code> package:</p>
+<pre><code>dotnet add package XPike.Extensions.DependencyInjection.WebApi
+</code></pre>
+<p>or</p>
+<pre><code>Install-Package XPike.Extensions.DependencyInjection.WebApi
+</code></pre>
+<h2 id="step-2">Step 2</h2>
+<p>Create an instance of <code>Microsoft.Extensions.DependencyInjection.ServiceCollection</code> and register your application's
+services.</p>
+<pre><code class="lang-cs">IServiceCollection services = new ServiceCollection();
+services.AddServiceProviderVerification();
+
+services.AddSingleton&lt;ILogger, Logger&gt;();
+
+</code></pre>
+<h2 id="step-3">Step 3</h2>
+<p>Add the WebAPI controllers to the services collection. You can add them manually or use the extension method provided
+in XPike.Extensions.DependencyInjection.WebApi`. The advantage of the extension method is it looks at every assembly in
+the AppDomain for an ApiController and adds it to the service collection with a scoped lifetime for you. The method does
+use reflection to accomplish this. Depending on the number of assemblies and controllers in your application, you may
+want to consider adding your controllers explicitly in increase startup performance.</p>
+<pre><code class="lang-cs">services.AddApiControllers();
+</code></pre>
+<h2 id="step-4">Step 4</h2>
+<p>Build and optionally verify the service provider. See <a href="verifying-the-container.html">Verifying the Container</a> for more
+information on verifying the container and performance considerations when doing so.</p>
+<pre><code class="lang-cs">IServiceProvider provider = services.BuildServiceProvider();
+provider.Verify();
+</code></pre>
+<h2 id="step-5">Step 5</h2>
+<p>Lastly, tell WebAPI to use Microsoft.Extensions.DependencyInjection to resolve controllers and their dependencies. This is done
+by using the <code>MicrosoftDependencyResolver</code> found in <code>XPike.Extensions.DependencyInjection.WebApi</code>.</p>
+<pre><code class="lang-cs">GlobalConfiguration.Configuration.DependencyResolver = new MicrosoftDependencyResolver(provider);
+</code></pre>
+<h2 id="completed-application_start-method">Completed Application_Start Method</h2>
 <p>Global.asax.cs</p>
-<pre><code class="lang-cs">public class WebApiApplication : System.Web.HttpApplication
+<pre><code class="lang-cs">using Microsoft.Extensions.DependencyInjection;
+using XPike.Extensions.DependencyInjection.WebApi;
+...
+
+public class WebApiApplication : System.Web.HttpApplication
 {
     protected void Application_Start()
     {
@@ -88,6 +130,7 @@
 
         // Create a new service collection
         IServiceCollection services = new ServiceCollection();
+        services.AddServiceProviderVerification();
 
         // Add your services
         services.AddSingleton&lt;ILogger, Logger&gt;();
@@ -115,6 +158,13 @@
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/xpike/documentation/blob/master/docfx_project/api/extensions/articles/using-msid-in-webapi.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
