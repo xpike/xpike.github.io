@@ -3,12 +3,12 @@ parameters:
 
 steps:
   - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
-    displayName: 'Create ${{parameters.repoRoot}} Documentation'
+    displayName: 'Generate ${{parameters.repoRoot}} Documentation'
     inputs:
       solution: '$(Agent.TempDirectory)/${{parameters.repoRoot}}/docs/docfx.json'
 
   - task: CopyFiles@2
-    displayName: Copy ${{parameters.repoRoot}} api
+    displayName: Copy ${{parameters.repoRoot}} api docs
     inputs:
       SourceFolder: $(Agent.TempDirectory)/${{parameters.repoRoot}}/docs/api
       Contents: |

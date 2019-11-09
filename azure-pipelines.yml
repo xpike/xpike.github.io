@@ -1,4 +1,11 @@
 name: $(Date:yyyy.MM.dd).$(Rev:r)
+trigger:
+  branches:
+    include:
+      - dev
+    exclude:
+      - master
+
 jobs:
   - job:
     displayName: Generate and Publish Docs
@@ -18,6 +25,7 @@ jobs:
           git clone https://github.com/xpike/settings.git
           dir 
         workingDirectory: $(Agent.TempDirectory) 
+        displayName: Checkout xPike modules
 
       - template: gen-docs.yml
         parameters:
@@ -54,4 +62,4 @@ jobs:
           git commit -a -m "Updated docs version $(Build.BuildNumber)"
           git push origin HEAD:dev
         workingDirectory: $(System.DefaultWorkingDirectory)
-                  
+        displayName: Command and Push dev branch
