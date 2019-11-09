@@ -697,6 +697,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
       "output": {
@@ -709,6 +712,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.yml",
       "output": {
@@ -784,15 +790,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "9sC7CyLO1wLZXxvDRgCCvg=="
+          "hash": "G9L1OBUWXehAXwS8IdXqlw=="
         }
       },
       "is_incremental": false,
@@ -1246,9 +1249,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceCollectionExtensions.yml",
       "output": {
@@ -1261,9 +1261,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.IServiceProviderExtensions.yml",
       "output": {
@@ -1384,12 +1381,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
         ".html": {
           "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.html",
-          "hash": "8ABm+mAyKNqzm3cSU9M1Jw=="
+          "hash": "5I08uct2WCYtgE7yXYT9Sw=="
         }
       },
       "is_incremental": false,
