@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | xPike </title>
+    <title>Introduction | xPike </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | xPike ">
+    <meta name="title" content="Introduction | xPike ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
     <meta property="docfx:rel" content="../../../">
     <meta property="docfx:newtab" content="true">
@@ -77,8 +77,51 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
 
-[!include[Introduction](../articles/intro.md)]</article>
+<p>xPike Configuration provides configuration abstractions and default implementations for the xPike
+paved-road.</p>
+<p>XPike Configuration is intended for use before Dependency Injection is configured, to provide some basic bootstrap settings.
+Because of this, <em><strong>Configuration Providers should not require injected dependencies.</strong></em></p>
+<p>Providers are wrapped by the <strong>Configuration Service</strong> which scans them in reverse order, returning the first value it finds.
+While Providers can be used directly, the Configuration Service should be your go-to (and it is compatible with .NET Core <code>IConfiguration</code>).</p>
+<p>Though the Configuration Service does not rely on DI, it is intended to be registered with the container along with any Providers.
+This is because XPike Settings (which adds capabilities such as caching and refresh - similar to .NET Core <code>IOptions</code>)
+relies on the Configuration Service as its default Settings Provider.</p>
+<p>For application-oriented settings, it is recommended to use the <code>XPike.Settings</code> Package to retrieve a settings POCO.</p>
+<h2 id="examples">Examples</h2>
+<p>Working examples can be found on <a href="https://github.com/xpike/configuration/tree/master/examples">GitHub</a>.</p>
+<h2 id="packages">Packages</h2>
+<h3 id="xpikeconfiguration">XPike.Configuration</h3>
+<p><a href="https://nuget.org/packages/XPike.Configuration"><img src="https://img.shields.io/nuget/v/XPike.Configuration" alt="Nuget"></a></p>
+<p>Abstractions used by the rest of xPike. This package also contains the configuration providers:</p>
+<ul>
+<li>EnvironmentConfigurationProvider: Storing/retrieving configuration using environment variables.</li>
+<li>NullConfigurationProvider: A Configuration Provider that yields no values. Primarily intended for use in unit/integration tests.</li>
+</ul>
+<h3 id="xpikeconfigurationaws">Xpike.Configuration.AWS</h3>
+<p><a href="https://nuget.org/packages/Xpike.Configuration.AWS"><img src="https://img.shields.io/nuget/v/Xpike.Configuration.AWS" alt="Nuget"></a></p>
+<p>Support for storing/retrieving configuration using AWS Simple Parameter Store and AWS Secrets Manager.</p>
+<h3 id="xpikeconfigurationazure">XPike.Configuration.Azure</h3>
+<p><a href="https://nuget.org/packages/XPike.Configuration.Azure"><img src="https://img.shields.io/nuget/v/XPike.Configuration.Azure" alt="Nuget"></a></p>
+<p>Support for storing/retrieving configuration using Azure Application Configuration Service.</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Azure Application Configuration Service is in preview and Microsoft seems to be publishing breaking changes with each
+release. We don't recommend using this in production. We have provided support for experimentation and readiness for
+when Microsoft releases GA.</p>
+</div>
+<h3 id="xpikeconfigurationmicrosoft">Xpike.Configuration.Microsoft</h3>
+<p><a href="https://nuget.org/packages/Xpike.Configuration.Microsoft"><img src="https://img.shields.io/nuget/v/Xpike.Configuration.Microsoft" alt="Nuget"></a></p>
+<p>Provides configuration values to XPike by delegating lookups to the Microsoft.Extensions.Configuration.IConfiguration service.</p>
+<h3 id="xpikeconfigurationmicrosoftaspnetcore">Xpike.Configuration.Microsoft.AspNetCore</h3>
+<p><a href="https://nuget.org/packages/Xpike.Configuration.Microsoft.AspNetCore"><img src="https://img.shields.io/nuget/v/Xpike.Configuration.Microsoft.AspNetCore" alt="Nuget"></a></p>
+<p>The inverse of <code>Xpike.Configuration.Microsoft</code>. This packages allows Microsoft.Extensions.Configuration.IConfiguration
+to use XPike.Configuration as a source.</p>
+<h3 id="xpikeconfigurationsystem">Xpike.Configuration.System</h3>
+<p><a href="https://nuget.org/packages/Xpike.Configuration.System"><img src="https://img.shields.io/nuget/v/Xpike.Configuration.System" alt="Nuget"></a></p>
+<p>Support for storing/retrieving configuration using System.Configuration--i.e. from App.Config and Web.Config.</p>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

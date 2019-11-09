@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/Example.Library.AnotherConfig.html",
-          "hash": "s6QU7Ks34heMxbgI/6FewQ=="
+          "hash": "C68xTxEOzs8ukjdbr54GvQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/Example.Library.SomeConfig.html",
-          "hash": "1CA1TBsKKl2fROdSxsmAPQ=="
+          "hash": "CFL4LmSpvjn6MyoDrBVekQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/Example.Library.html",
-          "hash": "fvbiAPQI1TNCJr3fuhc/tA=="
+          "hash": "jP4W+UAzz0g6WdhgloQRnA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.AWS.AWSConfigurationProvider.html",
-          "hash": "aSHuSazdTRs3dzYpYGX22A=="
+          "hash": "8r+noS0XXakkehFRE51oKA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.AWS.IAWSConfigurationProvider.html",
-          "hash": "CpWaYcbSseKKqutMRYTYqw=="
+          "hash": "dv1N4b8gzKgrvTmAI5rKfA=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.AWS.Package.html",
-          "hash": "Vfw2fFEmIfEdEvH/MGZ6DA=="
+          "hash": "0rQzueFOdygTX7OMY8f76A=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.AWS.html",
-          "hash": "ugQk08Y3YX7hooYEmpkfPw=="
+          "hash": "RUl3LBqMhUFIgBwalasCHw=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Azure.AzureConfigurationProvider.html",
-          "hash": "p/rYRhWgIzuedhHG22G+uw=="
+          "hash": "aF1/eTGmhAZ+hdoT9twKjw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Azure.IAzureConfigurationProvider.html",
-          "hash": "Lm66Ud2q8y5oPw9D11SnUA=="
+          "hash": "rbtxGH03Wj8Pu5aajQJuXw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Azure.Package.html",
-          "hash": "7gdRVzhlTd7rxwniqE+sMg=="
+          "hash": "TIyBa4sz1ebd+vYlOpQwxQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Azure.html",
-          "hash": "3yy76gcbyufERHZY8fwZfA=="
+          "hash": "Dl8wH2n39gRrANeubPLTEQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Config-1.html",
-          "hash": "AOz2BULT2k8aaozhIrO2DQ=="
+          "hash": "O5jogQhHIzCioUi3C9Pr/w=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.ConfigLoader-1.html",
-          "hash": "YEO91/PKmDmzGmcInLH95g=="
+          "hash": "5RP4rvDmUMgZ8b574f9d3g=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.ConfigManager-1.html",
-          "hash": "BUsMig9RwKncp5L4PV673Q=="
+          "hash": "03Z5a/07chfXPPtLWyvk7w=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.ConfigurationProviderBase.html",
-          "hash": "Nflif4mWXJvJqTE+lJb9Yg=="
+          "hash": "pRgAs9xBbiKa+76wjVe4uw=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.ConfigurationService.html",
-          "hash": "UJmYh2bHz/mZYdpCY7wbdg=="
+          "hash": "8VSJREEUhrVNXccUvNUsdA=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.ConfigurationServiceBase-1.html",
-          "hash": "djTgwSdpXbrDorvuwZSdDg=="
+          "hash": "GVxwhuHu6IRrEBBDtd8twQ=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.DefaultConfigManager-1.html",
-          "hash": "63+oCFwHQLdLn/Jwy07npw=="
+          "hash": "D5xa+cZeulvKSefldA7/Og=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Environment.EnvironmentConfigurationProvider.html",
-          "hash": "+BmrlX+5sRusMAgLpPAgQA=="
+          "hash": "NubMbEfiU+iSLo7z36kiBw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Environment.IEnvironmentConfigurationProvider.html",
-          "hash": "3yzqsCSFJX/00aBTcNWBpw=="
+          "hash": "P4pSwHbluniS+AXKyCpRNQ=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Environment.html",
-          "hash": "J/NdiZIUdAeYsUPMiGtemQ=="
+          "hash": "LSir4AqKSEQN8Is4eAFI4Q=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IConfig-1.html",
-          "hash": "98WMGgchIdEudaAA4UZY6g=="
+          "hash": "ExImmuRlDZFzWwxbUcGtFg=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IConfigLoader-1.html",
-          "hash": "HZE5oVF7DcP9VRydZt3nUw=="
+          "hash": "OQD6aGrnrZPnjtngS33wzw=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IConfigManager-1.html",
-          "hash": "UU1NYmmyPKiTXqFQeNm/pg=="
+          "hash": "0AZTyHP1AN5iW4YyYYlsfQ=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IConfigurationLoader.html",
-          "hash": "ugqZz4Yyo2CwzvlmhmnBdw=="
+          "hash": "oEKgGdyg1Q3C3Ln5h5cHFw=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IConfigurationProvider.html",
-          "hash": "tVgRjrtrnTfbnq3RmVO3yQ=="
+          "hash": "oapXvoU5jcrS7Es0u0grZg=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IConfigurationService.html",
-          "hash": "dprYIodT1SXlVSwKfudOUw=="
+          "hash": "HrYAuO6B315fQU2s7hm7dQ=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IDependencyCollectionExtensions.html",
-          "hash": "8mhbThS+8tCEjUUz7mzwrQ=="
+          "hash": "TIhnZ4n6FkjKXmp7EXz2cA=="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.IXPikeConfigBuilder.html",
-          "hash": "pSwrGMmgd+Wig+uJrXvL6w=="
+          "hash": "tUEFx7a6xGu3V8HP3UXQUw=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.InvalidConfigurationException.html",
-          "hash": "MAk+piuMXsXFBOVAjIYsIw=="
+          "hash": "8OeDVgAIBDXquOkby1mBtQ=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Memory.IMemoryConfigurationProvider.html",
-          "hash": "krfaZ6uk+J5xb3+k+hBzLw=="
+          "hash": "HfXNUslJuwWHP/F31e68sQ=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Memory.MemoryConfigurationProvider.html",
-          "hash": "Gel+YL2LihxHyXaAz03PAw=="
+          "hash": "o99W1Umu/yT7X7scRzXGgg=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Memory.html",
-          "hash": "WyKAw7zHW55xyTnoVASDlQ=="
+          "hash": "zK3mLe+uVmdR7+i4Qm9TOw=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IConfigurationBuilderExtensions.html",
-          "hash": "yrru3t3DRcpmCuPodU7GHQ=="
+          "hash": "y1aSIHOrzafxMDYHjTHc1A=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IServiceCollectionExtensions.html",
-          "hash": "t8wi9kfY3/ZFVgtlSknWvg=="
+          "hash": "JPKXhPoxRKC5XSG3ZGHs9w=="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IWebHostBuilderExtensions.html",
-          "hash": "3pMDabH1sq0SdXWHopdYQA=="
+          "hash": "O3iNIPB+NjUEOtBokW2q8A=="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.IXPikeConfigurationSource.html",
-          "hash": "FoDsFwD4TO+btiQ9Cj+J2Q=="
+          "hash": "AAvjwuAAtkHjfzeuYDmfHQ=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.Package.html",
-          "hash": "uqHgfWlelHTd1lfEMEoGvg=="
+          "hash": "EoqV6LxupVAheyLjXtZq1A=="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.XPikeConfigurationSource.html",
-          "hash": "fAIR8ejZZn2r1ypI87+SFQ=="
+          "hash": "qGRHK34QFD/cFZpWfSj6KQ=="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.AspNetCore.html",
-          "hash": "uNnQq1hlizub/Y/jlSvlQw=="
+          "hash": "QfaCiPmHtmsLvBBWSkvezw=="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.IMicrosoftConfigurationProvider.html",
-          "hash": "dvq8WsoU052LChXnim1eEw=="
+          "hash": "Qag2lSW2pSqdOVFZXpPmRQ=="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.MicrosoftConfigurationProvider.html",
-          "hash": "3ZJUU+9AqctoPhWc9s0ixg=="
+          "hash": "RZukug8bVWaa4AmUlUbooQ=="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.Package.html",
-          "hash": "lSSWgA2pR9DSodYDdZocgQ=="
+          "hash": "WSbI4lgqIgk3CSBHY/YH4w=="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Microsoft.html",
-          "hash": "2z7RM/5xH/NyhofoOptDeg=="
+          "hash": "4q7ra8lUhGCv/5c+ZgmUMw=="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Null.INullConfigurationProvider.html",
-          "hash": "F4rmO6IOIrFTxt7mgk/XGA=="
+          "hash": "D/ht9KnB++R/M6Czdagd6g=="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Null.NullConfigurationProvider.html",
-          "hash": "0MjCcfSpObqljQTNWIdejA=="
+          "hash": "W1iFEjZy5NWmwSpe43T3Yw=="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Null.html",
-          "hash": "logUErdxRWj83CacGAEDeQ=="
+          "hash": "HbWfmfhocv1WKGDZBmamSw=="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.Package.html",
-          "hash": "9SLFZpd8uC38SsXkqgt0xQ=="
+          "hash": "zxORPtHATeAPjhhdng9/jA=="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.System.ISystemConfigurationProvider.html",
-          "hash": "ErMDYibKi79HsVQXpBzEZA=="
+          "hash": "ysLkYQKkurN+Tw5elS67aw=="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.System.Package.html",
-          "hash": "utcfN8s7idjoh1B3QPwV2g=="
+          "hash": "vgL8BbpePFbHp6ixw9s/GQ=="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.System.SystemConfigurationProvider.html",
-          "hash": "oLURHw9QqD0Vt6g9Oz4p4Q=="
+          "hash": "OF2PgS/SSCiK7DvnKqco0g=="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.System.html",
-          "hash": "/8+TrZGZ7jNBLMtySw8iGw=="
+          "hash": "lLXpIX/7ZnK8fz6iF8TSHA=="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.XPikeConfigBuilder.html",
-          "hash": "n7D3gGZWx5KcxGP2CM2GxA=="
+          "hash": "ms1On/brk8yTYk6PKscFIw=="
         }
       },
       "is_incremental": false,
@@ -654,22 +654,31 @@
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/XPike.Configuration.html",
-          "hash": "K7HFaAu6iHOfDkZxhEWbAw=="
+          "hash": "/Sx4FiINAnbBE/FGVTP+7A=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "include-not-found"
-      ],
       "type": "Conceptual",
       "source_relative_path": "api/configuration/api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/configuration/api/index.html",
-          "hash": "1j1ju3ccN36xSsqChKP0VQ=="
+          "hash": "tvW678/Y3DPNmvnZ//Lwkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/configuration/articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/configuration/articles/intro.html",
+          "hash": "cxhBDDoIRUHD5UnxKJGBkg=="
         }
       },
       "is_incremental": false,
@@ -677,11 +686,11 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "api/configuration/api/toc.yml",
+      "source_relative_path": "api/configuration/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/configuration/api/toc.html",
-          "hash": "L/CiCaOT7qHU+jDwM8lPpg=="
+          "relative_path": "api/configuration/toc.html",
+          "hash": "C2f5NYUTzT5wyOTTQn61XA=="
         }
       },
       "is_incremental": false,
@@ -1419,7 +1428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.AspNetCore.IServiceCollectionExtensions.html",
-          "hash": "ni24v8Js2D0r9kveAOyNrw=="
+          "hash": "U6nKAptnUEQoplVAYvGPUA=="
         }
       },
       "is_incremental": false,
@@ -1431,7 +1440,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.AspNetCore.html",
-          "hash": "Dz+f8JfwE0MmiEUhbv8Txg=="
+          "hash": "7ZGuesIkzm5k19qjTu35eg=="
         }
       },
       "is_incremental": false,
@@ -1443,7 +1452,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Basic.Settings-1.html",
-          "hash": "QGhz2q0pxxnNy4MQybG6xg=="
+          "hash": "aa4dxRriz6rOBYdXtCF19Q=="
         }
       },
       "is_incremental": false,
@@ -1455,7 +1464,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Basic.SettingsService.html",
-          "hash": "rFWQt4fniqGsKJE3euhrjQ=="
+          "hash": "JOTFGYs9tmeqRJJ3E24XCw=="
         }
       },
       "is_incremental": false,
@@ -1467,7 +1476,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Basic.html",
-          "hash": "3RI6MCn5S6pg+Hg+3CzrFw=="
+          "hash": "RkjJLSkJ4DJUvBeKgTGxew=="
         }
       },
       "is_incremental": false,
@@ -1479,7 +1488,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.DefaultSettingsManager-1.html",
-          "hash": "x+ENEhyIf1znu2+/7AcZmw=="
+          "hash": "XqE0Tsxao17FKTFJM9VI8w=="
         }
       },
       "is_incremental": false,
@@ -1491,7 +1500,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.ISettings-1.html",
-          "hash": "X3jLgyjnAmbUu5KZWCfImw=="
+          "hash": "rJgoo9eQK7U73ZYXZd0NJA=="
         }
       },
       "is_incremental": false,
@@ -1503,7 +1512,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.ISettingsManager-1.html",
-          "hash": "Mb8S9h4D3e1Q4ccDXqyasg=="
+          "hash": "GKvvBnfENnngg/JF21cqMw=="
         }
       },
       "is_incremental": false,
@@ -1515,7 +1524,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.ISettingsService.html",
-          "hash": "FQyVh3AFGHwvlFUDuvrTfA=="
+          "hash": "qkuquI1X4sCtpfM06Lqv6g=="
         }
       },
       "is_incremental": false,
@@ -1527,7 +1536,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Managers.ISettingsLoader-1.html",
-          "hash": "oQiITDzPA1uMv7RtOtIGKQ=="
+          "hash": "0kgh7akFfIZ1r89mMhtnKA=="
         }
       },
       "is_incremental": false,
@@ -1539,7 +1548,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Managers.SettingsLoader-1.html",
-          "hash": "5sCmatKRSYHd9vVWLGtDzg=="
+          "hash": "RgWxgqkkeZehgAfkikZ7bg=="
         }
       },
       "is_incremental": false,
@@ -1551,7 +1560,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Managers.html",
-          "hash": "WEmJTPRjXVtDkB/MOg2KuA=="
+          "hash": "JKa8NlvRqpwHfi1t/ahh4Q=="
         }
       },
       "is_incremental": false,
@@ -1563,7 +1572,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Package.html",
-          "hash": "oWbQRJJ62IIg0NJmHoWLDw=="
+          "hash": "hSDhrvVGWqu9/5TxU5N+MA=="
         }
       },
       "is_incremental": false,
@@ -1575,7 +1584,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.ConfigurationSettingsProvider.html",
-          "hash": "0UKO9G781LIeuL/88tSPxg=="
+          "hash": "h9HLU9uPG0CRiuLC1O3PPw=="
         }
       },
       "is_incremental": false,
@@ -1587,7 +1596,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.IConfigurationSettingsProvider.html",
-          "hash": "eCBsHmCLzxwpYlU9fK5bNw=="
+          "hash": "9u2K8u74YIpNWdvYktbnXQ=="
         }
       },
       "is_incremental": false,
@@ -1599,7 +1608,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Providers.Configuration.html",
-          "hash": "maLQc1cG1Kx+Ljq7S3fIRg=="
+          "hash": "fMMZ0tJlfdVxSEnZrgfbXA=="
         }
       },
       "is_incremental": false,
@@ -1611,7 +1620,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Providers.ISettingsProvider.html",
-          "hash": "xDMdBKhxqXPb5a+nPEgYWQ=="
+          "hash": "Rs7nv50wIiaXmeT14qTb8Q=="
         }
       },
       "is_incremental": false,
@@ -1623,7 +1632,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.Providers.html",
-          "hash": "EWP9DUUzOZd/HOgag6Ag1g=="
+          "hash": "lAOE2zpcy4NcOGod3CMIug=="
         }
       },
       "is_incremental": false,
@@ -1635,7 +1644,7 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.SettingsManager-1.html",
-          "hash": "xOtBGjGexIOF46y/rzjNSQ=="
+          "hash": "vsTVfcYOMDPWIMCm76eIGQ=="
         }
       },
       "is_incremental": false,
@@ -1647,22 +1656,31 @@
       "output": {
         ".html": {
           "relative_path": "api/settings/api/XPike.Settings.html",
-          "hash": "hzMhZ5pGJ9Y7S9mtVZDQoA=="
+          "hash": "rXxanN42NpybIn9EQudt5g=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "include-not-found"
-      ],
       "type": "Conceptual",
       "source_relative_path": "api/settings/api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/settings/api/index.html",
-          "hash": "RZUcSBQXHBfjl4gzPYcspw=="
+          "hash": "dWHEATVxoj+CQM0QTNXWdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/settings/articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/settings/articles/intro.html",
+          "hash": "0vdU6d1k/6xFqC41OIg13Q=="
         }
       },
       "is_incremental": false,
@@ -1670,11 +1688,11 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "api/settings/api/toc.yml",
+      "source_relative_path": "api/settings/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/settings/api/toc.html",
-          "hash": "WszZ98LmoQqr1rT0yCXTpw=="
+          "relative_path": "api/settings/toc.html",
+          "hash": "857P9eMW8QIeBdAG3ZkA0Q=="
         }
       },
       "is_incremental": false,
@@ -1800,16 +1818,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 14,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 121,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
