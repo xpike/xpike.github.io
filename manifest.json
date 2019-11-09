@@ -772,9 +772,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.yml",
       "output": {
@@ -787,24 +784,18 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.yml",
       "output": {
         ".html": {
           "relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.WebApi.html",
-          "hash": "qY3GRenlX0ww4/r8J4dw6w=="
+          "hash": "nj0V0V/OUoO3oljQZ96F1A=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
@@ -1360,6 +1351,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.MicrosoftDependencyResolver.yml",
       "output": {
@@ -1372,18 +1366,24 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.yml",
       "output": {
         ".html": {
           "relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.WebApi.html",
-          "hash": "jS+acUgpSi38wnApeU7bmA=="
+          "hash": "ZGtaumjxi6FF21TrXDFvtA=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/microsoft-extensions/api/XPike.Extensions.DependencyInjection.yml",
       "output": {
@@ -1707,7 +1707,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0/mgFv6Mga13wDSrNuk5Vg=="
+          "hash": "tCjvU2rYG79n8Tn1RA0scg=="
         }
       },
       "is_incremental": false,
@@ -1818,10 +1818,11 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 121,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -1830,11 +1831,10 @@
           "total_file_count": 16,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 121,
           "skipped_file_count": 0
         }
       }
